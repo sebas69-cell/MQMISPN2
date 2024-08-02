@@ -1,130 +1,2866 @@
-[02Aug2024 12:27:24.778] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[02Aug2024 12:27:24.782] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
-[02Aug2024 12:27:24.972] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[02Aug2024 12:27:25.038] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MQMISPN2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[02Aug2024 12:27:25.284] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[02Aug2024 12:27:25.286] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[02Aug2024 12:27:25.287] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[02Aug2024 12:27:25.290] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[02Aug2024 12:27:25.422] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[02Aug2024 12:27:28.053] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[02Aug2024 12:27:36.179] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[02Aug2024 12:27:36.181] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[02Aug2024 12:27:38.748] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MQMISPN2/servidor_minecraft/config/twilightforest-common.toml is not correct. Correcting
-[02Aug2024 12:27:38.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dimension Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[02Aug2024 12:27:38.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dimension Settings.newPlayersSpawnInTF was corrected from null to its default, false. 
-[02Aug2024 12:27:38.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dimension Settings.portalForNewPlayer was corrected from null to its default, false. 
-[02Aug2024 12:27:38.755] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key originDimension was corrected from null to its default, minecraft:overworld. 
-[02Aug2024 12:27:38.758] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowPortalsInOtherDimensions was corrected from null to its default, false. 
-[02Aug2024 12:27:38.760] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key adminOnlyPortals was corrected from null to its default, false. 
-[02Aug2024 12:27:38.767] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disablePortalCreation was corrected from null to its default, false. 
-[02Aug2024 12:27:38.770] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key checkPortalDestination was corrected from null to its default, false. 
-[02Aug2024 12:27:38.772] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portalLightning was corrected from null to its default, false. 
-[02Aug2024 12:27:38.778] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldReturnPortalBeUsable was corrected from null to its default, true. 
-[02Aug2024 12:27:38.782] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portalUnlockedByAdvancement was corrected from null to its default, . 
-[02Aug2024 12:27:38.785] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxPortalSize was corrected from null to its default, 64. 
-[02Aug2024 12:27:38.788] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key uuid_locking was corrected from null to its default, false. 
-[02Aug2024 12:27:38.791] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key skull_candles was corrected from null to its default, false. 
-[02Aug2024 12:27:38.794] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key default_item_enchantments was corrected from null to its default, true. 
-[02Aug2024 12:27:38.798] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boss_drop_chests was corrected from null to its default, true. 
-[02Aug2024 12:27:38.801] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cloudBlockPrecipitationDistance was corrected from null to its default, 32. 
-[02Aug2024 12:27:38.805] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table was corrected from null to its default, SimpleCommentedConfig:{}. 
-[02Aug2024 12:27:38.806] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.uncraftingXpCostMultiplier was corrected from null to its default, 1.0. 
-[02Aug2024 12:27:38.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.repairingXpCostMultiplier was corrected from null to its default, 1.0. 
-[02Aug2024 12:27:38.809] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.disableUncraftingRecipes was corrected from null to its default, [twilightforest:giant_log_to_oak_planks]. 
-[02Aug2024 12:27:38.810] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.flipRecipeList was corrected from null to its default, false. 
-[02Aug2024 12:27:38.813] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.blacklistedUncraftingModIds was corrected from null to its default, []. 
-[02Aug2024 12:27:38.814] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.flipIdList was corrected from null to its default, false. 
-[02Aug2024 12:27:38.815] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.enableShapelessCrafting was corrected from null to its default, false. 
-[02Aug2024 12:27:38.816] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.disableUncrafting was corrected from null to its default, false. 
-[02Aug2024 12:27:38.818] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Uncrafting Table.disableUncraftingTable was corrected from null to its default, false. 
-[02Aug2024 12:27:38.824] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees was corrected from null to its default, SimpleCommentedConfig:{}. 
-[02Aug2024 12:27:38.825] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.disableTimeCore was corrected from null to its default, false. 
-[02Aug2024 12:27:38.826] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.timeCoreRange was corrected from null to its default, 16. 
-[02Aug2024 12:27:38.827] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.disableTransformationCore was corrected from null to its default, false. 
-[02Aug2024 12:27:38.828] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.transformationCoreRange was corrected from null to its default, 16. 
-[02Aug2024 12:27:38.829] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.disableMiningCore was corrected from null to its default, false. 
-[02Aug2024 12:27:38.831] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.miningCoreRange was corrected from null to its default, 16. 
-[02Aug2024 12:27:38.832] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.disableSortingCore was corrected from null to its default, false. 
-[02Aug2024 12:27:38.833] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Magic Trees.sortingCoreRange was corrected from null to its default, 16. 
-[02Aug2024 12:27:38.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Shield Parrying was corrected from null to its default, SimpleCommentedConfig:{}. 
-[02Aug2024 12:27:38.841] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Shield Parrying.parryNonTwilightAttacks was corrected from null to its default, false. 
-[02Aug2024 12:27:38.843] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Shield Parrying.shieldParryTicksArrow was corrected from null to its default, 40. 
-[02Aug2024 12:27:39.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[02Aug2024 12:27:40.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[02Aug2024 12:27:40.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[02Aug2024 12:27:40.228] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23106!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23106!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	... 6 more
-[02Aug2024 12:27:45.318] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02Aug2024 12:27:48.214] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
-[02Aug2024 12:27:48.215] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
-[02Aug2024 12:27:51.520] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[02Aug2024 12:27:51.580] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[02Aug2024 12:27:51.593] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[02Aug2024 12:27:51.649] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[02Aug2024 12:27:51.653] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[02Aug2024 12:27:51.659] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[02Aug2024 12:27:51.689] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[02Aug2024 12:27:51.694] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[02Aug2024 12:27:51.705] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[02Aug2024 12:27:52.048] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1592 advancements
-[02Aug2024 12:27:52.056] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[02Aug2024 12:27:54.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[02Aug2024 12:27:54.852] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[02Aug2024 12:27:54.852] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[02Aug2024 12:27:54.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[02Aug2024 12:27:55.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[02Aug2024 12:27:55.312] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[02Aug2024 12:27:55.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[02Aug2024 12:28:05.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[02Aug2024 12:28:11.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.826] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.831] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.832] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.833] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.834] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.834] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.835] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.836] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.836] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.837] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.839] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:11.839] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:12.192] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:12.692] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Aug2024 12:28:13.241] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[02Aug2024 12:28:13.820] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8629 ms
-[02Aug2024 12:28:13.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.352s)! For help, type "help"
-[02Aug2024 12:28:13.871] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[02Aug2024 12:29:13.559] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player WillyrexWaton is e4d6389f-682c-4a04-bcfe-60aa8cd42861
-[02Aug2024 12:29:17.350] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WillyrexWaton[/[::1]:47162] logged in with entity id 92 at (-9.5, 69.0, 1.5)
-[02Aug2024 12:29:17.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WillyrexWaton joined the game
-[02Aug2024 12:29:56.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made WillyrexWaton a server operator
-[02Aug2024 12:30:06.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WillyrexWaton: Set own game mode to Creative Mode]
-[02Aug2024 12:30:16.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[02Aug2024 12:30:16.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[02Aug2024 12:30:16.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[02Aug2024 12:30:16.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[02Aug2024 12:30:18.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02Aug2024 12:30:39.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02Aug2024 12:30:39.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[02Aug2024 12:30:39.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02Aug2024 12:30:39.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02Aug2024 12:30:39.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02Aug2024 12:30:39.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[02Aug2024 12:30:39.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02Aug2024 12:30:39.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Aug2024 12:31:22.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[02Aug2024 12:31:22.522] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[02Aug2024 12:31:22.662] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Aug2024 12:31:22.718] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MQMISPN2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Aug2024 12:31:22.986] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[02Aug2024 12:31:22.989] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[02Aug2024 12:31:22.991] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[02Aug2024 12:31:22.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[02Aug2024 12:31:23.087] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02Aug2024 12:31:25.090] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[02Aug2024 12:31:33.404] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[02Aug2024 12:31:33.406] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[02Aug2024 12:31:34.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Aug2024 12:31:35.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[02Aug2024 12:31:36.372] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Aug2024 12:31:36.494] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+twilightforest (version 4.3.2508 -> MISSING)
+Things may not work well.
+[02Aug2024 12:31:36.534] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing/unknown registrie(s).
+
+There are 4 missing registries in this save.
+If you continue the missing registries will get removed.
+This may cause issues, it is advised that you create a world backup before continuing.
+
+
+[02Aug2024 12:31:36.535] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing Registries:
+twilight:biome_layer_type
+twilightforest:dwarf_rabbit_variant
+twilightforest:enforcement
+twilightforest:tiny_bird_variant
+
+[02Aug2024 12:31:36.582] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	twilightforest:acacia_banister: 1201
+	twilightforest:alpha_yeti_boss_spawner: 1177
+	twilightforest:alpha_yeti_trophy: 1186
+	twilightforest:alpha_yeti_wall_trophy: 1195
+	twilightforest:antibuilder: 1091
+	twilightforest:antibuilt_block: 1092
+	twilightforest:arctic_fur_block: 1168
+	twilightforest:aurora_block: 1099
+	twilightforest:aurora_pillar: 1100
+	twilightforest:aurora_slab: 1101
+	twilightforest:auroralized_glass: 1102
+	twilightforest:bamboo_banister: 1206
+	twilightforest:beanstalk_grower: 1123
+	twilightforest:beanstalk_leaves: 1108
+	twilightforest:birch_banister: 1199
+	twilightforest:blue_castle_door: 1160
+	twilightforest:blue_castle_rune_brick: 1146
+	twilightforest:blue_force_field: 1153
+	twilightforest:bold_castle_brick_pillar: 1137
+	twilightforest:bold_castle_brick_stairs: 1144
+	twilightforest:bold_castle_brick_tile: 1138
+	twilightforest:bold_stone_pillar: 1048
+	twilightforest:brown_thorns: 1103
+	twilightforest:built_block: 1090
+	twilightforest:burnt_thorns: 1105
+	twilightforest:candelabra: 1051
+	twilightforest:canopy_banister: 1347
+	twilightforest:canopy_bookshelf: 1344
+	twilightforest:canopy_button: 1336
+	twilightforest:canopy_chest: 1433
+	twilightforest:canopy_door: 1340
+	twilightforest:canopy_fence: 1337
+	twilightforest:canopy_fence_gate: 1338
+	twilightforest:canopy_hanging_sign: 1345
+	twilightforest:canopy_leaves: 1300
+	twilightforest:canopy_log: 1209
+	twilightforest:canopy_planks: 1333
+	twilightforest:canopy_pressure_plate: 1339
+	twilightforest:canopy_sapling: 1310
+	twilightforest:canopy_sign: 1342
+	twilightforest:canopy_slab: 1335
+	twilightforest:canopy_stairs: 1334
+	twilightforest:canopy_trapdoor: 1341
+	twilightforest:canopy_wall_hanging_sign: 1346
+	twilightforest:canopy_wall_sign: 1343
+	twilightforest:canopy_wood: 1279
+	twilightforest:carminite_block: 1169
+	twilightforest:carminite_builder: 1089
+	twilightforest:carminite_reactor: 1094
+	twilightforest:castle_brick: 1129
+	twilightforest:castle_brick_stairs: 1139
+	twilightforest:castle_roof_tile: 1132
+	twilightforest:cherry_banister: 1207
+	twilightforest:cicada: 1024
+	twilightforest:cicada_jar: 1007
+	twilightforest:cinder_furnace: 1154
+	twilightforest:cinder_log: 1155
+	twilightforest:cinder_wood: 1156
+	twilightforest:clover_patch: 1010
+	twilightforest:cracked_castle_brick: 1131
+	twilightforest:cracked_castle_brick_stairs: 1141
+	twilightforest:cracked_deadrock: 1110
+	twilightforest:cracked_etched_nagastone: 1041
+	twilightforest:cracked_mazestone: 1069
+	twilightforest:cracked_nagastone_pillar: 1042
+	twilightforest:cracked_nagastone_stairs_left: 1043
+	twilightforest:cracked_nagastone_stairs_right: 1044
+	twilightforest:cracked_towerwood: 1082
+	twilightforest:cracked_underbrick: 1078
+	twilightforest:creeper_skull_candle: 1058
+	twilightforest:creeper_wall_skull_candle: 1059
+	twilightforest:crimson_banister: 1203
+	twilightforest:cut_mazestone: 1067
+	twilightforest:dark_banister: 1375
+	twilightforest:dark_button: 1365
+	twilightforest:dark_chest: 1435
+	twilightforest:dark_door: 1369
+	twilightforest:dark_fence: 1366
+	twilightforest:dark_fence_gate: 1367
+	twilightforest:dark_hanging_sign: 1373
+	twilightforest:dark_leaves: 1302
+	twilightforest:dark_log: 1211
+	twilightforest:dark_oak_banister: 1202
+	twilightforest:dark_planks: 1362
+	twilightforest:dark_pressure_plate: 1368
+	twilightforest:dark_sign: 1371
+	twilightforest:dark_slab: 1364
+	twilightforest:dark_stairs: 1363
+	twilightforest:dark_trapdoor: 1370
+	twilightforest:dark_wall_hanging_sign: 1374
+	twilightforest:dark_wall_sign: 1372
+	twilightforest:dark_wood: 1281
+	twilightforest:darkwood_sapling: 1312
+	twilightforest:deadrock: 1109
+	twilightforest:death_tome_spawner: 1049
+	twilightforest:decorative_mazestone: 1068
+	twilightforest:empty_canopy_bookshelf: 1050
+	twilightforest:encased_castle_brick_pillar: 1135
+	twilightforest:encased_castle_brick_stairs: 1143
+	twilightforest:encased_castle_brick_tile: 1136
+	twilightforest:encased_fire_jet: 1022
+	twilightforest:encased_smoker: 1020
+	twilightforest:encased_towerwood: 1081
+	twilightforest:etched_nagastone: 1033
+	twilightforest:experiment_115: 1098
+	twilightforest:fake_diamond: 1097
+	twilightforest:fake_gold: 1096
+	twilightforest:fallen_leaves: 1015
+	twilightforest:fiddlehead: 1011
+	twilightforest:fiery_block: 1166
+	twilightforest:final_boss_boss_spawner: 1178
+	twilightforest:fire_jet: 1021
+	twilightforest:firefly: 1023
+	twilightforest:firefly_jar: 1005
+	twilightforest:firefly_particle_spawner: 1006
+	twilightforest:fluffy_cloud: 1114
+	twilightforest:ghast_trap: 1093
+	twilightforest:giant_cobblestone: 1117
+	twilightforest:giant_leaves: 1119
+	twilightforest:giant_log: 1118
+	twilightforest:giant_obsidian: 1120
+	twilightforest:green_force_field: 1152
+	twilightforest:green_thorns: 1104
+	twilightforest:hardened_dark_leaves: 1303
+	twilightforest:hedge: 1004
+	twilightforest:hollow_acacia_log_climbable: 1264
+	twilightforest:hollow_acacia_log_horizontal: 1244
+	twilightforest:hollow_acacia_log_vertical: 1254
+	twilightforest:hollow_birch_log_climbable: 1262
+	twilightforest:hollow_birch_log_horizontal: 1242
+	twilightforest:hollow_birch_log_vertical: 1252
+	twilightforest:hollow_canopy_log_climbable: 1233
+	twilightforest:hollow_canopy_log_horizontal: 1217
+	twilightforest:hollow_canopy_log_vertical: 1225
+	twilightforest:hollow_cherry_log_climbable: 1269
+	twilightforest:hollow_cherry_log_horizontal: 1249
+	twilightforest:hollow_cherry_log_vertical: 1259
+	twilightforest:hollow_crimson_stem_climbable: 1266
+	twilightforest:hollow_crimson_stem_horizontal: 1246
+	twilightforest:hollow_crimson_stem_vertical: 1256
+	twilightforest:hollow_dark_log_climbable: 1235
+	twilightforest:hollow_dark_log_horizontal: 1219
+	twilightforest:hollow_dark_log_vertical: 1227
+	twilightforest:hollow_dark_oak_log_climbable: 1265
+	twilightforest:hollow_dark_oak_log_horizontal: 1245
+	twilightforest:hollow_dark_oak_log_vertical: 1255
+	twilightforest:hollow_jungle_log_climbable: 1263
+	twilightforest:hollow_jungle_log_horizontal: 1243
+	twilightforest:hollow_jungle_log_vertical: 1253
+	twilightforest:hollow_mangrove_log_climbable: 1234
+	twilightforest:hollow_mangrove_log_horizontal: 1218
+	twilightforest:hollow_mangrove_log_vertical: 1226
+	twilightforest:hollow_mining_log_climbable: 1238
+	twilightforest:hollow_mining_log_horizontal: 1222
+	twilightforest:hollow_mining_log_vertical: 1230
+	twilightforest:hollow_oak_log_climbable: 1260
+	twilightforest:hollow_oak_log_horizontal: 1240
+	twilightforest:hollow_oak_log_vertical: 1250
+	twilightforest:hollow_oak_sapling: 1313
+	twilightforest:hollow_sorting_log_climbable: 1239
+	twilightforest:hollow_sorting_log_horizontal: 1223
+	twilightforest:hollow_sorting_log_vertical: 1231
+	twilightforest:hollow_spruce_log_climbable: 1261
+	twilightforest:hollow_spruce_log_horizontal: 1241
+	twilightforest:hollow_spruce_log_vertical: 1251
+	twilightforest:hollow_time_log_climbable: 1236
+	twilightforest:hollow_time_log_horizontal: 1220
+	twilightforest:hollow_time_log_vertical: 1228
+	twilightforest:hollow_transformation_log_climbable: 1237
+	twilightforest:hollow_transformation_log_horizontal: 1221
+	twilightforest:hollow_transformation_log_vertical: 1229
+	twilightforest:hollow_twilight_oak_log_climbable: 1232
+	twilightforest:hollow_twilight_oak_log_horizontal: 1216
+	twilightforest:hollow_twilight_oak_log_vertical: 1224
+	twilightforest:hollow_vangrove_log_climbable: 1268
+	twilightforest:hollow_vangrove_log_horizontal: 1248
+	twilightforest:hollow_vangrove_log_vertical: 1258
+	twilightforest:hollow_warped_stem_climbable: 1267
+	twilightforest:hollow_warped_stem_horizontal: 1247
+	twilightforest:hollow_warped_stem_vertical: 1257
+	twilightforest:huge_lily_pad: 1026
+	twilightforest:huge_mushgloom: 1124
+	twilightforest:huge_mushgloom_stem: 1125
+	twilightforest:huge_stalk: 1122
+	twilightforest:huge_water_lily: 1027
+	twilightforest:hydra_boss_spawner: 1172
+	twilightforest:hydra_trophy: 1181
+	twilightforest:hydra_wall_trophy: 1190
+	twilightforest:infested_towerwood: 1084
+	twilightforest:iron_ladder: 1029
+	twilightforest:ironwood_block: 1165
+	twilightforest:jungle_banister: 1200
+	twilightforest:keepsake_casket: 1047
+	twilightforest:knight_phantom_boss_spawner: 1174
+	twilightforest:knight_phantom_trophy: 1183
+	twilightforest:knight_phantom_wall_trophy: 1192
+	twilightforest:knightmetal_block: 1164
+	twilightforest:lich_boss_spawner: 1171
+	twilightforest:lich_tower_miniature_structure: 1163
+	twilightforest:lich_trophy: 1180
+	twilightforest:lich_wall_trophy: 1189
+	twilightforest:liveroot_block: 1017
+	twilightforest:locked_vanishing_block: 1088
+	twilightforest:mangrove_banister: 1361
+	twilightforest:mangrove_button: 1351
+	twilightforest:mangrove_chest: 1434
+	twilightforest:mangrove_door: 1355
+	twilightforest:mangrove_fence: 1352
+	twilightforest:mangrove_fence_gate: 1353
+	twilightforest:mangrove_hanging_sign: 1359
+	twilightforest:mangrove_leaves: 1301
+	twilightforest:mangrove_log: 1210
+	twilightforest:mangrove_planks: 1348
+	twilightforest:mangrove_pressure_plate: 1354
+	twilightforest:mangrove_root: 1298
+	twilightforest:mangrove_sapling: 1311
+	twilightforest:mangrove_sign: 1357
+	twilightforest:mangrove_slab: 1350
+	twilightforest:mangrove_stairs: 1349
+	twilightforest:mangrove_trapdoor: 1356
+	twilightforest:mangrove_wall_hanging_sign: 1360
+	twilightforest:mangrove_wall_sign: 1358
+	twilightforest:mangrove_wood: 1280
+	twilightforest:mayapple: 1009
+	twilightforest:mazestone: 1065
+	twilightforest:mazestone_border: 1072
+	twilightforest:mazestone_brick: 1066
+	twilightforest:mazestone_mosaic: 1071
+	twilightforest:mining_banister: 1417
+	twilightforest:mining_button: 1407
+	twilightforest:mining_chest: 1438
+	twilightforest:mining_door: 1411
+	twilightforest:mining_fence: 1408
+	twilightforest:mining_fence_gate: 1409
+	twilightforest:mining_hanging_sign: 1415
+	twilightforest:mining_leaves: 1307
+	twilightforest:mining_log: 1214
+	twilightforest:mining_log_core: 1296
+	twilightforest:mining_planks: 1404
+	twilightforest:mining_pressure_plate: 1410
+	twilightforest:mining_sapling: 1316
+	twilightforest:mining_sign: 1413
+	twilightforest:mining_slab: 1406
+	twilightforest:mining_stairs: 1405
+	twilightforest:mining_trapdoor: 1412
+	twilightforest:mining_wall_hanging_sign: 1416
+	twilightforest:mining_wall_sign: 1414
+	twilightforest:mining_wood: 1284
+	twilightforest:minoshroom_boss_spawner: 1176
+	twilightforest:minoshroom_trophy: 1185
+	twilightforest:minoshroom_wall_trophy: 1194
+	twilightforest:moonworm: 1025
+	twilightforest:moss_patch: 1008
+	twilightforest:mossy_castle_brick: 1133
+	twilightforest:mossy_castle_brick_stairs: 1142
+	twilightforest:mossy_etched_nagastone: 1037
+	twilightforest:mossy_mazestone: 1070
+	twilightforest:mossy_nagastone_pillar: 1038
+	twilightforest:mossy_nagastone_stairs_left: 1039
+	twilightforest:mossy_nagastone_stairs_right: 1040
+	twilightforest:mossy_towerwood: 1083
+	twilightforest:mossy_underbrick: 1077
+	twilightforest:mushgloom: 1012
+	twilightforest:naga_boss_spawner: 1170
+	twilightforest:naga_courtyard_miniature_structure: 1162
+	twilightforest:naga_trophy: 1179
+	twilightforest:naga_wall_trophy: 1188
+	twilightforest:nagastone: 1031
+	twilightforest:nagastone_head: 1030
+	twilightforest:nagastone_pillar: 1034
+	twilightforest:nagastone_stairs_left: 1035
+	twilightforest:nagastone_stairs_right: 1036
+	twilightforest:oak_banister: 1197
+	twilightforest:orange_force_field: 1151
+	twilightforest:piglin_skull_candle: 1062
+	twilightforest:piglin_wall_skull_candle: 1063
+	twilightforest:pink_castle_door: 1159
+	twilightforest:pink_castle_rune_brick: 1145
+	twilightforest:pink_force_field: 1150
+	twilightforest:player_skull_candle: 1060
+	twilightforest:player_wall_skull_candle: 1061
+	twilightforest:potted_canopy_sapling: 1441
+	twilightforest:potted_darkwood_sapling: 1443
+	twilightforest:potted_dead_thorn: 1455
+	twilightforest:potted_fiddlehead: 1451
+	twilightforest:potted_green_thorn: 1454
+	twilightforest:potted_hollow_oak_sapling: 1444
+	twilightforest:potted_mangrove_sapling: 1442
+	twilightforest:potted_mayapple: 1450
+	twilightforest:potted_mining_sapling: 1448
+	twilightforest:potted_mushgloom: 1452
+	twilightforest:potted_rainbow_oak_sapling: 1445
+	twilightforest:potted_sorting_sapling: 1449
+	twilightforest:potted_thorn: 1453
+	twilightforest:potted_time_sapling: 1446
+	twilightforest:potted_transformation_sapling: 1447
+	twilightforest:potted_twilight_oak_sapling: 1440
+	twilightforest:quest_ram_trophy: 1187
+	twilightforest:quest_ram_wall_trophy: 1196
+	twilightforest:rainbow_oak_leaves: 1304
+	twilightforest:rainbow_oak_sapling: 1318
+	twilightforest:rainy_cloud: 1115
+	twilightforest:reactor_debris: 1095
+	twilightforest:reappearing_block: 1085
+	twilightforest:red_thread: 1073
+	twilightforest:root: 1016
+	twilightforest:root_strand: 1014
+	twilightforest:skeleton_skull_candle: 1054
+	twilightforest:skeleton_wall_skull_candle: 1055
+	twilightforest:slider: 1028
+	twilightforest:smoker: 1019
+	twilightforest:snow_queen_boss_spawner: 1175
+	twilightforest:snow_queen_trophy: 1184
+	twilightforest:snow_queen_wall_trophy: 1193
+	twilightforest:snowy_cloud: 1116
+	twilightforest:sorting_banister: 1431
+	twilightforest:sorting_button: 1421
+	twilightforest:sorting_chest: 1439
+	twilightforest:sorting_door: 1425
+	twilightforest:sorting_fence: 1422
+	twilightforest:sorting_fence_gate: 1423
+	twilightforest:sorting_hanging_sign: 1429
+	twilightforest:sorting_leaves: 1308
+	twilightforest:sorting_log: 1215
+	twilightforest:sorting_log_core: 1297
+	twilightforest:sorting_planks: 1418
+	twilightforest:sorting_pressure_plate: 1424
+	twilightforest:sorting_sapling: 1317
+	twilightforest:sorting_sign: 1427
+	twilightforest:sorting_slab: 1420
+	twilightforest:sorting_stairs: 1419
+	twilightforest:sorting_trapdoor: 1426
+	twilightforest:sorting_wall_hanging_sign: 1430
+	twilightforest:sorting_wall_sign: 1428
+	twilightforest:sorting_wood: 1285
+	twilightforest:spiral_bricks: 1032
+	twilightforest:spruce_banister: 1198
+	twilightforest:steeleaf_block: 1167
+	twilightforest:stripped_canopy_log: 1271
+	twilightforest:stripped_canopy_wood: 1287
+	twilightforest:stripped_dark_log: 1273
+	twilightforest:stripped_dark_wood: 1289
+	twilightforest:stripped_mangrove_log: 1272
+	twilightforest:stripped_mangrove_wood: 1288
+	twilightforest:stripped_mining_log: 1276
+	twilightforest:stripped_mining_wood: 1292
+	twilightforest:stripped_sorting_log: 1277
+	twilightforest:stripped_sorting_wood: 1293
+	twilightforest:stripped_time_log: 1274
+	twilightforest:stripped_time_wood: 1290
+	twilightforest:stripped_transformation_log: 1275
+	twilightforest:stripped_transformation_wood: 1291
+	twilightforest:stripped_twilight_oak_log: 1270
+	twilightforest:stripped_twilight_oak_wood: 1286
+	twilightforest:stronghold_shield: 1074
+	twilightforest:thick_castle_brick: 1134
+	twilightforest:thorn_leaves: 1107
+	twilightforest:thorn_rose: 1106
+	twilightforest:time_banister: 1389
+	twilightforest:time_button: 1379
+	twilightforest:time_chest: 1436
+	twilightforest:time_door: 1383
+	twilightforest:time_fence: 1380
+	twilightforest:time_fence_gate: 1381
+	twilightforest:time_hanging_sign: 1387
+	twilightforest:time_leaves: 1305
+	twilightforest:time_log: 1212
+	twilightforest:time_log_core: 1294
+	twilightforest:time_planks: 1376
+	twilightforest:time_pressure_plate: 1382
+	twilightforest:time_sapling: 1314
+	twilightforest:time_sign: 1385
+	twilightforest:time_slab: 1378
+	twilightforest:time_stairs: 1377
+	twilightforest:time_trapdoor: 1384
+	twilightforest:time_wall_hanging_sign: 1388
+	twilightforest:time_wall_sign: 1386
+	twilightforest:time_wood: 1282
+	twilightforest:torchberry_plant: 1013
+	twilightforest:towerwood: 1080
+	twilightforest:transformation_banister: 1403
+	twilightforest:transformation_button: 1393
+	twilightforest:transformation_chest: 1437
+	twilightforest:transformation_door: 1397
+	twilightforest:transformation_fence: 1394
+	twilightforest:transformation_fence_gate: 1395
+	twilightforest:transformation_hanging_sign: 1401
+	twilightforest:transformation_leaves: 1306
+	twilightforest:transformation_log: 1213
+	twilightforest:transformation_log_core: 1295
+	twilightforest:transformation_planks: 1390
+	twilightforest:transformation_pressure_plate: 1396
+	twilightforest:transformation_sapling: 1315
+	twilightforest:transformation_sign: 1399
+	twilightforest:transformation_slab: 1392
+	twilightforest:transformation_stairs: 1391
+	twilightforest:transformation_trapdoor: 1398
+	twilightforest:transformation_wall_hanging_sign: 1402
+	twilightforest:transformation_wall_sign: 1400
+	twilightforest:transformation_wood: 1283
+	twilightforest:trollber: 1128
+	twilightforest:trollsteinn: 1112
+	twilightforest:trollvidr: 1126
+	twilightforest:trophy_pedestal: 1075
+	twilightforest:twilight_oak_banister: 1332
+	twilightforest:twilight_oak_button: 1322
+	twilightforest:twilight_oak_chest: 1432
+	twilightforest:twilight_oak_door: 1326
+	twilightforest:twilight_oak_fence: 1323
+	twilightforest:twilight_oak_fence_gate: 1324
+	twilightforest:twilight_oak_hanging_sign: 1330
+	twilightforest:twilight_oak_leaves: 1299
+	twilightforest:twilight_oak_log: 1208
+	twilightforest:twilight_oak_planks: 1319
+	twilightforest:twilight_oak_pressure_plate: 1325
+	twilightforest:twilight_oak_sapling: 1309
+	twilightforest:twilight_oak_sign: 1328
+	twilightforest:twilight_oak_slab: 1321
+	twilightforest:twilight_oak_stairs: 1320
+	twilightforest:twilight_oak_trapdoor: 1327
+	twilightforest:twilight_oak_wall_hanging_sign: 1331
+	twilightforest:twilight_oak_wood: 1278
+	twilightforest:twilight_portal: 1003
+	twilightforest:twilight_portal_miniature_structure: 1161
+	twilightforest:twilight_wall_sign: 1329
+	twilightforest:twisted_stone: 1045
+	twilightforest:twisted_stone_pillar: 1046
+	twilightforest:uberous_soil: 1121
+	twilightforest:unbreakable_vanishing_block: 1087
+	twilightforest:uncrafting_table: 1018
+	twilightforest:underbrick: 1076
+	twilightforest:underbrick_floor: 1079
+	twilightforest:unripe_trollber: 1127
+	twilightforest:ur_ghast_boss_spawner: 1173
+	twilightforest:ur_ghast_trophy: 1182
+	twilightforest:ur_ghast_wall_trophy: 1191
+	twilightforest:vangrove_banister: 1205
+	twilightforest:vanishing_block: 1086
+	twilightforest:violet_castle_door: 1158
+	twilightforest:violet_castle_rune_brick: 1148
+	twilightforest:violet_force_field: 1149
+	twilightforest:warped_banister: 1204
+	twilightforest:weathered_deadrock: 1111
+	twilightforest:wispy_cloud: 1113
+	twilightforest:wither_skeleton_skull_candle: 1056
+	twilightforest:wither_skeleton_wall_skull_candle: 1057
+	twilightforest:worn_castle_brick: 1130
+	twilightforest:worn_castle_brick_stairs: 1140
+	twilightforest:wrought_iron_fence: 1064
+	twilightforest:yellow_castle_door: 1157
+	twilightforest:yellow_castle_rune_brick: 1147
+	twilightforest:zombie_skull_candle: 1052
+	twilightforest:zombie_wall_skull_candle: 1053
+
+[02Aug2024 12:31:36.630] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	twilightforest:chill_aura: 40
+	twilightforest:destruction: 41
+	twilightforest:fire_react: 39
+
+[02Aug2024 12:31:36.633] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	twilightforest:adherent: 124
+	twilightforest:alpha_yeti: 125
+	twilightforest:armored_giant: 126
+	twilightforest:bighorn_sheep: 127
+	twilightforest:blockchain_goblin: 128
+	twilightforest:boar: 129
+	twilightforest:boat: 130
+	twilightforest:carminite_broodling: 131
+	twilightforest:carminite_ghastguard: 132
+	twilightforest:carminite_ghastling: 133
+	twilightforest:carminite_golem: 134
+	twilightforest:chain_block: 135
+	twilightforest:charm_effect: 136
+	twilightforest:chest_boat: 137
+	twilightforest:cube_of_annihilation: 138
+	twilightforest:death_tome: 139
+	twilightforest:deer: 140
+	twilightforest:dwarf_rabbit: 141
+	twilightforest:falling_ice: 142
+	twilightforest:fire_beetle: 143
+	twilightforest:giant_miner: 144
+	twilightforest:harbinger_cube: 145
+	twilightforest:hedge_spider: 146
+	twilightforest:helmet_crab: 147
+	twilightforest:hostile_wolf: 148
+	twilightforest:hydra: 149
+	twilightforest:hydra_mortar: 150
+	twilightforest:ice_arrow: 151
+	twilightforest:ice_crystal: 153
+	twilightforest:ice_snowball: 154
+	twilightforest:king_spider: 155
+	twilightforest:knight_phantom: 156
+	twilightforest:kobold: 157
+	twilightforest:lich: 158
+	twilightforest:lich_bolt: 159
+	twilightforest:lich_bomb: 160
+	twilightforest:lich_minion: 161
+	twilightforest:lower_goblin_knight: 162
+	twilightforest:loyal_zombie: 163
+	twilightforest:magic_painting: 172
+	twilightforest:maze_slime: 164
+	twilightforest:minoshroom: 165
+	twilightforest:minotaur: 166
+	twilightforest:mist_wolf: 167
+	twilightforest:moonworm_shot: 168
+	twilightforest:mosquito_swarm: 169
+	twilightforest:naga: 170
+	twilightforest:nature_bolt: 171
+	twilightforest:penguin: 173
+	twilightforest:pinch_beetle: 174
+	twilightforest:plateau_boss: 175
+	twilightforest:protection_box: 176
+	twilightforest:quest_ram: 177
+	twilightforest:raven: 178
+	twilightforest:redcap: 179
+	twilightforest:redcap_sapper: 180
+	twilightforest:rising_zombie: 181
+	twilightforest:roving_cube: 182
+	twilightforest:seeker_arrow: 183
+	twilightforest:skeleton_druid: 184
+	twilightforest:slider: 185
+	twilightforest:slime_beetle: 186
+	twilightforest:slime_blob: 187
+	twilightforest:snow_guardian: 188
+	twilightforest:snow_queen: 189
+	twilightforest:squirrel: 190
+	twilightforest:stable_ice_core: 191
+	twilightforest:swarm_spider: 192
+	twilightforest:thrown_block: 193
+	twilightforest:thrown_ice: 152
+	twilightforest:thrown_wep: 194
+	twilightforest:tiny_bird: 195
+	twilightforest:tome_bolt: 196
+	twilightforest:towerwood_borer: 197
+	twilightforest:troll: 198
+	twilightforest:unstable_ice_core: 200
+	twilightforest:upper_goblin_knight: 201
+	twilightforest:ur_ghast: 202
+	twilightforest:wand_bolt: 199
+	twilightforest:winter_wolf: 203
+	twilightforest:wraith: 204
+	twilightforest:yeti: 205
+
+[02Aug2024 12:31:36.651] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	twilightforest:acacia_banister: 1612
+	twilightforest:adherent_spawn_egg: 1764
+	twilightforest:alpha_yeti_banner_pattern: 1456
+	twilightforest:alpha_yeti_boss_spawner: 1606
+	twilightforest:alpha_yeti_fur: 1352
+	twilightforest:alpha_yeti_spawn_egg: 1765
+	twilightforest:alpha_yeti_trophy: 1388
+	twilightforest:antibuilder: 1526
+	twilightforest:arctic_boots: 1351
+	twilightforest:arctic_chestplate: 1349
+	twilightforest:arctic_fur: 1347
+	twilightforest:arctic_fur_block: 1597
+	twilightforest:arctic_helmet: 1348
+	twilightforest:arctic_leggings: 1350
+	twilightforest:armor_shard: 1331
+	twilightforest:armor_shard_cluster: 1332
+	twilightforest:armored_giant_spawn_egg: 1766
+	twilightforest:aurora_block: 1529
+	twilightforest:aurora_pillar: 1530
+	twilightforest:aurora_slab: 1531
+	twilightforest:auroralized_glass: 1532
+	twilightforest:bamboo_banister: 1617
+	twilightforest:beanstalk_leaves: 1538
+	twilightforest:bighorn_sheep_spawn_egg: 1767
+	twilightforest:birch_banister: 1610
+	twilightforest:block_and_chain: 1343
+	twilightforest:blockchain_goblin_spawn_egg: 1768
+	twilightforest:blue_castle_door: 1589
+	twilightforest:blue_castle_rune_brick: 1575
+	twilightforest:blue_force_field: 1582
+	twilightforest:boar_spawn_egg: 1769
+	twilightforest:bold_castle_brick_pillar: 1566
+	twilightforest:bold_castle_brick_stairs: 1573
+	twilightforest:bold_castle_brick_tile: 1567
+	twilightforest:bold_stone_pillar: 1497
+	twilightforest:borer_essence: 1328
+	twilightforest:brittle_potion_flask: 1320
+	twilightforest:brown_thorns: 1533
+	twilightforest:burnt_thorns: 1535
+	twilightforest:candelabra: 1500
+	twilightforest:canopy_banister: 1695
+	twilightforest:canopy_boat: 1427
+	twilightforest:canopy_bookshelf: 1694
+	twilightforest:canopy_button: 1688
+	twilightforest:canopy_chest: 1757
+	twilightforest:canopy_chest_boat: 1428
+	twilightforest:canopy_door: 1692
+	twilightforest:canopy_fence: 1689
+	twilightforest:canopy_fence_gate: 1690
+	twilightforest:canopy_hanging_sign: 1412
+	twilightforest:canopy_leaves: 1657
+	twilightforest:canopy_log: 1620
+	twilightforest:canopy_planks: 1685
+	twilightforest:canopy_pressure_plate: 1691
+	twilightforest:canopy_sapling: 1666
+	twilightforest:canopy_sign: 1411
+	twilightforest:canopy_slab: 1687
+	twilightforest:canopy_stairs: 1686
+	twilightforest:canopy_trapdoor: 1693
+	twilightforest:canopy_wood: 1636
+	twilightforest:carminite: 1329
+	twilightforest:carminite_block: 1598
+	twilightforest:carminite_broodling_spawn_egg: 1770
+	twilightforest:carminite_builder: 1525
+	twilightforest:carminite_ghastguard_spawn_egg: 1771
+	twilightforest:carminite_ghastling_spawn_egg: 1772
+	twilightforest:carminite_golem_spawn_egg: 1773
+	twilightforest:carminite_reactor: 1528
+	twilightforest:castle_brick: 1558
+	twilightforest:castle_brick_stairs: 1568
+	twilightforest:castle_roof_tile: 1561
+	twilightforest:charm_of_keeping_1: 1324
+	twilightforest:charm_of_keeping_2: 1325
+	twilightforest:charm_of_keeping_3: 1326
+	twilightforest:charm_of_life_1: 1322
+	twilightforest:charm_of_life_2: 1323
+	twilightforest:cherry_banister: 1618
+	twilightforest:cicada: 1374
+	twilightforest:cicada_jar: 1462
+	twilightforest:cinder_furnace: 1583
+	twilightforest:cinder_log: 1584
+	twilightforest:cinder_wood: 1585
+	twilightforest:clover_patch: 1465
+	twilightforest:cooked_meef: 1313
+	twilightforest:cooked_venison: 1287
+	twilightforest:cracked_castle_brick: 1560
+	twilightforest:cracked_castle_brick_stairs: 1570
+	twilightforest:cracked_deadrock: 1540
+	twilightforest:cracked_etched_nagastone: 1490
+	twilightforest:cracked_mazestone: 1506
+	twilightforest:cracked_nagastone_pillar: 1491
+	twilightforest:cracked_nagastone_stairs_left: 1492
+	twilightforest:cracked_nagastone_stairs_right: 1493
+	twilightforest:cracked_towerwood: 1519
+	twilightforest:cracked_underbrick: 1515
+	twilightforest:creeper_skull_candle: 1379
+	twilightforest:crimson_banister: 1614
+	twilightforest:crumble_horn: 1317
+	twilightforest:cube_of_annihilation: 1368
+	twilightforest:cube_talisman: 1367
+	twilightforest:cut_mazestone: 1504
+	twilightforest:dark_banister: 1715
+	twilightforest:dark_boat: 1431
+	twilightforest:dark_button: 1709
+	twilightforest:dark_chest: 1759
+	twilightforest:dark_chest_boat: 1432
+	twilightforest:dark_door: 1713
+	twilightforest:dark_fence: 1710
+	twilightforest:dark_fence_gate: 1711
+	twilightforest:dark_hanging_sign: 1416
+	twilightforest:dark_leaves: 1659
+	twilightforest:dark_log: 1622
+	twilightforest:dark_oak_banister: 1613
+	twilightforest:dark_planks: 1706
+	twilightforest:dark_pressure_plate: 1712
+	twilightforest:dark_sign: 1415
+	twilightforest:dark_slab: 1708
+	twilightforest:dark_stairs: 1707
+	twilightforest:dark_trapdoor: 1714
+	twilightforest:dark_wood: 1638
+	twilightforest:darkwood_sapling: 1668
+	twilightforest:deadrock: 1539
+	twilightforest:death_tome_spawn_egg: 1774
+	twilightforest:death_tome_spawner: 1498
+	twilightforest:decorative_mazestone: 1505
+	twilightforest:deer_spawn_egg: 1775
+	twilightforest:diamond_minotaur_axe: 1309
+	twilightforest:dwarf_rabbit_spawn_egg: 1776
+	twilightforest:empty_canopy_bookshelf: 1499
+	twilightforest:encased_castle_brick_pillar: 1564
+	twilightforest:encased_castle_brick_stairs: 1572
+	twilightforest:encased_castle_brick_tile: 1565
+	twilightforest:encased_fire_jet: 1476
+	twilightforest:encased_smoker: 1474
+	twilightforest:encased_towerwood: 1518
+	twilightforest:ender_bow: 1360
+	twilightforest:etched_nagastone: 1482
+	twilightforest:experiment_115: 1330
+	twilightforest:fallen_leaves: 1372
+	twilightforest:fiddlehead: 1466
+	twilightforest:fiery_block: 1595
+	twilightforest:fiery_blood: 1289
+	twilightforest:fiery_boots: 1295
+	twilightforest:fiery_chestplate: 1293
+	twilightforest:fiery_helmet: 1292
+	twilightforest:fiery_ingot: 1291
+	twilightforest:fiery_leggings: 1294
+	twilightforest:fiery_pickaxe: 1297
+	twilightforest:fiery_sword: 1296
+	twilightforest:fiery_tears: 1290
+	twilightforest:filled_magic_map: 1264
+	twilightforest:filled_maze_map: 1265
+	twilightforest:filled_ore_map: 1266
+	twilightforest:final_boss_boss_spawner: 1607
+	twilightforest:fire_beetle_spawn_egg: 1777
+	twilightforest:fire_jet: 1475
+	twilightforest:firefly: 1373
+	twilightforest:firefly_jar: 1460
+	twilightforest:firefly_particle_spawner: 1461
+	twilightforest:fluffy_cloud: 1544
+	twilightforest:fortification_scepter: 1261
+	twilightforest:ghast_trap: 1527
+	twilightforest:giant_cobblestone: 1547
+	twilightforest:giant_leaves: 1549
+	twilightforest:giant_log: 1548
+	twilightforest:giant_miner_spawn_egg: 1778
+	twilightforest:giant_obsidian: 1550
+	twilightforest:giant_pickaxe: 1364
+	twilightforest:giant_sword: 1365
+	twilightforest:glass_sword: 1362
+	twilightforest:gold_minotaur_axe: 1308
+	twilightforest:greater_potion_flask: 1321
+	twilightforest:green_force_field: 1581
+	twilightforest:green_thorns: 1534
+	twilightforest:harbinger_cube_spawn_egg: 1779
+	twilightforest:hedge: 1459
+	twilightforest:hedge_spider_spawn_egg: 1780
+	twilightforest:helmet_crab_spawn_egg: 1781
+	twilightforest:hollow_acacia_log: 1403
+	twilightforest:hollow_birch_log: 1401
+	twilightforest:hollow_canopy_log: 1392
+	twilightforest:hollow_cherry_log: 1408
+	twilightforest:hollow_crimson_stem: 1405
+	twilightforest:hollow_dark_log: 1394
+	twilightforest:hollow_dark_oak_log: 1404
+	twilightforest:hollow_jungle_log: 1402
+	twilightforest:hollow_mangrove_log: 1393
+	twilightforest:hollow_mining_log: 1397
+	twilightforest:hollow_oak_log: 1399
+	twilightforest:hollow_oak_sapling: 1669
+	twilightforest:hollow_sorting_log: 1398
+	twilightforest:hollow_spruce_log: 1400
+	twilightforest:hollow_time_log: 1395
+	twilightforest:hollow_transformation_log: 1396
+	twilightforest:hollow_twilight_oak_log: 1391
+	twilightforest:hollow_vangrove_log: 1407
+	twilightforest:hollow_warped_stem: 1406
+	twilightforest:hostile_wolf_spawn_egg: 1782
+	twilightforest:huge_lily_pad: 1370
+	twilightforest:huge_mushgloom: 1553
+	twilightforest:huge_mushgloom_stem: 1554
+	twilightforest:huge_stalk: 1552
+	twilightforest:huge_water_lily: 1371
+	twilightforest:hydra_banner_pattern: 1453
+	twilightforest:hydra_boss_spawner: 1601
+	twilightforest:hydra_chop: 1288
+	twilightforest:hydra_spawn_egg: 1783
+	twilightforest:hydra_trophy: 1385
+	twilightforest:ice_bomb: 1346
+	twilightforest:ice_bow: 1359
+	twilightforest:ice_crystal_spawn_egg: 1784
+	twilightforest:ice_sword: 1361
+	twilightforest:infested_towerwood: 1521
+	twilightforest:iron_ladder: 1478
+	twilightforest:ironwood_axe: 1283
+	twilightforest:ironwood_block: 1594
+	twilightforest:ironwood_boots: 1279
+	twilightforest:ironwood_chestplate: 1277
+	twilightforest:ironwood_helmet: 1276
+	twilightforest:ironwood_hoe: 1284
+	twilightforest:ironwood_ingot: 1275
+	twilightforest:ironwood_leggings: 1278
+	twilightforest:ironwood_pickaxe: 1282
+	twilightforest:ironwood_shovel: 1281
+	twilightforest:ironwood_sword: 1280
+	twilightforest:jungle_banister: 1611
+	twilightforest:keepsake_casket: 1496
+	twilightforest:king_spider_spawn_egg: 1785
+	twilightforest:knight_phantom_banner_pattern: 1454
+	twilightforest:knight_phantom_boss_spawner: 1603
+	twilightforest:knight_phantom_spawn_egg: 1786
+	twilightforest:knight_phantom_trophy: 1386
+	twilightforest:knightmetal_axe: 1340
+	twilightforest:knightmetal_block: 1593
+	twilightforest:knightmetal_boots: 1337
+	twilightforest:knightmetal_chestplate: 1335
+	twilightforest:knightmetal_helmet: 1334
+	twilightforest:knightmetal_ingot: 1333
+	twilightforest:knightmetal_leggings: 1336
+	twilightforest:knightmetal_pickaxe: 1339
+	twilightforest:knightmetal_ring: 1341
+	twilightforest:knightmetal_shield: 1342
+	twilightforest:knightmetal_sword: 1338
+	twilightforest:kobold_spawn_egg: 1787
+	twilightforest:lamp_of_cinders: 1366
+	twilightforest:lich_banner_pattern: 1451
+	twilightforest:lich_boss_spawner: 1600
+	twilightforest:lich_spawn_egg: 1788
+	twilightforest:lich_tower_miniature_structure: 1592
+	twilightforest:lich_trophy: 1383
+	twilightforest:lifedrain_scepter: 1259
+	twilightforest:liveroot: 1273
+	twilightforest:liveroot_block: 1471
+	twilightforest:locked_vanishing_block: 1524
+	twilightforest:lower_goblin_knight_spawn_egg: 1789
+	twilightforest:magic_beans: 1363
+	twilightforest:magic_map: 1270
+	twilightforest:magic_map_focus: 1268
+	twilightforest:magic_painting: 1262
+	twilightforest:mangrove_banister: 1705
+	twilightforest:mangrove_boat: 1429
+	twilightforest:mangrove_button: 1699
+	twilightforest:mangrove_chest: 1758
+	twilightforest:mangrove_chest_boat: 1430
+	twilightforest:mangrove_door: 1703
+	twilightforest:mangrove_fence: 1700
+	twilightforest:mangrove_fence_gate: 1701
+	twilightforest:mangrove_hanging_sign: 1414
+	twilightforest:mangrove_leaves: 1658
+	twilightforest:mangrove_log: 1621
+	twilightforest:mangrove_planks: 1696
+	twilightforest:mangrove_pressure_plate: 1702
+	twilightforest:mangrove_root: 1655
+	twilightforest:mangrove_sapling: 1667
+	twilightforest:mangrove_sign: 1413
+	twilightforest:mangrove_slab: 1698
+	twilightforest:mangrove_stairs: 1697
+	twilightforest:mangrove_trapdoor: 1704
+	twilightforest:mangrove_wood: 1637
+	twilightforest:mayapple: 1464
+	twilightforest:maze_map: 1271
+	twilightforest:maze_map_focus: 1269
+	twilightforest:maze_slime_spawn_egg: 1790
+	twilightforest:maze_wafer: 1315
+	twilightforest:mazebreaker_pickaxe: 1310
+	twilightforest:mazestone: 1502
+	twilightforest:mazestone_border: 1509
+	twilightforest:mazestone_brick: 1503
+	twilightforest:mazestone_mosaic: 1508
+	twilightforest:meef_stroganoff: 1314
+	twilightforest:mining_banister: 1745
+	twilightforest:mining_boat: 1437
+	twilightforest:mining_button: 1739
+	twilightforest:mining_chest: 1762
+	twilightforest:mining_chest_boat: 1438
+	twilightforest:mining_door: 1743
+	twilightforest:mining_fence: 1740
+	twilightforest:mining_fence_gate: 1741
+	twilightforest:mining_hanging_sign: 1422
+	twilightforest:mining_leaves: 1663
+	twilightforest:mining_log: 1625
+	twilightforest:mining_log_core: 1653
+	twilightforest:mining_planks: 1736
+	twilightforest:mining_pressure_plate: 1742
+	twilightforest:mining_sapling: 1672
+	twilightforest:mining_sign: 1421
+	twilightforest:mining_slab: 1738
+	twilightforest:mining_stairs: 1737
+	twilightforest:mining_trapdoor: 1744
+	twilightforest:mining_wood: 1641
+	twilightforest:minoshroom_banner_pattern: 1452
+	twilightforest:minoshroom_boss_spawner: 1605
+	twilightforest:minoshroom_spawn_egg: 1791
+	twilightforest:minoshroom_trophy: 1384
+	twilightforest:minotaur_spawn_egg: 1792
+	twilightforest:mist_wolf_spawn_egg: 1793
+	twilightforest:moon_dial: 1369
+	twilightforest:moonworm: 1375
+	twilightforest:moonworm_queen: 1319
+	twilightforest:mosquito_swarm_spawn_egg: 1794
+	twilightforest:moss_patch: 1463
+	twilightforest:mossy_castle_brick: 1562
+	twilightforest:mossy_castle_brick_stairs: 1571
+	twilightforest:mossy_etched_nagastone: 1486
+	twilightforest:mossy_mazestone: 1507
+	twilightforest:mossy_nagastone_pillar: 1487
+	twilightforest:mossy_nagastone_stairs_left: 1488
+	twilightforest:mossy_nagastone_stairs_right: 1489
+	twilightforest:mossy_towerwood: 1520
+	twilightforest:mossy_underbrick: 1514
+	twilightforest:mushgloom: 1467
+	twilightforest:music_disc_findings: 1446
+	twilightforest:music_disc_home: 1444
+	twilightforest:music_disc_maker: 1447
+	twilightforest:music_disc_motion: 1449
+	twilightforest:music_disc_radiance: 1441
+	twilightforest:music_disc_steps: 1442
+	twilightforest:music_disc_superstitious: 1443
+	twilightforest:music_disc_thread: 1448
+	twilightforest:music_disc_wayfarer: 1445
+	twilightforest:naga_banner_pattern: 1450
+	twilightforest:naga_boss_spawner: 1599
+	twilightforest:naga_chestplate: 1256
+	twilightforest:naga_courtyard_miniature_structure: 1591
+	twilightforest:naga_leggings: 1257
+	twilightforest:naga_scale: 1255
+	twilightforest:naga_spawn_egg: 1795
+	twilightforest:naga_trophy: 1382
+	twilightforest:nagastone: 1480
+	twilightforest:nagastone_head: 1479
+	twilightforest:nagastone_pillar: 1483
+	twilightforest:nagastone_stairs_left: 1484
+	twilightforest:nagastone_stairs_right: 1485
+	twilightforest:oak_banister: 1608
+	twilightforest:orange_force_field: 1580
+	twilightforest:ore_magnet: 1316
+	twilightforest:ore_map: 1272
+	twilightforest:ore_meter: 1263
+	twilightforest:peacock_feather_fan: 1318
+	twilightforest:penguin_spawn_egg: 1796
+	twilightforest:phantom_chestplate: 1345
+	twilightforest:phantom_helmet: 1344
+	twilightforest:piglin_skull_candle: 1381
+	twilightforest:pinch_beetle_spawn_egg: 1797
+	twilightforest:pink_castle_door: 1588
+	twilightforest:pink_castle_rune_brick: 1574
+	twilightforest:pink_force_field: 1579
+	twilightforest:player_skull_candle: 1380
+	twilightforest:quest_ram_banner_pattern: 1458
+	twilightforest:quest_ram_spawn_egg: 1798
+	twilightforest:quest_ram_trophy: 1390
+	twilightforest:rainbow_oak_leaves: 1660
+	twilightforest:rainbow_oak_sapling: 1674
+	twilightforest:rainy_cloud: 1545
+	twilightforest:raven_feather: 1267
+	twilightforest:raven_spawn_egg: 1799
+	twilightforest:raw_ironwood: 1274
+	twilightforest:raw_meef: 1312
+	twilightforest:raw_venison: 1286
+	twilightforest:reappearing_block: 1522
+	twilightforest:red_thread: 1510
+	twilightforest:redcap_sapper_spawn_egg: 1801
+	twilightforest:redcap_spawn_egg: 1800
+	twilightforest:root: 1470
+	twilightforest:root_strand: 1469
+	twilightforest:seeker_bow: 1358
+	twilightforest:skeleton_druid_spawn_egg: 1802
+	twilightforest:skeleton_skull_candle: 1377
+	twilightforest:slider: 1477
+	twilightforest:slime_beetle_spawn_egg: 1803
+	twilightforest:smoker: 1473
+	twilightforest:snow_guardian_spawn_egg: 1804
+	twilightforest:snow_queen_banner_pattern: 1457
+	twilightforest:snow_queen_boss_spawner: 1604
+	twilightforest:snow_queen_spawn_egg: 1805
+	twilightforest:snow_queen_trophy: 1389
+	twilightforest:snowy_cloud: 1546
+	twilightforest:sorting_banister: 1755
+	twilightforest:sorting_boat: 1439
+	twilightforest:sorting_button: 1749
+	twilightforest:sorting_chest: 1763
+	twilightforest:sorting_chest_boat: 1440
+	twilightforest:sorting_door: 1753
+	twilightforest:sorting_fence: 1750
+	twilightforest:sorting_fence_gate: 1751
+	twilightforest:sorting_hanging_sign: 1424
+	twilightforest:sorting_leaves: 1664
+	twilightforest:sorting_log: 1626
+	twilightforest:sorting_log_core: 1654
+	twilightforest:sorting_planks: 1746
+	twilightforest:sorting_pressure_plate: 1752
+	twilightforest:sorting_sapling: 1673
+	twilightforest:sorting_sign: 1423
+	twilightforest:sorting_slab: 1748
+	twilightforest:sorting_stairs: 1747
+	twilightforest:sorting_trapdoor: 1754
+	twilightforest:sorting_wood: 1642
+	twilightforest:spiral_bricks: 1481
+	twilightforest:spruce_banister: 1609
+	twilightforest:squirrel_spawn_egg: 1806
+	twilightforest:stable_ice_core_spawn_egg: 1807
+	twilightforest:steeleaf_axe: 1306
+	twilightforest:steeleaf_block: 1596
+	twilightforest:steeleaf_boots: 1302
+	twilightforest:steeleaf_chestplate: 1300
+	twilightforest:steeleaf_helmet: 1299
+	twilightforest:steeleaf_hoe: 1307
+	twilightforest:steeleaf_ingot: 1298
+	twilightforest:steeleaf_leggings: 1301
+	twilightforest:steeleaf_pickaxe: 1305
+	twilightforest:steeleaf_shovel: 1304
+	twilightforest:steeleaf_sword: 1303
+	twilightforest:stripped_canopy_log: 1628
+	twilightforest:stripped_canopy_wood: 1644
+	twilightforest:stripped_dark_log: 1630
+	twilightforest:stripped_dark_wood: 1646
+	twilightforest:stripped_mangrove_log: 1629
+	twilightforest:stripped_mangrove_wood: 1645
+	twilightforest:stripped_mining_log: 1633
+	twilightforest:stripped_mining_wood: 1649
+	twilightforest:stripped_sorting_log: 1634
+	twilightforest:stripped_sorting_wood: 1650
+	twilightforest:stripped_time_log: 1631
+	twilightforest:stripped_time_wood: 1647
+	twilightforest:stripped_transformation_log: 1632
+	twilightforest:stripped_transformation_wood: 1648
+	twilightforest:stripped_twilight_oak_log: 1627
+	twilightforest:stripped_twilight_oak_wood: 1643
+	twilightforest:stronghold_shield: 1511
+	twilightforest:swarm_spider_spawn_egg: 1808
+	twilightforest:thick_castle_brick: 1563
+	twilightforest:thorn_leaves: 1537
+	twilightforest:thorn_rose: 1536
+	twilightforest:time_banister: 1725
+	twilightforest:time_boat: 1433
+	twilightforest:time_button: 1719
+	twilightforest:time_chest: 1760
+	twilightforest:time_chest_boat: 1434
+	twilightforest:time_door: 1723
+	twilightforest:time_fence: 1720
+	twilightforest:time_fence_gate: 1721
+	twilightforest:time_hanging_sign: 1418
+	twilightforest:time_leaves: 1661
+	twilightforest:time_log: 1623
+	twilightforest:time_log_core: 1651
+	twilightforest:time_planks: 1716
+	twilightforest:time_pressure_plate: 1722
+	twilightforest:time_sapling: 1670
+	twilightforest:time_sign: 1417
+	twilightforest:time_slab: 1718
+	twilightforest:time_stairs: 1717
+	twilightforest:time_trapdoor: 1724
+	twilightforest:time_wood: 1639
+	twilightforest:tiny_bird_spawn_egg: 1809
+	twilightforest:torchberries: 1285
+	twilightforest:torchberry_plant: 1468
+	twilightforest:tower_key: 1327
+	twilightforest:towerwood: 1517
+	twilightforest:towerwood_borer_spawn_egg: 1810
+	twilightforest:transformation_banister: 1735
+	twilightforest:transformation_boat: 1435
+	twilightforest:transformation_button: 1729
+	twilightforest:transformation_chest: 1761
+	twilightforest:transformation_chest_boat: 1436
+	twilightforest:transformation_door: 1733
+	twilightforest:transformation_fence: 1730
+	twilightforest:transformation_fence_gate: 1731
+	twilightforest:transformation_hanging_sign: 1420
+	twilightforest:transformation_leaves: 1662
+	twilightforest:transformation_log: 1624
+	twilightforest:transformation_log_core: 1652
+	twilightforest:transformation_planks: 1726
+	twilightforest:transformation_powder: 1311
+	twilightforest:transformation_pressure_plate: 1732
+	twilightforest:transformation_sapling: 1671
+	twilightforest:transformation_sign: 1419
+	twilightforest:transformation_slab: 1728
+	twilightforest:transformation_stairs: 1727
+	twilightforest:transformation_trapdoor: 1734
+	twilightforest:transformation_wood: 1640
+	twilightforest:triple_bow: 1357
+	twilightforest:troll_spawn_egg: 1811
+	twilightforest:trollber: 1557
+	twilightforest:trollsteinn: 1542
+	twilightforest:trollvidr: 1555
+	twilightforest:trophy_pedestal: 1512
+	twilightforest:twilight_oak_banister: 1684
+	twilightforest:twilight_oak_boat: 1425
+	twilightforest:twilight_oak_button: 1678
+	twilightforest:twilight_oak_chest: 1756
+	twilightforest:twilight_oak_chest_boat: 1426
+	twilightforest:twilight_oak_door: 1682
+	twilightforest:twilight_oak_fence: 1679
+	twilightforest:twilight_oak_fence_gate: 1680
+	twilightforest:twilight_oak_hanging_sign: 1410
+	twilightforest:twilight_oak_leaves: 1656
+	twilightforest:twilight_oak_log: 1619
+	twilightforest:twilight_oak_planks: 1675
+	twilightforest:twilight_oak_pressure_plate: 1681
+	twilightforest:twilight_oak_sapling: 1665
+	twilightforest:twilight_oak_sign: 1409
+	twilightforest:twilight_oak_slab: 1677
+	twilightforest:twilight_oak_stairs: 1676
+	twilightforest:twilight_oak_trapdoor: 1683
+	twilightforest:twilight_oak_wood: 1635
+	twilightforest:twilight_portal_miniature_structure: 1590
+	twilightforest:twilight_scepter: 1258
+	twilightforest:twisted_stone: 1494
+	twilightforest:twisted_stone_pillar: 1495
+	twilightforest:uberous_soil: 1551
+	twilightforest:uncrafting_table: 1472
+	twilightforest:underbrick: 1513
+	twilightforest:underbrick_floor: 1516
+	twilightforest:unripe_trollber: 1556
+	twilightforest:unstable_ice_core_spawn_egg: 1812
+	twilightforest:ur_ghast_banner_pattern: 1455
+	twilightforest:ur_ghast_boss_spawner: 1602
+	twilightforest:ur_ghast_spawn_egg: 1813
+	twilightforest:ur_ghast_trophy: 1387
+	twilightforest:vangrove_banister: 1616
+	twilightforest:vanishing_block: 1523
+	twilightforest:violet_castle_door: 1587
+	twilightforest:violet_castle_rune_brick: 1577
+	twilightforest:violet_force_field: 1578
+	twilightforest:warped_banister: 1615
+	twilightforest:weathered_deadrock: 1541
+	twilightforest:winter_wolf_spawn_egg: 1814
+	twilightforest:wispy_cloud: 1543
+	twilightforest:wither_skeleton_skull_candle: 1378
+	twilightforest:worn_castle_brick: 1559
+	twilightforest:worn_castle_brick_stairs: 1569
+	twilightforest:wraith_spawn_egg: 1815
+	twilightforest:wrought_iron_fence: 1501
+	twilightforest:yellow_castle_door: 1586
+	twilightforest:yellow_castle_rune_brick: 1576
+	twilightforest:yeti_boots: 1356
+	twilightforest:yeti_chestplate: 1354
+	twilightforest:yeti_helmet: 1353
+	twilightforest:yeti_leggings: 1355
+	twilightforest:yeti_spawn_egg: 1816
+	twilightforest:zombie_scepter: 1260
+	twilightforest:zombie_skull_candle: 1376
+
+[02Aug2024 12:31:36.675] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	twilightforest:frosted: 0
+
+[02Aug2024 12:31:36.676] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:point_of_interest_type
+	twilightforest:ghast_trap: 20
+
+[02Aug2024 12:31:36.678] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	twilightforest:block.twilightforest.beanstalk.grow: 1484
+	twilightforest:block.twilightforest.boss_chest.appear: 1500
+	twilightforest:block.twilightforest.bug.squish: 1503
+	twilightforest:block.twilightforest.builder.create: 1504
+	twilightforest:block.twilightforest.builder.off: 1505
+	twilightforest:block.twilightforest.builder.on: 1506
+	twilightforest:block.twilightforest.builder.replace: 1507
+	twilightforest:block.twilightforest.casket.close: 1526
+	twilightforest:block.twilightforest.casket.locked: 1527
+	twilightforest:block.twilightforest.casket.open: 1528
+	twilightforest:block.twilightforest.casket.repair: 1529
+	twilightforest:block.twilightforest.cicada: 1532
+	twilightforest:block.twilightforest.core.time: 1696
+	twilightforest:block.twilightforest.core.transformation: 1705
+	twilightforest:block.twilightforest.door.activate: 1539
+	twilightforest:block.twilightforest.door.reappear: 1540
+	twilightforest:block.twilightforest.door.vanish: 1541
+	twilightforest:block.twilightforest.generic.annihilation: 1495
+	twilightforest:block.twilightforest.ghast_trap.ambient: 1551
+	twilightforest:block.twilightforest.ghast_trap.on: 1552
+	twilightforest:block.twilightforest.ghast_trap.spindown: 1553
+	twilightforest:block.twilightforest.ghast_trap.warmup: 1554
+	twilightforest:block.twilightforest.jet.active: 1585
+	twilightforest:block.twilightforest.jet.pop: 1586
+	twilightforest:block.twilightforest.jet.start: 1587
+	twilightforest:block.twilightforest.portal.whoosh: 1654
+	twilightforest:block.twilightforest.reactor.ambient: 1662
+	twilightforest:block.twilightforest.reappearing_block.reappear: 1663
+	twilightforest:block.twilightforest.reappearing_block.vanish: 1664
+	twilightforest:block.twilightforest.slider.move: 1677
+	twilightforest:block.twilightforest.smoker.start: 1682
+	twilightforest:block.twilightforest.torchberry.harvest: 1650
+	twilightforest:block.twilightforest.trophy_pedestal.activate: 1649
+	twilightforest:block.twilightforest.uncrafting_table.activate: 1707
+	twilightforest:block.twilightforest.vanish.locked: 1610
+	twilightforest:block.twilightforest.vanish.unlock: 1708
+	twilightforest:block.twilightforest.vanish.vanish: 1715
+	twilightforest:block.twilightforest.wrought_iron_fence.extend: 1725
+	twilightforest:entity.twilightforest.alpha_yeti.alert: 1475
+	twilightforest:entity.twilightforest.alpha_yeti.death: 1476
+	twilightforest:entity.twilightforest.alpha_yeti.grab: 1477
+	twilightforest:entity.twilightforest.alpha_yeti.growl: 1478
+	twilightforest:entity.twilightforest.alpha_yeti.hurt: 1479
+	twilightforest:entity.twilightforest.alpha_yeti.ice: 1480
+	twilightforest:entity.twilightforest.alpha_yeti.pant: 1481
+	twilightforest:entity.twilightforest.alpha_yeti.roar: 1482
+	twilightforest:entity.twilightforest.alpha_yeti.throw: 1483
+	twilightforest:entity.twilightforest.bighorn_sheep.ambient: 1485
+	twilightforest:entity.twilightforest.bighorn_sheep.death: 1486
+	twilightforest:entity.twilightforest.bighorn_sheep.hurt: 1487
+	twilightforest:entity.twilightforest.bighorn_sheep.step: 1488
+	twilightforest:entity.twilightforest.blockchain_goblin.ambient: 1489
+	twilightforest:entity.twilightforest.blockchain_goblin.death: 1490
+	twilightforest:entity.twilightforest.blockchain_goblin.hurt: 1491
+	twilightforest:entity.twilightforest.boar.ambient: 1496
+	twilightforest:entity.twilightforest.boar.death: 1497
+	twilightforest:entity.twilightforest.boar.hurt: 1498
+	twilightforest:entity.twilightforest.boar.step: 1499
+	twilightforest:entity.twilightforest.carminite_broodling.ambient: 1508
+	twilightforest:entity.twilightforest.carminite_broodling.death: 1509
+	twilightforest:entity.twilightforest.carminite_broodling.hurt: 1510
+	twilightforest:entity.twilightforest.carminite_broodling.step: 1511
+	twilightforest:entity.twilightforest.carminite_ghastguard.ambient: 1512
+	twilightforest:entity.twilightforest.carminite_ghastguard.death: 1513
+	twilightforest:entity.twilightforest.carminite_ghastguard.hurt: 1514
+	twilightforest:entity.twilightforest.carminite_ghastguard.shoot: 1515
+	twilightforest:entity.twilightforest.carminite_ghastguard.warn: 1516
+	twilightforest:entity.twilightforest.carminite_ghastling.ambient: 1517
+	twilightforest:entity.twilightforest.carminite_ghastling.death: 1518
+	twilightforest:entity.twilightforest.carminite_ghastling.hurt: 1519
+	twilightforest:entity.twilightforest.carminite_ghastling.shoot: 1520
+	twilightforest:entity.twilightforest.carminite_ghastling.warn: 1521
+	twilightforest:entity.twilightforest.carminite_golem.attack: 1522
+	twilightforest:entity.twilightforest.carminite_golem.death: 1523
+	twilightforest:entity.twilightforest.carminite_golem.hurt: 1524
+	twilightforest:entity.twilightforest.carminite_golem.step: 1525
+	twilightforest:entity.twilightforest.death_tome.ambient: 1533
+	twilightforest:entity.twilightforest.death_tome.death: 1534
+	twilightforest:entity.twilightforest.death_tome.hurt: 1535
+	twilightforest:entity.twilightforest.deer.ambient: 1536
+	twilightforest:entity.twilightforest.deer.death: 1537
+	twilightforest:entity.twilightforest.deer.hurt: 1538
+	twilightforest:entity.twilightforest.dwarf_rabbit.ambient: 1542
+	twilightforest:entity.twilightforest.dwarf_rabbit.death: 1543
+	twilightforest:entity.twilightforest.dwarf_rabbit.hurt: 1544
+	twilightforest:entity.twilightforest.fire_beetle.death: 1546
+	twilightforest:entity.twilightforest.fire_beetle.hurt: 1547
+	twilightforest:entity.twilightforest.fire_beetle.shoot: 1548
+	twilightforest:entity.twilightforest.fire_beetle.step: 1549
+	twilightforest:entity.twilightforest.goblin_knight.ambient: 1556
+	twilightforest:entity.twilightforest.goblin_knight.death: 1557
+	twilightforest:entity.twilightforest.goblin_knight.hurt: 1558
+	twilightforest:entity.twilightforest.goblin_knight.muffled.ambient: 1559
+	twilightforest:entity.twilightforest.goblin_knight.muffled.death: 1560
+	twilightforest:entity.twilightforest.goblin_knight.muffled.hurt: 1561
+	twilightforest:entity.twilightforest.hedge_spider.ambient: 1562
+	twilightforest:entity.twilightforest.hedge_spider.death: 1563
+	twilightforest:entity.twilightforest.hedge_spider.hurt: 1564
+	twilightforest:entity.twilightforest.hedge_spider.step: 1565
+	twilightforest:entity.twilightforest.helmet_crab.death: 1566
+	twilightforest:entity.twilightforest.helmet_crab.hurt: 1567
+	twilightforest:entity.twilightforest.helmet_crab.step: 1568
+	twilightforest:entity.twilightforest.hostile_wolf.ambient: 1569
+	twilightforest:entity.twilightforest.hostile_wolf.death: 1570
+	twilightforest:entity.twilightforest.hostile_wolf.hurt: 1571
+	twilightforest:entity.twilightforest.hostile_wolf.target: 1572
+	twilightforest:entity.twilightforest.hydra.death: 1573
+	twilightforest:entity.twilightforest.hydra.growl: 1574
+	twilightforest:entity.twilightforest.hydra.hurt: 1575
+	twilightforest:entity.twilightforest.hydra.roar: 1576
+	twilightforest:entity.twilightforest.hydra.shoot: 1577
+	twilightforest:entity.twilightforest.hydra.shoot_fire: 1578
+	twilightforest:entity.twilightforest.hydra.warn: 1579
+	twilightforest:entity.twilightforest.ice.ambient: 1581
+	twilightforest:entity.twilightforest.ice.death: 1582
+	twilightforest:entity.twilightforest.ice.hurt: 1583
+	twilightforest:entity.twilightforest.ice.shoot: 1584
+	twilightforest:entity.twilightforest.king_spider.ambient: 1588
+	twilightforest:entity.twilightforest.king_spider.death: 1589
+	twilightforest:entity.twilightforest.king_spider.hurt: 1590
+	twilightforest:entity.twilightforest.king_spider.step: 1591
+	twilightforest:entity.twilightforest.knight_phantom.ambient: 1593
+	twilightforest:entity.twilightforest.knight_phantom.axe: 1596
+	twilightforest:entity.twilightforest.knight_phantom.death: 1594
+	twilightforest:entity.twilightforest.knight_phantom.hurt: 1595
+	twilightforest:entity.twilightforest.knight_phantom.pickaxe: 1597
+	twilightforest:entity.twilightforest.kobold.ambient: 1598
+	twilightforest:entity.twilightforest.kobold.death: 1599
+	twilightforest:entity.twilightforest.kobold.hurt: 1600
+	twilightforest:entity.twilightforest.kobold.munch: 1601
+	twilightforest:entity.twilightforest.lich.ambient: 1603
+	twilightforest:entity.twilightforest.lich.death: 1605
+	twilightforest:entity.twilightforest.lich.hurt: 1606
+	twilightforest:entity.twilightforest.lich.pop_mob: 1607
+	twilightforest:entity.twilightforest.lich.shoot: 1608
+	twilightforest:entity.twilightforest.lich.teleport: 1609
+	twilightforest:entity.twilightforest.lich_clone.hurt: 1604
+	twilightforest:entity.twilightforest.loyal_zombie.ambient: 1611
+	twilightforest:entity.twilightforest.loyal_zombie.death: 1612
+	twilightforest:entity.twilightforest.loyal_zombie.hurt: 1613
+	twilightforest:entity.twilightforest.loyal_zombie.step: 1614
+	twilightforest:entity.twilightforest.loyal_zombie.summon: 1615
+	twilightforest:entity.twilightforest.maze_slime.death: 1617
+	twilightforest:entity.twilightforest.maze_slime.hurt: 1619
+	twilightforest:entity.twilightforest.maze_slime.squish: 1621
+	twilightforest:entity.twilightforest.maze_slime_small.death: 1618
+	twilightforest:entity.twilightforest.maze_slime_small.hurt: 1620
+	twilightforest:entity.twilightforest.maze_slime_small.squish: 1622
+	twilightforest:entity.twilightforest.minion.ambient: 1624
+	twilightforest:entity.twilightforest.minion.death: 1625
+	twilightforest:entity.twilightforest.minion.hurt: 1626
+	twilightforest:entity.twilightforest.minion.step: 1627
+	twilightforest:entity.twilightforest.minion.summon: 1628
+	twilightforest:entity.twilightforest.minoshroom.ambient: 1629
+	twilightforest:entity.twilightforest.minoshroom.attack: 1630
+	twilightforest:entity.twilightforest.minoshroom.death: 1631
+	twilightforest:entity.twilightforest.minoshroom.hurt: 1632
+	twilightforest:entity.twilightforest.minoshroom.slam: 1633
+	twilightforest:entity.twilightforest.minoshroom.step: 1634
+	twilightforest:entity.twilightforest.minotaur.ambient: 1635
+	twilightforest:entity.twilightforest.minotaur.attack: 1636
+	twilightforest:entity.twilightforest.minotaur.death: 1637
+	twilightforest:entity.twilightforest.minotaur.hurt: 1638
+	twilightforest:entity.twilightforest.minotaur.step: 1639
+	twilightforest:entity.twilightforest.mist_wolf.ambient: 1640
+	twilightforest:entity.twilightforest.mist_wolf.death: 1641
+	twilightforest:entity.twilightforest.mist_wolf.hurt: 1642
+	twilightforest:entity.twilightforest.mist_wolf.target: 1643
+	twilightforest:entity.twilightforest.mosquito.ambient: 1645
+	twilightforest:entity.twilightforest.naga.hiss: 1646
+	twilightforest:entity.twilightforest.naga.hurt: 1647
+	twilightforest:entity.twilightforest.naga.rattle: 1648
+	twilightforest:entity.twilightforest.parrot.imitate.alpha_yeti: 1731
+	twilightforest:entity.twilightforest.parrot.imitate.carminite_golem: 1732
+	twilightforest:entity.twilightforest.parrot.imitate.death_tome: 1733
+	twilightforest:entity.twilightforest.parrot.imitate.hostile_wolf: 1734
+	twilightforest:entity.twilightforest.parrot.imitate.hydra: 1735
+	twilightforest:entity.twilightforest.parrot.imitate.ice_core: 1736
+	twilightforest:entity.twilightforest.parrot.imitate.kobold: 1737
+	twilightforest:entity.twilightforest.parrot.imitate.minotaur: 1738
+	twilightforest:entity.twilightforest.parrot.imitate.mosquito: 1739
+	twilightforest:entity.twilightforest.parrot.imitate.naga: 1740
+	twilightforest:entity.twilightforest.parrot.imitate.redcap: 1741
+	twilightforest:entity.twilightforest.parrot.imitate.wraith: 1742
+	twilightforest:entity.twilightforest.pinch_beetle.death: 1651
+	twilightforest:entity.twilightforest.pinch_beetle.hurt: 1652
+	twilightforest:entity.twilightforest.pinch_beetle.step: 1653
+	twilightforest:entity.twilightforest.quest_ram.ambient: 1656
+	twilightforest:entity.twilightforest.quest_ram.death: 1657
+	twilightforest:entity.twilightforest.quest_ram.hurt: 1658
+	twilightforest:entity.twilightforest.quest_ram.step: 1659
+	twilightforest:entity.twilightforest.raven.caw: 1660
+	twilightforest:entity.twilightforest.raven.squawk: 1661
+	twilightforest:entity.twilightforest.redcap.ambient: 1665
+	twilightforest:entity.twilightforest.redcap.death: 1666
+	twilightforest:entity.twilightforest.redcap.hurt: 1667
+	twilightforest:entity.twilightforest.shield.add: 1670
+	twilightforest:entity.twilightforest.shield.break: 1671
+	twilightforest:entity.twilightforest.skeleton_druid.ambient: 1672
+	twilightforest:entity.twilightforest.skeleton_druid.death: 1673
+	twilightforest:entity.twilightforest.skeleton_druid.hurt: 1674
+	twilightforest:entity.twilightforest.skeleton_druid.shoot: 1675
+	twilightforest:entity.twilightforest.skeleton_druid.step: 1676
+	twilightforest:entity.twilightforest.slime_beetle.death: 1678
+	twilightforest:entity.twilightforest.slime_beetle.hurt: 1679
+	twilightforest:entity.twilightforest.slime_beetle.squish: 1680
+	twilightforest:entity.twilightforest.slime_beetle.step: 1681
+	twilightforest:entity.twilightforest.snow_guardian.ambient: 1683
+	twilightforest:entity.twilightforest.snow_guardian.death: 1684
+	twilightforest:entity.twilightforest.snow_guardian.hurt: 1685
+	twilightforest:entity.twilightforest.snow_queen.ambient: 1686
+	twilightforest:entity.twilightforest.snow_queen.attack: 1687
+	twilightforest:entity.twilightforest.snow_queen.break: 1688
+	twilightforest:entity.twilightforest.snow_queen.death: 1689
+	twilightforest:entity.twilightforest.snow_queen.hurt: 1690
+	twilightforest:entity.twilightforest.swarm_spider.ambient: 1691
+	twilightforest:entity.twilightforest.swarm_spider.death: 1692
+	twilightforest:entity.twilightforest.swarm_spider.hurt: 1693
+	twilightforest:entity.twilightforest.swarm_spider.step: 1694
+	twilightforest:entity.twilightforest.tear.break: 1695
+	twilightforest:entity.twilightforest.tiny_bird.chirp: 1697
+	twilightforest:entity.twilightforest.tiny_bird.hurt: 1698
+	twilightforest:entity.twilightforest.tiny_bird.song: 1699
+	twilightforest:entity.twilightforest.tiny_bird.takeoff: 1700
+	twilightforest:entity.twilightforest.towerwood_borer.ambient: 1701
+	twilightforest:entity.twilightforest.towerwood_borer.death: 1702
+	twilightforest:entity.twilightforest.towerwood_borer.hurt: 1703
+	twilightforest:entity.twilightforest.towerwood_borer.step: 1704
+	twilightforest:entity.twilightforest.troll.throw_rock: 1706
+	twilightforest:entity.twilightforest.ur_ghast.ambient: 1709
+	twilightforest:entity.twilightforest.ur_ghast.death: 1710
+	twilightforest:entity.twilightforest.ur_ghast.hurt: 1711
+	twilightforest:entity.twilightforest.ur_ghast.shoot: 1712
+	twilightforest:entity.twilightforest.ur_ghast.tantrum: 1713
+	twilightforest:entity.twilightforest.ur_ghast.warn: 1714
+	twilightforest:entity.twilightforest.winter_wolf.ambient: 1716
+	twilightforest:entity.twilightforest.winter_wolf.death: 1717
+	twilightforest:entity.twilightforest.winter_wolf.hurt: 1718
+	twilightforest:entity.twilightforest.winter_wolf.shoot: 1719
+	twilightforest:entity.twilightforest.winter_wolf.target: 1720
+	twilightforest:entity.twilightforest.wraith.ambient: 1722
+	twilightforest:entity.twilightforest.wraith.death: 1723
+	twilightforest:entity.twilightforest.wraith.hurt: 1724
+	twilightforest:entity.twilightforest.yeti.death: 1726
+	twilightforest:entity.twilightforest.yeti.grab: 1727
+	twilightforest:entity.twilightforest.yeti.growl: 1728
+	twilightforest:entity.twilightforest.yeti.hurt: 1729
+	twilightforest:entity.twilightforest.yeti.throw: 1730
+	twilightforest:environment.twilightforest.acid_rain: 1474
+	twilightforest:item.twilightforest.block_and_chain.collide: 1492
+	twilightforest:item.twilightforest.block_and_chain.fire: 1493
+	twilightforest:item.twilightforest.block_and_chain.hit: 1494
+	twilightforest:item.twilightforest.charm.keep: 1530
+	twilightforest:item.twilightforest.charm.life: 1531
+	twilightforest:item.twilightforest.fan.whoosh: 1545
+	twilightforest:item.twilightforest.flask.break: 1501
+	twilightforest:item.twilightforest.flask.crack: 1502
+	twilightforest:item.twilightforest.flask.fill: 1550
+	twilightforest:item.twilightforest.glass_sword.break: 1555
+	twilightforest:item.twilightforest.ice_bomb.fired: 1580
+	twilightforest:item.twilightforest.knightmetal_armor.equip: 1592
+	twilightforest:item.twilightforest.knightmetal_shield.shatter: 1623
+	twilightforest:item.twilightforest.lamp.burn: 1602
+	twilightforest:item.twilightforest.magnet.grab: 1616
+	twilightforest:item.twilightforest.moonworm.squish: 1644
+	twilightforest:item.twilightforest.scepter.drain: 1668
+	twilightforest:item.twilightforest.scepter.pearl: 1669
+	twilightforest:item.twilightforest.shield.shatter: 1721
+	twilightforest:item.twilightforest.transformation_powder.use: 1655
+	twilightforest:music.twilightforest.twilight_forest: 1743
+	twilightforest:music_disc.twilightforest.findings: 1749
+	twilightforest:music_disc.twilightforest.home: 1747
+	twilightforest:music_disc.twilightforest.maker: 1750
+	twilightforest:music_disc.twilightforest.motion: 1752
+	twilightforest:music_disc.twilightforest.radiance: 1744
+	twilightforest:music_disc.twilightforest.steps: 1745
+	twilightforest:music_disc.twilightforest.superstitious: 1746
+	twilightforest:music_disc.twilightforest.thread: 1751
+	twilightforest:music_disc.twilightforest.wayfarer: 1748
+
+[02Aug2024 12:31:36.688] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 1381 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[02Aug2024 12:31:36.688] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    twilightforest:block.twilightforest.beanstalk.grow
+    twilightforest:block.twilightforest.boss_chest.appear
+    twilightforest:block.twilightforest.bug.squish
+    twilightforest:block.twilightforest.builder.create
+    twilightforest:block.twilightforest.builder.off
+    twilightforest:block.twilightforest.builder.on
+    twilightforest:block.twilightforest.builder.replace
+    twilightforest:block.twilightforest.casket.close
+    twilightforest:block.twilightforest.casket.locked
+    twilightforest:block.twilightforest.casket.open
+    twilightforest:block.twilightforest.casket.repair
+    twilightforest:block.twilightforest.cicada
+    twilightforest:block.twilightforest.core.time
+    twilightforest:block.twilightforest.core.transformation
+    twilightforest:block.twilightforest.door.activate
+    twilightforest:block.twilightforest.door.reappear
+    twilightforest:block.twilightforest.door.vanish
+    twilightforest:block.twilightforest.generic.annihilation
+    twilightforest:block.twilightforest.ghast_trap.ambient
+    twilightforest:block.twilightforest.ghast_trap.on
+    twilightforest:block.twilightforest.ghast_trap.spindown
+    twilightforest:block.twilightforest.ghast_trap.warmup
+    twilightforest:block.twilightforest.jet.active
+    twilightforest:block.twilightforest.jet.pop
+    twilightforest:block.twilightforest.jet.start
+    twilightforest:block.twilightforest.portal.whoosh
+    twilightforest:block.twilightforest.reactor.ambient
+    twilightforest:block.twilightforest.reappearing_block.reappear
+    twilightforest:block.twilightforest.reappearing_block.vanish
+    twilightforest:block.twilightforest.slider.move
+    twilightforest:block.twilightforest.smoker.start
+    twilightforest:block.twilightforest.torchberry.harvest
+    twilightforest:block.twilightforest.trophy_pedestal.activate
+    twilightforest:block.twilightforest.uncrafting_table.activate
+    twilightforest:block.twilightforest.vanish.locked
+    twilightforest:block.twilightforest.vanish.unlock
+    twilightforest:block.twilightforest.vanish.vanish
+    twilightforest:block.twilightforest.wrought_iron_fence.extend
+    twilightforest:entity.twilightforest.alpha_yeti.alert
+    twilightforest:entity.twilightforest.alpha_yeti.death
+    twilightforest:entity.twilightforest.alpha_yeti.grab
+    twilightforest:entity.twilightforest.alpha_yeti.growl
+    twilightforest:entity.twilightforest.alpha_yeti.hurt
+    twilightforest:entity.twilightforest.alpha_yeti.ice
+    twilightforest:entity.twilightforest.alpha_yeti.pant
+    twilightforest:entity.twilightforest.alpha_yeti.roar
+    twilightforest:entity.twilightforest.alpha_yeti.throw
+    twilightforest:entity.twilightforest.bighorn_sheep.ambient
+    twilightforest:entity.twilightforest.bighorn_sheep.death
+    twilightforest:entity.twilightforest.bighorn_sheep.hurt
+    twilightforest:entity.twilightforest.bighorn_sheep.step
+    twilightforest:entity.twilightforest.blockchain_goblin.ambient
+    twilightforest:entity.twilightforest.blockchain_goblin.death
+    twilightforest:entity.twilightforest.blockchain_goblin.hurt
+    twilightforest:entity.twilightforest.boar.ambient
+    twilightforest:entity.twilightforest.boar.death
+    twilightforest:entity.twilightforest.boar.hurt
+    twilightforest:entity.twilightforest.boar.step
+    twilightforest:entity.twilightforest.carminite_broodling.ambient
+    twilightforest:entity.twilightforest.carminite_broodling.death
+    twilightforest:entity.twilightforest.carminite_broodling.hurt
+    twilightforest:entity.twilightforest.carminite_broodling.step
+    twilightforest:entity.twilightforest.carminite_ghastguard.ambient
+    twilightforest:entity.twilightforest.carminite_ghastguard.death
+    twilightforest:entity.twilightforest.carminite_ghastguard.hurt
+    twilightforest:entity.twilightforest.carminite_ghastguard.shoot
+    twilightforest:entity.twilightforest.carminite_ghastguard.warn
+    twilightforest:entity.twilightforest.carminite_ghastling.ambient
+    twilightforest:entity.twilightforest.carminite_ghastling.death
+    twilightforest:entity.twilightforest.carminite_ghastling.hurt
+    twilightforest:entity.twilightforest.carminite_ghastling.shoot
+    twilightforest:entity.twilightforest.carminite_ghastling.warn
+    twilightforest:entity.twilightforest.carminite_golem.attack
+    twilightforest:entity.twilightforest.carminite_golem.death
+    twilightforest:entity.twilightforest.carminite_golem.hurt
+    twilightforest:entity.twilightforest.carminite_golem.step
+    twilightforest:entity.twilightforest.death_tome.ambient
+    twilightforest:entity.twilightforest.death_tome.death
+    twilightforest:entity.twilightforest.death_tome.hurt
+    twilightforest:entity.twilightforest.deer.ambient
+    twilightforest:entity.twilightforest.deer.death
+    twilightforest:entity.twilightforest.deer.hurt
+    twilightforest:entity.twilightforest.dwarf_rabbit.ambient
+    twilightforest:entity.twilightforest.dwarf_rabbit.death
+    twilightforest:entity.twilightforest.dwarf_rabbit.hurt
+    twilightforest:entity.twilightforest.fire_beetle.death
+    twilightforest:entity.twilightforest.fire_beetle.hurt
+    twilightforest:entity.twilightforest.fire_beetle.shoot
+    twilightforest:entity.twilightforest.fire_beetle.step
+    twilightforest:entity.twilightforest.goblin_knight.ambient
+    twilightforest:entity.twilightforest.goblin_knight.death
+    twilightforest:entity.twilightforest.goblin_knight.hurt
+    twilightforest:entity.twilightforest.goblin_knight.muffled.ambient
+    twilightforest:entity.twilightforest.goblin_knight.muffled.death
+    twilightforest:entity.twilightforest.goblin_knight.muffled.hurt
+    twilightforest:entity.twilightforest.hedge_spider.ambient
+    twilightforest:entity.twilightforest.hedge_spider.death
+    twilightforest:entity.twilightforest.hedge_spider.hurt
+    twilightforest:entity.twilightforest.hedge_spider.step
+    twilightforest:entity.twilightforest.helmet_crab.death
+    twilightforest:entity.twilightforest.helmet_crab.hurt
+    twilightforest:entity.twilightforest.helmet_crab.step
+    twilightforest:entity.twilightforest.hostile_wolf.ambient
+    twilightforest:entity.twilightforest.hostile_wolf.death
+    twilightforest:entity.twilightforest.hostile_wolf.hurt
+    twilightforest:entity.twilightforest.hostile_wolf.target
+    twilightforest:entity.twilightforest.hydra.death
+    twilightforest:entity.twilightforest.hydra.growl
+    twilightforest:entity.twilightforest.hydra.hurt
+    twilightforest:entity.twilightforest.hydra.roar
+    twilightforest:entity.twilightforest.hydra.shoot
+    twilightforest:entity.twilightforest.hydra.shoot_fire
+    twilightforest:entity.twilightforest.hydra.warn
+    twilightforest:entity.twilightforest.ice.ambient
+    twilightforest:entity.twilightforest.ice.death
+    twilightforest:entity.twilightforest.ice.hurt
+    twilightforest:entity.twilightforest.ice.shoot
+    twilightforest:entity.twilightforest.king_spider.ambient
+    twilightforest:entity.twilightforest.king_spider.death
+    twilightforest:entity.twilightforest.king_spider.hurt
+    twilightforest:entity.twilightforest.king_spider.step
+    twilightforest:entity.twilightforest.knight_phantom.ambient
+    twilightforest:entity.twilightforest.knight_phantom.axe
+    twilightforest:entity.twilightforest.knight_phantom.death
+    twilightforest:entity.twilightforest.knight_phantom.hurt
+    twilightforest:entity.twilightforest.knight_phantom.pickaxe
+    twilightforest:entity.twilightforest.kobold.ambient
+    twilightforest:entity.twilightforest.kobold.death
+    twilightforest:entity.twilightforest.kobold.hurt
+    twilightforest:entity.twilightforest.kobold.munch
+    twilightforest:entity.twilightforest.lich.ambient
+    twilightforest:entity.twilightforest.lich.death
+    twilightforest:entity.twilightforest.lich.hurt
+    twilightforest:entity.twilightforest.lich.pop_mob
+    twilightforest:entity.twilightforest.lich.shoot
+    twilightforest:entity.twilightforest.lich.teleport
+    twilightforest:entity.twilightforest.lich_clone.hurt
+    twilightforest:entity.twilightforest.loyal_zombie.ambient
+    twilightforest:entity.twilightforest.loyal_zombie.death
+    twilightforest:entity.twilightforest.loyal_zombie.hurt
+    twilightforest:entity.twilightforest.loyal_zombie.step
+    twilightforest:entity.twilightforest.loyal_zombie.summon
+    twilightforest:entity.twilightforest.maze_slime.death
+    twilightforest:entity.twilightforest.maze_slime.hurt
+    twilightforest:entity.twilightforest.maze_slime.squish
+    twilightforest:entity.twilightforest.maze_slime_small.death
+    twilightforest:entity.twilightforest.maze_slime_small.hurt
+    twilightforest:entity.twilightforest.maze_slime_small.squish
+    twilightforest:entity.twilightforest.minion.ambient
+    twilightforest:entity.twilightforest.minion.death
+    twilightforest:entity.twilightforest.minion.hurt
+    twilightforest:entity.twilightforest.minion.step
+    twilightforest:entity.twilightforest.minion.summon
+    twilightforest:entity.twilightforest.minoshroom.ambient
+    twilightforest:entity.twilightforest.minoshroom.attack
+    twilightforest:entity.twilightforest.minoshroom.death
+    twilightforest:entity.twilightforest.minoshroom.hurt
+    twilightforest:entity.twilightforest.minoshroom.slam
+    twilightforest:entity.twilightforest.minoshroom.step
+    twilightforest:entity.twilightforest.minotaur.ambient
+    twilightforest:entity.twilightforest.minotaur.attack
+    twilightforest:entity.twilightforest.minotaur.death
+    twilightforest:entity.twilightforest.minotaur.hurt
+    twilightforest:entity.twilightforest.minotaur.step
+    twilightforest:entity.twilightforest.mist_wolf.ambient
+    twilightforest:entity.twilightforest.mist_wolf.death
+    twilightforest:entity.twilightforest.mist_wolf.hurt
+    twilightforest:entity.twilightforest.mist_wolf.target
+    twilightforest:entity.twilightforest.mosquito.ambient
+    twilightforest:entity.twilightforest.naga.hiss
+    twilightforest:entity.twilightforest.naga.hurt
+    twilightforest:entity.twilightforest.naga.rattle
+    twilightforest:entity.twilightforest.parrot.imitate.alpha_yeti
+    twilightforest:entity.twilightforest.parrot.imitate.carminite_golem
+    twilightforest:entity.twilightforest.parrot.imitate.death_tome
+    twilightforest:entity.twilightforest.parrot.imitate.hostile_wolf
+    twilightforest:entity.twilightforest.parrot.imitate.hydra
+    twilightforest:entity.twilightforest.parrot.imitate.ice_core
+    twilightforest:entity.twilightforest.parrot.imitate.kobold
+    twilightforest:entity.twilightforest.parrot.imitate.minotaur
+    twilightforest:entity.twilightforest.parrot.imitate.mosquito
+    twilightforest:entity.twilightforest.parrot.imitate.naga
+    twilightforest:entity.twilightforest.parrot.imitate.redcap
+    twilightforest:entity.twilightforest.parrot.imitate.wraith
+    twilightforest:entity.twilightforest.pinch_beetle.death
+    twilightforest:entity.twilightforest.pinch_beetle.hurt
+    twilightforest:entity.twilightforest.pinch_beetle.step
+    twilightforest:entity.twilightforest.quest_ram.ambient
+    twilightforest:entity.twilightforest.quest_ram.death
+    twilightforest:entity.twilightforest.quest_ram.hurt
+    twilightforest:entity.twilightforest.quest_ram.step
+    twilightforest:entity.twilightforest.raven.caw
+    twilightforest:entity.twilightforest.raven.squawk
+    twilightforest:entity.twilightforest.redcap.ambient
+    twilightforest:entity.twilightforest.redcap.death
+    twilightforest:entity.twilightforest.redcap.hurt
+    twilightforest:entity.twilightforest.shield.add
+    twilightforest:entity.twilightforest.shield.break
+    twilightforest:entity.twilightforest.skeleton_druid.ambient
+    twilightforest:entity.twilightforest.skeleton_druid.death
+    twilightforest:entity.twilightforest.skeleton_druid.hurt
+    twilightforest:entity.twilightforest.skeleton_druid.shoot
+    twilightforest:entity.twilightforest.skeleton_druid.step
+    twilightforest:entity.twilightforest.slime_beetle.death
+    twilightforest:entity.twilightforest.slime_beetle.hurt
+    twilightforest:entity.twilightforest.slime_beetle.squish
+    twilightforest:entity.twilightforest.slime_beetle.step
+    twilightforest:entity.twilightforest.snow_guardian.ambient
+    twilightforest:entity.twilightforest.snow_guardian.death
+    twilightforest:entity.twilightforest.snow_guardian.hurt
+    twilightforest:entity.twilightforest.snow_queen.ambient
+    twilightforest:entity.twilightforest.snow_queen.attack
+    twilightforest:entity.twilightforest.snow_queen.break
+    twilightforest:entity.twilightforest.snow_queen.death
+    twilightforest:entity.twilightforest.snow_queen.hurt
+    twilightforest:entity.twilightforest.swarm_spider.ambient
+    twilightforest:entity.twilightforest.swarm_spider.death
+    twilightforest:entity.twilightforest.swarm_spider.hurt
+    twilightforest:entity.twilightforest.swarm_spider.step
+    twilightforest:entity.twilightforest.tear.break
+    twilightforest:entity.twilightforest.tiny_bird.chirp
+    twilightforest:entity.twilightforest.tiny_bird.hurt
+    twilightforest:entity.twilightforest.tiny_bird.song
+    twilightforest:entity.twilightforest.tiny_bird.takeoff
+    twilightforest:entity.twilightforest.towerwood_borer.ambient
+    twilightforest:entity.twilightforest.towerwood_borer.death
+    twilightforest:entity.twilightforest.towerwood_borer.hurt
+    twilightforest:entity.twilightforest.towerwood_borer.step
+    twilightforest:entity.twilightforest.troll.throw_rock
+    twilightforest:entity.twilightforest.ur_ghast.ambient
+    twilightforest:entity.twilightforest.ur_ghast.death
+    twilightforest:entity.twilightforest.ur_ghast.hurt
+    twilightforest:entity.twilightforest.ur_ghast.shoot
+    twilightforest:entity.twilightforest.ur_ghast.tantrum
+    twilightforest:entity.twilightforest.ur_ghast.warn
+    twilightforest:entity.twilightforest.winter_wolf.ambient
+    twilightforest:entity.twilightforest.winter_wolf.death
+    twilightforest:entity.twilightforest.winter_wolf.hurt
+    twilightforest:entity.twilightforest.winter_wolf.shoot
+    twilightforest:entity.twilightforest.winter_wolf.target
+    twilightforest:entity.twilightforest.wraith.ambient
+    twilightforest:entity.twilightforest.wraith.death
+    twilightforest:entity.twilightforest.wraith.hurt
+    twilightforest:entity.twilightforest.yeti.death
+    twilightforest:entity.twilightforest.yeti.grab
+    twilightforest:entity.twilightforest.yeti.growl
+    twilightforest:entity.twilightforest.yeti.hurt
+    twilightforest:entity.twilightforest.yeti.throw
+    twilightforest:environment.twilightforest.acid_rain
+    twilightforest:item.twilightforest.block_and_chain.collide
+    twilightforest:item.twilightforest.block_and_chain.fire
+    twilightforest:item.twilightforest.block_and_chain.hit
+    twilightforest:item.twilightforest.charm.keep
+    twilightforest:item.twilightforest.charm.life
+    twilightforest:item.twilightforest.fan.whoosh
+    twilightforest:item.twilightforest.flask.break
+    twilightforest:item.twilightforest.flask.crack
+    twilightforest:item.twilightforest.flask.fill
+    twilightforest:item.twilightforest.glass_sword.break
+    twilightforest:item.twilightforest.ice_bomb.fired
+    twilightforest:item.twilightforest.knightmetal_armor.equip
+    twilightforest:item.twilightforest.knightmetal_shield.shatter
+    twilightforest:item.twilightforest.lamp.burn
+    twilightforest:item.twilightforest.magnet.grab
+    twilightforest:item.twilightforest.moonworm.squish
+    twilightforest:item.twilightforest.scepter.drain
+    twilightforest:item.twilightforest.scepter.pearl
+    twilightforest:item.twilightforest.shield.shatter
+    twilightforest:item.twilightforest.transformation_powder.use
+    twilightforest:music.twilightforest.twilight_forest
+    twilightforest:music_disc.twilightforest.findings
+    twilightforest:music_disc.twilightforest.home
+    twilightforest:music_disc.twilightforest.maker
+    twilightforest:music_disc.twilightforest.motion
+    twilightforest:music_disc.twilightforest.radiance
+    twilightforest:music_disc.twilightforest.steps
+    twilightforest:music_disc.twilightforest.superstitious
+    twilightforest:music_disc.twilightforest.thread
+    twilightforest:music_disc.twilightforest.wayfarer
+
+Missing minecraft:item:
+    twilightforest:acacia_banister
+    twilightforest:adherent_spawn_egg
+    twilightforest:alpha_yeti_banner_pattern
+    twilightforest:alpha_yeti_boss_spawner
+    twilightforest:alpha_yeti_fur
+    twilightforest:alpha_yeti_spawn_egg
+    twilightforest:alpha_yeti_trophy
+    twilightforest:antibuilder
+    twilightforest:arctic_boots
+    twilightforest:arctic_chestplate
+    twilightforest:arctic_fur
+    twilightforest:arctic_fur_block
+    twilightforest:arctic_helmet
+    twilightforest:arctic_leggings
+    twilightforest:armor_shard
+    twilightforest:armor_shard_cluster
+    twilightforest:armored_giant_spawn_egg
+    twilightforest:aurora_block
+    twilightforest:aurora_pillar
+    twilightforest:aurora_slab
+    twilightforest:auroralized_glass
+    twilightforest:bamboo_banister
+    twilightforest:beanstalk_leaves
+    twilightforest:bighorn_sheep_spawn_egg
+    twilightforest:birch_banister
+    twilightforest:block_and_chain
+    twilightforest:blockchain_goblin_spawn_egg
+    twilightforest:blue_castle_door
+    twilightforest:blue_castle_rune_brick
+    twilightforest:blue_force_field
+    twilightforest:boar_spawn_egg
+    twilightforest:bold_castle_brick_pillar
+    twilightforest:bold_castle_brick_stairs
+    twilightforest:bold_castle_brick_tile
+    twilightforest:bold_stone_pillar
+    twilightforest:borer_essence
+    twilightforest:brittle_potion_flask
+    twilightforest:brown_thorns
+    twilightforest:burnt_thorns
+    twilightforest:candelabra
+    twilightforest:canopy_banister
+    twilightforest:canopy_boat
+    twilightforest:canopy_bookshelf
+    twilightforest:canopy_button
+    twilightforest:canopy_chest
+    twilightforest:canopy_chest_boat
+    twilightforest:canopy_door
+    twilightforest:canopy_fence
+    twilightforest:canopy_fence_gate
+    twilightforest:canopy_hanging_sign
+    twilightforest:canopy_leaves
+    twilightforest:canopy_log
+    twilightforest:canopy_planks
+    twilightforest:canopy_pressure_plate
+    twilightforest:canopy_sapling
+    twilightforest:canopy_sign
+    twilightforest:canopy_slab
+    twilightforest:canopy_stairs
+    twilightforest:canopy_trapdoor
+    twilightforest:canopy_wood
+    twilightforest:carminite
+    twilightforest:carminite_block
+    twilightforest:carminite_broodling_spawn_egg
+    twilightforest:carminite_builder
+    twilightforest:carminite_ghastguard_spawn_egg
+    twilightforest:carminite_ghastling_spawn_egg
+    twilightforest:carminite_golem_spawn_egg
+    twilightforest:carminite_reactor
+    twilightforest:castle_brick
+    twilightforest:castle_brick_stairs
+    twilightforest:castle_roof_tile
+    twilightforest:charm_of_keeping_1
+    twilightforest:charm_of_keeping_2
+    twilightforest:charm_of_keeping_3
+    twilightforest:charm_of_life_1
+    twilightforest:charm_of_life_2
+    twilightforest:cherry_banister
+    twilightforest:cicada
+    twilightforest:cicada_jar
+    twilightforest:cinder_furnace
+    twilightforest:cinder_log
+    twilightforest:cinder_wood
+    twilightforest:clover_patch
+    twilightforest:cooked_meef
+    twilightforest:cooked_venison
+    twilightforest:cracked_castle_brick
+    twilightforest:cracked_castle_brick_stairs
+    twilightforest:cracked_deadrock
+    twilightforest:cracked_etched_nagastone
+    twilightforest:cracked_mazestone
+    twilightforest:cracked_nagastone_pillar
+    twilightforest:cracked_nagastone_stairs_left
+    twilightforest:cracked_nagastone_stairs_right
+    twilightforest:cracked_towerwood
+    twilightforest:cracked_underbrick
+    twilightforest:creeper_skull_candle
+    twilightforest:crimson_banister
+    twilightforest:crumble_horn
+    twilightforest:cube_of_annihilation
+    twilightforest:cube_talisman
+    twilightforest:cut_mazestone
+    twilightforest:dark_banister
+    twilightforest:dark_boat
+    twilightforest:dark_button
+    twilightforest:dark_chest
+    twilightforest:dark_chest_boat
+    twilightforest:dark_door
+    twilightforest:dark_fence
+    twilightforest:dark_fence_gate
+    twilightforest:dark_hanging_sign
+    twilightforest:dark_leaves
+    twilightforest:dark_log
+    twilightforest:dark_oak_banister
+    twilightforest:dark_planks
+    twilightforest:dark_pressure_plate
+    twilightforest:dark_sign
+    twilightforest:dark_slab
+    twilightforest:dark_stairs
+    twilightforest:dark_trapdoor
+    twilightforest:dark_wood
+    twilightforest:darkwood_sapling
+    twilightforest:deadrock
+    twilightforest:death_tome_spawn_egg
+    twilightforest:death_tome_spawner
+    twilightforest:decorative_mazestone
+    twilightforest:deer_spawn_egg
+    twilightforest:diamond_minotaur_axe
+    twilightforest:dwarf_rabbit_spawn_egg
+    twilightforest:empty_canopy_bookshelf
+    twilightforest:encased_castle_brick_pillar
+    twilightforest:encased_castle_brick_stairs
+    twilightforest:encased_castle_brick_tile
+    twilightforest:encased_fire_jet
+    twilightforest:encased_smoker
+    twilightforest:encased_towerwood
+    twilightforest:ender_bow
+    twilightforest:etched_nagastone
+    twilightforest:experiment_115
+    twilightforest:fallen_leaves
+    twilightforest:fiddlehead
+    twilightforest:fiery_block
+    twilightforest:fiery_blood
+    twilightforest:fiery_boots
+    twilightforest:fiery_chestplate
+    twilightforest:fiery_helmet
+    twilightforest:fiery_ingot
+    twilightforest:fiery_leggings
+    twilightforest:fiery_pickaxe
+    twilightforest:fiery_sword
+    twilightforest:fiery_tears
+    twilightforest:filled_magic_map
+    twilightforest:filled_maze_map
+    twilightforest:filled_ore_map
+    twilightforest:final_boss_boss_spawner
+    twilightforest:fire_beetle_spawn_egg
+    twilightforest:fire_jet
+    twilightforest:firefly
+    twilightforest:firefly_jar
+    twilightforest:firefly_particle_spawner
+    twilightforest:fluffy_cloud
+    twilightforest:fortification_scepter
+    twilightforest:ghast_trap
+    twilightforest:giant_cobblestone
+    twilightforest:giant_leaves
+    twilightforest:giant_log
+    twilightforest:giant_miner_spawn_egg
+    twilightforest:giant_obsidian
+    twilightforest:giant_pickaxe
+    twilightforest:giant_sword
+    twilightforest:glass_sword
+    twilightforest:gold_minotaur_axe
+    twilightforest:greater_potion_flask
+    twilightforest:green_force_field
+    twilightforest:green_thorns
+    twilightforest:harbinger_cube_spawn_egg
+    twilightforest:hedge
+    twilightforest:hedge_spider_spawn_egg
+    twilightforest:helmet_crab_spawn_egg
+    twilightforest:hollow_acacia_log
+    twilightforest:hollow_birch_log
+    twilightforest:hollow_canopy_log
+    twilightforest:hollow_cherry_log
+    twilightforest:hollow_crimson_stem
+    twilightforest:hollow_dark_log
+    twilightforest:hollow_dark_oak_log
+    twilightforest:hollow_jungle_log
+    twilightforest:hollow_mangrove_log
+    twilightforest:hollow_mining_log
+    twilightforest:hollow_oak_log
+    twilightforest:hollow_oak_sapling
+    twilightforest:hollow_sorting_log
+    twilightforest:hollow_spruce_log
+    twilightforest:hollow_time_log
+    twilightforest:hollow_transformation_log
+    twilightforest:hollow_twilight_oak_log
+    twilightforest:hollow_vangrove_log
+    twilightforest:hollow_warped_stem
+    twilightforest:hostile_wolf_spawn_egg
+    twilightforest:huge_lily_pad
+    twilightforest:huge_mushgloom
+    twilightforest:huge_mushgloom_stem
+    twilightforest:huge_stalk
+    twilightforest:huge_water_lily
+    twilightforest:hydra_banner_pattern
+    twilightforest:hydra_boss_spawner
+    twilightforest:hydra_chop
+    twilightforest:hydra_spawn_egg
+    twilightforest:hydra_trophy
+    twilightforest:ice_bomb
+    twilightforest:ice_bow
+    twilightforest:ice_crystal_spawn_egg
+    twilightforest:ice_sword
+    twilightforest:infested_towerwood
+    twilightforest:iron_ladder
+    twilightforest:ironwood_axe
+    twilightforest:ironwood_block
+    twilightforest:ironwood_boots
+    twilightforest:ironwood_chestplate
+    twilightforest:ironwood_helmet
+    twilightforest:ironwood_hoe
+    twilightforest:ironwood_ingot
+    twilightforest:ironwood_leggings
+    twilightforest:ironwood_pickaxe
+    twilightforest:ironwood_shovel
+    twilightforest:ironwood_sword
+    twilightforest:jungle_banister
+    twilightforest:keepsake_casket
+    twilightforest:king_spider_spawn_egg
+    twilightforest:knight_phantom_banner_pattern
+    twilightforest:knight_phantom_boss_spawner
+    twilightforest:knight_phantom_spawn_egg
+    twilightforest:knight_phantom_trophy
+    twilightforest:knightmetal_axe
+    twilightforest:knightmetal_block
+    twilightforest:knightmetal_boots
+    twilightforest:knightmetal_chestplate
+    twilightforest:knightmetal_helmet
+    twilightforest:knightmetal_ingot
+    twilightforest:knightmetal_leggings
+    twilightforest:knightmetal_pickaxe
+    twilightforest:knightmetal_ring
+    twilightforest:knightmetal_shield
+    twilightforest:knightmetal_sword
+    twilightforest:kobold_spawn_egg
+    twilightforest:lamp_of_cinders
+    twilightforest:lich_banner_pattern
+    twilightforest:lich_boss_spawner
+    twilightforest:lich_spawn_egg
+    twilightforest:lich_tower_miniature_structure
+    twilightforest:lich_trophy
+    twilightforest:lifedrain_scepter
+    twilightforest:liveroot
+    twilightforest:liveroot_block
+    twilightforest:locked_vanishing_block
+    twilightforest:lower_goblin_knight_spawn_egg
+    twilightforest:magic_beans
+    twilightforest:magic_map
+    twilightforest:magic_map_focus
+    twilightforest:magic_painting
+    twilightforest:mangrove_banister
+    twilightforest:mangrove_boat
+    twilightforest:mangrove_button
+    twilightforest:mangrove_chest
+    twilightforest:mangrove_chest_boat
+    twilightforest:mangrove_door
+    twilightforest:mangrove_fence
+    twilightforest:mangrove_fence_gate
+    twilightforest:mangrove_hanging_sign
+    twilightforest:mangrove_leaves
+    twilightforest:mangrove_log
+    twilightforest:mangrove_planks
+    twilightforest:mangrove_pressure_plate
+    twilightforest:mangrove_root
+    twilightforest:mangrove_sapling
+    twilightforest:mangrove_sign
+    twilightforest:mangrove_slab
+    twilightforest:mangrove_stairs
+    twilightforest:mangrove_trapdoor
+    twilightforest:mangrove_wood
+    twilightforest:mayapple
+    twilightforest:maze_map
+    twilightforest:maze_map_focus
+    twilightforest:maze_slime_spawn_egg
+    twilightforest:maze_wafer
+    twilightforest:mazebreaker_pickaxe
+    twilightforest:mazestone
+    twilightforest:mazestone_border
+    twilightforest:mazestone_brick
+    twilightforest:mazestone_mosaic
+    twilightforest:meef_stroganoff
+    twilightforest:mining_banister
+    twilightforest:mining_boat
+    twilightforest:mining_button
+    twilightforest:mining_chest
+    twilightforest:mining_chest_boat
+    twilightforest:mining_door
+    twilightforest:mining_fence
+    twilightforest:mining_fence_gate
+    twilightforest:mining_hanging_sign
+    twilightforest:mining_leaves
+    twilightforest:mining_log
+    twilightforest:mining_log_core
+    twilightforest:mining_planks
+    twilightforest:mining_pressure_plate
+    twilightforest:mining_sapling
+    twilightforest:mining_sign
+    twilightforest:mining_slab
+    twilightforest:mining_stairs
+    twilightforest:mining_trapdoor
+    twilightforest:mining_wood
+    twilightforest:minoshroom_banner_pattern
+    twilightforest:minoshroom_boss_spawner
+    twilightforest:minoshroom_spawn_egg
+    twilightforest:minoshroom_trophy
+    twilightforest:minotaur_spawn_egg
+    twilightforest:mist_wolf_spawn_egg
+    twilightforest:moon_dial
+    twilightforest:moonworm
+    twilightforest:moonworm_queen
+    twilightforest:mosquito_swarm_spawn_egg
+    twilightforest:moss_patch
+    twilightforest:mossy_castle_brick
+    twilightforest:mossy_castle_brick_stairs
+    twilightforest:mossy_etched_nagastone
+    twilightforest:mossy_mazestone
+    twilightforest:mossy_nagastone_pillar
+    twilightforest:mossy_nagastone_stairs_left
+    twilightforest:mossy_nagastone_stairs_right
+    twilightforest:mossy_towerwood
+    twilightforest:mossy_underbrick
+    twilightforest:mushgloom
+    twilightforest:music_disc_findings
+    twilightforest:music_disc_home
+    twilightforest:music_disc_maker
+    twilightforest:music_disc_motion
+    twilightforest:music_disc_radiance
+    twilightforest:music_disc_steps
+    twilightforest:music_disc_superstitious
+    twilightforest:music_disc_thread
+    twilightforest:music_disc_wayfarer
+    twilightforest:naga_banner_pattern
+    twilightforest:naga_boss_spawner
+    twilightforest:naga_chestplate
+    twilightforest:naga_courtyard_miniature_structure
+    twilightforest:naga_leggings
+    twilightforest:naga_scale
+    twilightforest:naga_spawn_egg
+    twilightforest:naga_trophy
+    twilightforest:nagastone
+    twilightforest:nagastone_head
+    twilightforest:nagastone_pillar
+    twilightforest:nagastone_stairs_left
+    twilightforest:nagastone_stairs_right
+    twilightforest:oak_banister
+    twilightforest:orange_force_field
+    twilightforest:ore_magnet
+    twilightforest:ore_map
+    twilightforest:ore_meter
+    twilightforest:peacock_feather_fan
+    twilightforest:penguin_spawn_egg
+    twilightforest:phantom_chestplate
+    twilightforest:phantom_helmet
+    twilightforest:piglin_skull_candle
+    twilightforest:pinch_beetle_spawn_egg
+    twilightforest:pink_castle_door
+    twilightforest:pink_castle_rune_brick
+    twilightforest:pink_force_field
+    twilightforest:player_skull_candle
+    twilightforest:quest_ram_banner_pattern
+    twilightforest:quest_ram_spawn_egg
+    twilightforest:quest_ram_trophy
+    twilightforest:rainbow_oak_leaves
+    twilightforest:rainbow_oak_sapling
+    twilightforest:rainy_cloud
+    twilightforest:raven_feather
+    twilightforest:raven_spawn_egg
+    twilightforest:raw_ironwood
+    twilightforest:raw_meef
+    twilightforest:raw_venison
+    twilightforest:reappearing_block
+    twilightforest:red_thread
+    twilightforest:redcap_sapper_spawn_egg
+    twilightforest:redcap_spawn_egg
+    twilightforest:root
+    twilightforest:root_strand
+    twilightforest:seeker_bow
+    twilightforest:skeleton_druid_spawn_egg
+    twilightforest:skeleton_skull_candle
+    twilightforest:slider
+    twilightforest:slime_beetle_spawn_egg
+    twilightforest:smoker
+    twilightforest:snow_guardian_spawn_egg
+    twilightforest:snow_queen_banner_pattern
+    twilightforest:snow_queen_boss_spawner
+    twilightforest:snow_queen_spawn_egg
+    twilightforest:snow_queen_trophy
+    twilightforest:snowy_cloud
+    twilightforest:sorting_banister
+    twilightforest:sorting_boat
+    twilightforest:sorting_button
+    twilightforest:sorting_chest
+    twilightforest:sorting_chest_boat
+    twilightforest:sorting_door
+    twilightforest:sorting_fence
+    twilightforest:sorting_fence_gate
+    twilightforest:sorting_hanging_sign
+    twilightforest:sorting_leaves
+    twilightforest:sorting_log
+    twilightforest:sorting_log_core
+    twilightforest:sorting_planks
+    twilightforest:sorting_pressure_plate
+    twilightforest:sorting_sapling
+    twilightforest:sorting_sign
+    twilightforest:sorting_slab
+    twilightforest:sorting_stairs
+    twilightforest:sorting_trapdoor
+    twilightforest:sorting_wood
+    twilightforest:spiral_bricks
+    twilightforest:spruce_banister
+    twilightforest:squirrel_spawn_egg
+    twilightforest:stable_ice_core_spawn_egg
+    twilightforest:steeleaf_axe
+    twilightforest:steeleaf_block
+    twilightforest:steeleaf_boots
+    twilightforest:steeleaf_chestplate
+    twilightforest:steeleaf_helmet
+    twilightforest:steeleaf_hoe
+    twilightforest:steeleaf_ingot
+    twilightforest:steeleaf_leggings
+    twilightforest:steeleaf_pickaxe
+    twilightforest:steeleaf_shovel
+    twilightforest:steeleaf_sword
+    twilightforest:stripped_canopy_log
+    twilightforest:stripped_canopy_wood
+    twilightforest:stripped_dark_log
+    twilightforest:stripped_dark_wood
+    twilightforest:stripped_mangrove_log
+    twilightforest:stripped_mangrove_wood
+    twilightforest:stripped_mining_log
+    twilightforest:stripped_mining_wood
+    twilightforest:stripped_sorting_log
+    twilightforest:stripped_sorting_wood
+    twilightforest:stripped_time_log
+    twilightforest:stripped_time_wood
+    twilightforest:stripped_transformation_log
+    twilightforest:stripped_transformation_wood
+    twilightforest:stripped_twilight_oak_log
+    twilightforest:stripped_twilight_oak_wood
+    twilightforest:stronghold_shield
+    twilightforest:swarm_spider_spawn_egg
+    twilightforest:thick_castle_brick
+    twilightforest:thorn_leaves
+    twilightforest:thorn_rose
+    twilightforest:time_banister
+    twilightforest:time_boat
+    twilightforest:time_button
+    twilightforest:time_chest
+    twilightforest:time_chest_boat
+    twilightforest:time_door
+    twilightforest:time_fence
+    twilightforest:time_fence_gate
+    twilightforest:time_hanging_sign
+    twilightforest:time_leaves
+    twilightforest:time_log
+    twilightforest:time_log_core
+    twilightforest:time_planks
+    twilightforest:time_pressure_plate
+    twilightforest:time_sapling
+    twilightforest:time_sign
+    twilightforest:time_slab
+    twilightforest:time_stairs
+    twilightforest:time_trapdoor
+    twilightforest:time_wood
+    twilightforest:tiny_bird_spawn_egg
+    twilightforest:torchberries
+    twilightforest:torchberry_plant
+    twilightforest:tower_key
+    twilightforest:towerwood
+    twilightforest:towerwood_borer_spawn_egg
+    twilightforest:transformation_banister
+    twilightforest:transformation_boat
+    twilightforest:transformation_button
+    twilightforest:transformation_chest
+    twilightforest:transformation_chest_boat
+    twilightforest:transformation_door
+    twilightforest:transformation_fence
+    twilightforest:transformation_fence_gate
+    twilightforest:transformation_hanging_sign
+    twilightforest:transformation_leaves
+    twilightforest:transformation_log
+    twilightforest:transformation_log_core
+    twilightforest:transformation_planks
+    twilightforest:transformation_powder
+    twilightforest:transformation_pressure_plate
+    twilightforest:transformation_sapling
+    twilightforest:transformation_sign
+    twilightforest:transformation_slab
+    twilightforest:transformation_stairs
+    twilightforest:transformation_trapdoor
+    twilightforest:transformation_wood
+    twilightforest:triple_bow
+    twilightforest:troll_spawn_egg
+    twilightforest:trollber
+    twilightforest:trollsteinn
+    twilightforest:trollvidr
+    twilightforest:trophy_pedestal
+    twilightforest:twilight_oak_banister
+    twilightforest:twilight_oak_boat
+    twilightforest:twilight_oak_button
+    twilightforest:twilight_oak_chest
+    twilightforest:twilight_oak_chest_boat
+    twilightforest:twilight_oak_door
+    twilightforest:twilight_oak_fence
+    twilightforest:twilight_oak_fence_gate
+    twilightforest:twilight_oak_hanging_sign
+    twilightforest:twilight_oak_leaves
+    twilightforest:twilight_oak_log
+    twilightforest:twilight_oak_planks
+    twilightforest:twilight_oak_pressure_plate
+    twilightforest:twilight_oak_sapling
+    twilightforest:twilight_oak_sign
+    twilightforest:twilight_oak_slab
+    twilightforest:twilight_oak_stairs
+    twilightforest:twilight_oak_trapdoor
+    twilightforest:twilight_oak_wood
+    twilightforest:twilight_portal_miniature_structure
+    twilightforest:twilight_scepter
+    twilightforest:twisted_stone
+    twilightforest:twisted_stone_pillar
+    twilightforest:uberous_soil
+    twilightforest:uncrafting_table
+    twilightforest:underbrick
+    twilightforest:underbrick_floor
+    twilightforest:unripe_trollber
+    twilightforest:unstable_ice_core_spawn_egg
+    twilightforest:ur_ghast_banner_pattern
+    twilightforest:ur_ghast_boss_spawner
+    twilightforest:ur_ghast_spawn_egg
+    twilightforest:ur_ghast_trophy
+    twilightforest:vangrove_banister
+    twilightforest:vanishing_block
+    twilightforest:violet_castle_door
+    twilightforest:violet_castle_rune_brick
+    twilightforest:violet_force_field
+    twilightforest:warped_banister
+    twilightforest:weathered_deadrock
+    twilightforest:winter_wolf_spawn_egg
+    twilightforest:wispy_cloud
+    twilightforest:wither_skeleton_skull_candle
+    twilightforest:worn_castle_brick
+    twilightforest:worn_castle_brick_stairs
+    twilightforest:wraith_spawn_egg
+    twilightforest:wrought_iron_fence
+    twilightforest:yellow_castle_door
+    twilightforest:yellow_castle_rune_brick
+    twilightforest:yeti_boots
+    twilightforest:yeti_chestplate
+    twilightforest:yeti_helmet
+    twilightforest:yeti_leggings
+    twilightforest:yeti_spawn_egg
+    twilightforest:zombie_scepter
+    twilightforest:zombie_skull_candle
+
+Missing minecraft:block:
+    twilightforest:acacia_banister
+    twilightforest:alpha_yeti_boss_spawner
+    twilightforest:alpha_yeti_trophy
+    twilightforest:alpha_yeti_wall_trophy
+    twilightforest:antibuilder
+    twilightforest:antibuilt_block
+    twilightforest:arctic_fur_block
+    twilightforest:aurora_block
+    twilightforest:aurora_pillar
+    twilightforest:aurora_slab
+    twilightforest:auroralized_glass
+    twilightforest:bamboo_banister
+    twilightforest:beanstalk_grower
+    twilightforest:beanstalk_leaves
+    twilightforest:birch_banister
+    twilightforest:blue_castle_door
+    twilightforest:blue_castle_rune_brick
+    twilightforest:blue_force_field
+    twilightforest:bold_castle_brick_pillar
+    twilightforest:bold_castle_brick_stairs
+    twilightforest:bold_castle_brick_tile
+    twilightforest:bold_stone_pillar
+    twilightforest:brown_thorns
+    twilightforest:built_block
+    twilightforest:burnt_thorns
+    twilightforest:candelabra
+    twilightforest:canopy_banister
+    twilightforest:canopy_bookshelf
+    twilightforest:canopy_button
+    twilightforest:canopy_chest
+    twilightforest:canopy_door
+    twilightforest:canopy_fence
+    twilightforest:canopy_fence_gate
+    twilightforest:canopy_hanging_sign
+    twilightforest:canopy_leaves
+    twilightforest:canopy_log
+    twilightforest:canopy_planks
+    twilightforest:canopy_pressure_plate
+    twilightforest:canopy_sapling
+    twilightforest:canopy_sign
+    twilightforest:canopy_slab
+    twilightforest:canopy_stairs
+    twilightforest:canopy_trapdoor
+    twilightforest:canopy_wall_hanging_sign
+    twilightforest:canopy_wall_sign
+    twilightforest:canopy_wood
+    twilightforest:carminite_block
+    twilightforest:carminite_builder
+    twilightforest:carminite_reactor
+    twilightforest:castle_brick
+    twilightforest:castle_brick_stairs
+    twilightforest:castle_roof_tile
+    twilightforest:cherry_banister
+    twilightforest:cicada
+    twilightforest:cicada_jar
+    twilightforest:cinder_furnace
+    twilightforest:cinder_log
+    twilightforest:cinder_wood
+    twilightforest:clover_patch
+    twilightforest:cracked_castle_brick
+    twilightforest:cracked_castle_brick_stairs
+    twilightforest:cracked_deadrock
+    twilightforest:cracked_etched_nagastone
+    twilightforest:cracked_mazestone
+    twilightforest:cracked_nagastone_pillar
+    twilightforest:cracked_nagastone_stairs_left
+    twilightforest:cracked_nagastone_stairs_right
+    twilightforest:cracked_towerwood
+    twilightforest:cracked_underbrick
+    twilightforest:creeper_skull_candle
+    twilightforest:creeper_wall_skull_candle
+    twilightforest:crimson_banister
+    twilightforest:cut_mazestone
+    twilightforest:dark_banister
+    twilightforest:dark_button
+    twilightforest:dark_chest
+    twilightforest:dark_door
+    twilightforest:dark_fence
+    twilightforest:dark_fence_gate
+    twilightforest:dark_hanging_sign
+    twilightforest:dark_leaves
+    twilightforest:dark_log
+    twilightforest:dark_oak_banister
+    twilightforest:dark_planks
+    twilightforest:dark_pressure_plate
+    twilightforest:dark_sign
+    twilightforest:dark_slab
+    twilightforest:dark_stairs
+    twilightforest:dark_trapdoor
+    twilightforest:dark_wall_hanging_sign
+    twilightforest:dark_wall_sign
+    twilightforest:dark_wood
+    twilightforest:darkwood_sapling
+    twilightforest:deadrock
+    twilightforest:death_tome_spawner
+    twilightforest:decorative_mazestone
+    twilightforest:empty_canopy_bookshelf
+    twilightforest:encased_castle_brick_pillar
+    twilightforest:encased_castle_brick_stairs
+    twilightforest:encased_castle_brick_tile
+    twilightforest:encased_fire_jet
+    twilightforest:encased_smoker
+    twilightforest:encased_towerwood
+    twilightforest:etched_nagastone
+    twilightforest:experiment_115
+    twilightforest:fake_diamond
+    twilightforest:fake_gold
+    twilightforest:fallen_leaves
+    twilightforest:fiddlehead
+    twilightforest:fiery_block
+    twilightforest:final_boss_boss_spawner
+    twilightforest:fire_jet
+    twilightforest:firefly
+    twilightforest:firefly_jar
+    twilightforest:firefly_particle_spawner
+    twilightforest:fluffy_cloud
+    twilightforest:ghast_trap
+    twilightforest:giant_cobblestone
+    twilightforest:giant_leaves
+    twilightforest:giant_log
+    twilightforest:giant_obsidian
+    twilightforest:green_force_field
+    twilightforest:green_thorns
+    twilightforest:hardened_dark_leaves
+    twilightforest:hedge
+    twilightforest:hollow_acacia_log_climbable
+    twilightforest:hollow_acacia_log_horizontal
+    twilightforest:hollow_acacia_log_vertical
+    twilightforest:hollow_birch_log_climbable
+    twilightforest:hollow_birch_log_horizontal
+    twilightforest:hollow_birch_log_vertical
+    twilightforest:hollow_canopy_log_climbable
+    twilightforest:hollow_canopy_log_horizontal
+    twilightforest:hollow_canopy_log_vertical
+    twilightforest:hollow_cherry_log_climbable
+    twilightforest:hollow_cherry_log_horizontal
+    twilightforest:hollow_cherry_log_vertical
+    twilightforest:hollow_crimson_stem_climbable
+    twilightforest:hollow_crimson_stem_horizontal
+    twilightforest:hollow_crimson_stem_vertical
+    twilightforest:hollow_dark_log_climbable
+    twilightforest:hollow_dark_log_horizontal
+    twilightforest:hollow_dark_log_vertical
+    twilightforest:hollow_dark_oak_log_climbable
+    twilightforest:hollow_dark_oak_log_horizontal
+    twilightforest:hollow_dark_oak_log_vertical
+    twilightforest:hollow_jungle_log_climbable
+    twilightforest:hollow_jungle_log_horizontal
+    twilightforest:hollow_jungle_log_vertical
+    twilightforest:hollow_mangrove_log_climbable
+    twilightforest:hollow_mangrove_log_horizontal
+    twilightforest:hollow_mangrove_log_vertical
+    twilightforest:hollow_mining_log_climbable
+    twilightforest:hollow_mining_log_horizontal
+    twilightforest:hollow_mining_log_vertical
+    twilightforest:hollow_oak_log_climbable
+    twilightforest:hollow_oak_log_horizontal
+    twilightforest:hollow_oak_log_vertical
+    twilightforest:hollow_oak_sapling
+    twilightforest:hollow_sorting_log_climbable
+    twilightforest:hollow_sorting_log_horizontal
+    twilightforest:hollow_sorting_log_vertical
+    twilightforest:hollow_spruce_log_climbable
+    twilightforest:hollow_spruce_log_horizontal
+    twilightforest:hollow_spruce_log_vertical
+    twilightforest:hollow_time_log_climbable
+    twilightforest:hollow_time_log_horizontal
+    twilightforest:hollow_time_log_vertical
+    twilightforest:hollow_transformation_log_climbable
+    twilightforest:hollow_transformation_log_horizontal
+    twilightforest:hollow_transformation_log_vertical
+    twilightforest:hollow_twilight_oak_log_climbable
+    twilightforest:hollow_twilight_oak_log_horizontal
+    twilightforest:hollow_twilight_oak_log_vertical
+    twilightforest:hollow_vangrove_log_climbable
+    twilightforest:hollow_vangrove_log_horizontal
+    twilightforest:hollow_vangrove_log_vertical
+    twilightforest:hollow_warped_stem_climbable
+    twilightforest:hollow_warped_stem_horizontal
+    twilightforest:hollow_warped_stem_vertical
+    twilightforest:huge_lily_pad
+    twilightforest:huge_mushgloom
+    twilightforest:huge_mushgloom_stem
+    twilightforest:huge_stalk
+    twilightforest:huge_water_lily
+    twilightforest:hydra_boss_spawner
+    twilightforest:hydra_trophy
+    twilightforest:hydra_wall_trophy
+    twilightforest:infested_towerwood
+    twilightforest:iron_ladder
+    twilightforest:ironwood_block
+    twilightforest:jungle_banister
+    twilightforest:keepsake_casket
+    twilightforest:knight_phantom_boss_spawner
+    twilightforest:knight_phantom_trophy
+    twilightforest:knight_phantom_wall_trophy
+    twilightforest:knightmetal_block
+    twilightforest:lich_boss_spawner
+    twilightforest:lich_tower_miniature_structure
+    twilightforest:lich_trophy
+    twilightforest:lich_wall_trophy
+    twilightforest:liveroot_block
+    twilightforest:locked_vanishing_block
+    twilightforest:mangrove_banister
+    twilightforest:mangrove_button
+    twilightforest:mangrove_chest
+    twilightforest:mangrove_door
+    twilightforest:mangrove_fence
+    twilightforest:mangrove_fence_gate
+    twilightforest:mangrove_hanging_sign
+    twilightforest:mangrove_leaves
+    twilightforest:mangrove_log
+    twilightforest:mangrove_planks
+    twilightforest:mangrove_pressure_plate
+    twilightforest:mangrove_root
+    twilightforest:mangrove_sapling
+    twilightforest:mangrove_sign
+    twilightforest:mangrove_slab
+    twilightforest:mangrove_stairs
+    twilightforest:mangrove_trapdoor
+    twilightforest:mangrove_wall_hanging_sign
+    twilightforest:mangrove_wall_sign
+    twilightforest:mangrove_wood
+    twilightforest:mayapple
+    twilightforest:mazestone
+    twilightforest:mazestone_border
+    twilightforest:mazestone_brick
+    twilightforest:mazestone_mosaic
+    twilightforest:mining_banister
+    twilightforest:mining_button
+    twilightforest:mining_chest
+    twilightforest:mining_door
+    twilightforest:mining_fence
+    twilightforest:mining_fence_gate
+    twilightforest:mining_hanging_sign
+    twilightforest:mining_leaves
+    twilightforest:mining_log
+    twilightforest:mining_log_core
+    twilightforest:mining_planks
+    twilightforest:mining_pressure_plate
+    twilightforest:mining_sapling
+    twilightforest:mining_sign
+    twilightforest:mining_slab
+    twilightforest:mining_stairs
+    twilightforest:mining_trapdoor
+    twilightforest:mining_wall_hanging_sign
+    twilightforest:mining_wall_sign
+    twilightforest:mining_wood
+    twilightforest:minoshroom_boss_spawner
+    twilightforest:minoshroom_trophy
+    twilightforest:minoshroom_wall_trophy
+    twilightforest:moonworm
+    twilightforest:moss_patch
+    twilightforest:mossy_castle_brick
+    twilightforest:mossy_castle_brick_stairs
+    twilightforest:mossy_etched_nagastone
+    twilightforest:mossy_mazestone
+    twilightforest:mossy_nagastone_pillar
+    twilightforest:mossy_nagastone_stairs_left
+    twilightforest:mossy_nagastone_stairs_right
+    twilightforest:mossy_towerwood
+    twilightforest:mossy_underbrick
+    twilightforest:mushgloom
+    twilightforest:naga_boss_spawner
+    twilightforest:naga_courtyard_miniature_structure
+    twilightforest:naga_trophy
+    twilightforest:naga_wall_trophy
+    twilightforest:nagastone
+    twilightforest:nagastone_head
+    twilightforest:nagastone_pillar
+    twilightforest:nagastone_stairs_left
+    twilightforest:nagastone_stairs_right
+    twilightforest:oak_banister
+    twilightforest:orange_force_field
+    twilightforest:piglin_skull_candle
+    twilightforest:piglin_wall_skull_candle
+    twilightforest:pink_castle_door
+    twilightforest:pink_castle_rune_brick
+    twilightforest:pink_force_field
+    twilightforest:player_skull_candle
+    twilightforest:player_wall_skull_candle
+    twilightforest:potted_canopy_sapling
+    twilightforest:potted_darkwood_sapling
+    twilightforest:potted_dead_thorn
+    twilightforest:potted_fiddlehead
+    twilightforest:potted_green_thorn
+    twilightforest:potted_hollow_oak_sapling
+    twilightforest:potted_mangrove_sapling
+    twilightforest:potted_mayapple
+    twilightforest:potted_mining_sapling
+    twilightforest:potted_mushgloom
+    twilightforest:potted_rainbow_oak_sapling
+    twilightforest:potted_sorting_sapling
+    twilightforest:potted_thorn
+    twilightforest:potted_time_sapling
+    twilightforest:potted_transformation_sapling
+    twilightforest:potted_twilight_oak_sapling
+    twilightforest:quest_ram_trophy
+    twilightforest:quest_ram_wall_trophy
+    twilightforest:rainbow_oak_leaves
+    twilightforest:rainbow_oak_sapling
+    twilightforest:rainy_cloud
+    twilightforest:reactor_debris
+    twilightforest:reappearing_block
+    twilightforest:red_thread
+    twilightforest:root
+    twilightforest:root_strand
+    twilightforest:skeleton_skull_candle
+    twilightforest:skeleton_wall_skull_candle
+    twilightforest:slider
+    twilightforest:smoker
+    twilightforest:snow_queen_boss_spawner
+    twilightforest:snow_queen_trophy
+    twilightforest:snow_queen_wall_trophy
+    twilightforest:snowy_cloud
+    twilightforest:sorting_banister
+    twilightforest:sorting_button
+    twilightforest:sorting_chest
+    twilightforest:sorting_door
+    twilightforest:sorting_fence
+    twilightforest:sorting_fence_gate
+    twilightforest:sorting_hanging_sign
+    twilightforest:sorting_leaves
+    twilightforest:sorting_log
+    twilightforest:sorting_log_core
+    twilightforest:sorting_planks
+    twilightforest:sorting_pressure_plate
+    twilightforest:sorting_sapling
+    twilightforest:sorting_sign
+    twilightforest:sorting_slab
+    twilightforest:sorting_stairs
+    twilightforest:sorting_trapdoor
+    twilightforest:sorting_wall_hanging_sign
+    twilightforest:sorting_wall_sign
+    twilightforest:sorting_wood
+    twilightforest:spiral_bricks
+    twilightforest:spruce_banister
+    twilightforest:steeleaf_block
+    twilightforest:stripped_canopy_log
+    twilightforest:stripped_canopy_wood
+    twilightforest:stripped_dark_log
+    twilightforest:stripped_dark_wood
+    twilightforest:stripped_mangrove_log
+    twilightforest:stripped_mangrove_wood
+    twilightforest:stripped_mining_log
+    twilightforest:stripped_mining_wood
+    twilightforest:stripped_sorting_log
+    twilightforest:stripped_sorting_wood
+    twilightforest:stripped_time_log
+    twilightforest:stripped_time_wood
+    twilightforest:stripped_transformation_log
+    twilightforest:stripped_transformation_wood
+    twilightforest:stripped_twilight_oak_log
+    twilightforest:stripped_twilight_oak_wood
+    twilightforest:stronghold_shield
+    twilightforest:thick_castle_brick
+    twilightforest:thorn_leaves
+    twilightforest:thorn_rose
+    twilightforest:time_banister
+    twilightforest:time_button
+    twilightforest:time_chest
+    twilightforest:time_door
+    twilightforest:time_fence
+    twilightforest:time_fence_gate
+    twilightforest:time_hanging_sign
+    twilightforest:time_leaves
+    twilightforest:time_log
+    twilightforest:time_log_core
+    twilightforest:time_planks
+    twilightforest:time_pressure_plate
+    twilightforest:time_sapling
+    twilightforest:time_sign
+    twilightforest:time_slab
+    twilightforest:time_stairs
+    twilightforest:time_trapdoor
+    twilightforest:time_wall_hanging_sign
+    twilightforest:time_wall_sign
+    twilightforest:time_wood
+    twilightforest:torchberry_plant
+    twilightforest:towerwood
+    twilightforest:transformation_banister
+    twilightforest:transformation_button
+    twilightforest:transformation_chest
+    twilightforest:transformation_door
+    twilightforest:transformation_fence
+    twilightforest:transformation_fence_gate
+    twilightforest:transformation_hanging_sign
+    twilightforest:transformation_leaves
+    twilightforest:transformation_log
+    twilightforest:transformation_log_core
+    twilightforest:transformation_planks
+    twilightforest:transformation_pressure_plate
+    twilightforest:transformation_sapling
+    twilightforest:transformation_sign
+    twilightforest:transformation_slab
+    twilightforest:transformation_stairs
+    twilightforest:transformation_trapdoor
+    twilightforest:transformation_wall_hanging_sign
+    twilightforest:transformation_wall_sign
+    twilightforest:transformation_wood
+    twilightforest:trollber
+    twilightforest:trollsteinn
+    twilightforest:trollvidr
+    twilightforest:trophy_pedestal
+    twilightforest:twilight_oak_banister
+    twilightforest:twilight_oak_button
+    twilightforest:twilight_oak_chest
+    twilightforest:twilight_oak_door
+    twilightforest:twilight_oak_fence
+    twilightforest:twilight_oak_fence_gate
+    twilightforest:twilight_oak_hanging_sign
+    twilightforest:twilight_oak_leaves
+    twilightforest:twilight_oak_log
+    twilightforest:twilight_oak_planks
+    twilightforest:twilight_oak_pressure_plate
+    twilightforest:twilight_oak_sapling
+    twilightforest:twilight_oak_sign
+    twilightforest:twilight_oak_slab
+    twilightforest:twilight_oak_stairs
+    twilightforest:twilight_oak_trapdoor
+    twilightforest:twilight_oak_wall_hanging_sign
+    twilightforest:twilight_oak_wood
+    twilightforest:twilight_portal
+    twilightforest:twilight_portal_miniature_structure
+    twilightforest:twilight_wall_sign
+    twilightforest:twisted_stone
+    twilightforest:twisted_stone_pillar
+    twilightforest:uberous_soil
+    twilightforest:unbreakable_vanishing_block
+    twilightforest:uncrafting_table
+    twilightforest:underbrick
+    twilightforest:underbrick_floor
+    twilightforest:unripe_trollber
+    twilightforest:ur_ghast_boss_spawner
+    twilightforest:ur_ghast_trophy
+    twilightforest:ur_ghast_wall_trophy
+    twilightforest:vangrove_banister
+    twilightforest:vanishing_block
+    twilightforest:violet_castle_door
+    twilightforest:violet_castle_rune_brick
+    twilightforest:violet_force_field
+    twilightforest:warped_banister
+    twilightforest:weathered_deadrock
+    twilightforest:wispy_cloud
+    twilightforest:wither_skeleton_skull_candle
+    twilightforest:wither_skeleton_wall_skull_candle
+    twilightforest:worn_castle_brick
+    twilightforest:worn_castle_brick_stairs
+    twilightforest:wrought_iron_fence
+    twilightforest:yellow_castle_door
+    twilightforest:yellow_castle_rune_brick
+    twilightforest:zombie_skull_candle
+    twilightforest:zombie_wall_skull_candle
+
+Missing minecraft:point_of_interest_type:
+    twilightforest:ghast_trap
+
+Missing minecraft:mob_effect:
+    twilightforest:frosted
+
+Missing minecraft:enchantment:
+    twilightforest:chill_aura
+    twilightforest:destruction
+    twilightforest:fire_react
+
+Missing minecraft:entity_type:
+    twilightforest:adherent
+    twilightforest:alpha_yeti
+    twilightforest:armored_giant
+    twilightforest:bighorn_sheep
+    twilightforest:blockchain_goblin
+    twilightforest:boar
+    twilightforest:boat
+    twilightforest:carminite_broodling
+    twilightforest:carminite_ghastguard
+    twilightforest:carminite_ghastling
+    twilightforest:carminite_golem
+    twilightforest:chain_block
+    twilightforest:charm_effect
+    twilightforest:chest_boat
+    twilightforest:cube_of_annihilation
+    twilightforest:death_tome
+    twilightforest:deer
+    twilightforest:dwarf_rabbit
+    twilightforest:falling_ice
+    twilightforest:fire_beetle
+    twilightforest:giant_miner
+    twilightforest:harbinger_cube
+    twilightforest:hedge_spider
+    twilightforest:helmet_crab
+    twilightforest:hostile_wolf
+    twilightforest:hydra
+    twilightforest:hydra_mortar
+    twilightforest:ice_arrow
+    twilightforest:ice_crystal
+    twilightforest:ice_snowball
+    twilightforest:king_spider
+    twilightforest:knight_phantom
+    twilightforest:kobold
+    twilightforest:lich
+    twilightforest:lich_bolt
+    twilightforest:lich_bomb
+    twilightforest:lich_minion
+    twilightforest:lower_goblin_knight
+    twilightforest:loyal_zombie
+    twilightforest:magic_painting
+    twilightforest:maze_slime
+    twilightforest:minoshroom
+    twilightforest:minotaur
+    twilightforest:mist_wolf
+    twilightforest:moonworm_shot
+    twilightforest:mosquito_swarm
+    twilightforest:naga
+    twilightforest:nature_bolt
+    twilightforest:penguin
+    twilightforest:pinch_beetle
+    twilightforest:plateau_boss
+    twilightforest:protection_box
+    twilightforest:quest_ram
+    twilightforest:raven
+    twilightforest:redcap
+    twilightforest:redcap_sapper
+    twilightforest:rising_zombie
+    twilightforest:roving_cube
+    twilightforest:seeker_arrow
+    twilightforest:skeleton_druid
+    twilightforest:slider
+    twilightforest:slime_beetle
+    twilightforest:slime_blob
+    twilightforest:snow_guardian
+    twilightforest:snow_queen
+    twilightforest:squirrel
+    twilightforest:stable_ice_core
+    twilightforest:swarm_spider
+    twilightforest:thrown_block
+    twilightforest:thrown_ice
+    twilightforest:thrown_wep
+    twilightforest:tiny_bird
+    twilightforest:tome_bolt
+    twilightforest:towerwood_borer
+    twilightforest:troll
+    twilightforest:unstable_ice_core
+    twilightforest:upper_goblin_knight
+    twilightforest:ur_ghast
+    twilightforest:wand_bolt
+    twilightforest:winter_wolf
+    twilightforest:wraith
+    twilightforest:yeti
+
+
+[02Aug2024 12:31:36.695] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[02Aug2024 12:31:37.387] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[02Aug2024 12:31:37.388] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MQMISPN2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[02Aug2024 12:31:37.445] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:twilightforest
+[02Aug2024 12:31:38.995] [main/ERROR] [net.minecraft.world.level.storage.LevelStorageSource/]: WorldGenSettings: Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: twilightforest:structure_locating_wrapper; Failed to get element ResourceKey[minecraft:dimension_type / twilightforest:twilight_forest_type] missed input: {"twilightforest:twilight_forest":{generator:{dark_forest_canopy_height:19,generate_dark_forest_canopy:1b,landmark_placement_allowed_biomes:{"twilightforest:dark_forest":["knight_stronghold"],"twilightforest:dark_forest_center":["dark_tower"],"twilightforest:enchanted_forest":["quest_grove"],"twilightforest:final_plateau":["final_castle"],"twilightforest:fire_swamp":["hydra_lair"],"twilightforest:glacier":["ice_tower"],"twilightforest:highlands":["troll_lairs"],"twilightforest:snowy_forest":["yeti_lairs"],"twilightforest:swamp":["labyrinth"]},noise_generation_settings:"twilightforest:twilight_noise_gen",type:"twilightforest:structure_locating_wrapper",wrapped_generator:{biome_source:{base_factor:2.5f,base_offset:-1.25f,biome_landscape:[{biome_layers:{-1.0:"twilightforest:clearing",-3.0:"twilightforest:underground"},depth:0.005f,key_biome:"twilightforest:clearing",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dark_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:dark_forest",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dark_forest_center",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:dark_forest_center",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dense_forest",-3.0:"twilightforest:underground"},depth:0.1f,key_biome:"twilightforest:dense_forest",scale:0.2f},{biome_layers:{-1.0:"twilightforest:dense_mushroom_forest",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:dense_mushroom_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:enchanted_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:enchanted_forest",scale:0.05f},{biome_layers:{0.0:"twilightforest:final_plateau"},depth:13.75f,key_biome:"twilightforest:final_plateau",scale:0.025f},{biome_layers:{-1.2:"twilightforest:fire_swamp",-3.2:"twilightforest:underground"},depth:-0.2f,key_biome:"twilightforest:fire_swamp",scale:0.05f},{biome_layers:{-1.0:"twilightforest:firefly_forest",-3.0:"twilightforest:underground"},depth:0.0625f,key_biome:"twilightforest:firefly_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:glacier",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:glacier",scale:0.05f},{biome_layers:{-1.0:"twilightforest:highlands",-3.0:"twilightforest:underground"},depth:3.0f,key_biome:"twilightforest:highlands",scale:0.25f},{biome_layers:{-2.97:"twilightforest:lake",-4.9700003:"twilightforest:underground"},depth:-1.97f,key_biome:"twilightforest:lake",scale:0.0f},{biome_layers:{-1.0:"twilightforest:mushroom_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:mushroom_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:oak_savannah",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:oak_savannah",scale:0.1f},{biome_layers:{-1.0:"twilightforest:snowy_forest",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:snowy_forest",scale:0.15f},{biome_layers:{-1.0:"twilightforest:spooky_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:spooky_forest",scale:0.05f},{biome_layers:{-2.65:"twilightforest:stream",-4.65:"twilightforest:underground"},depth:-1.65f,key_biome:"twilightforest:stream",scale:0.25f},{biome_layers:{-1.9:"twilightforest:swamp",-3.9:"twilightforest:underground"},depth:-0.9f,key_biome:"twilightforest:swamp",scale:0.15f},{biome_layers:{0.0:"twilightforest:thornlands"},depth:7.0f,key_biome:"twilightforest:thornlands",scale:0.1f}],biome_layer_config:"twilightforest:biomes_along_streams",type:"twilightforest:twilight_biomes"},settings:"twilightforest:twilight_noise_gen",type:"minecraft:noise"}},type:"twilightforest:twilight_forest_type"}}
+[02Aug2024 12:31:38.997] [main/WARN] [net.minecraft.server.Main/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: twilightforest:structure_locating_wrapper; Failed to get element ResourceKey[minecraft:dimension_type / twilightforest:twilight_forest_type] missed input: {"twilightforest:twilight_forest":{generator:{dark_forest_canopy_height:19,generate_dark_forest_canopy:1b,landmark_placement_allowed_biomes:{"twilightforest:dark_forest":["knight_stronghold"],"twilightforest:dark_forest_center":["dark_tower"],"twilightforest:enchanted_forest":["quest_grove"],"twilightforest:final_plateau":["final_castle"],"twilightforest:fire_swamp":["hydra_lair"],"twilightforest:glacier":["ice_tower"],"twilightforest:highlands":["troll_lairs"],"twilightforest:snowy_forest":["yeti_lairs"],"twilightforest:swamp":["labyrinth"]},noise_generation_settings:"twilightforest:twilight_noise_gen",type:"twilightforest:structure_locating_wrapper",wrapped_generator:{biome_source:{base_factor:2.5f,base_offset:-1.25f,biome_landscape:[{biome_layers:{-1.0:"twilightforest:clearing",-3.0:"twilightforest:underground"},depth:0.005f,key_biome:"twilightforest:clearing",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dark_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:dark_forest",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dark_forest_center",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:dark_forest_center",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dense_forest",-3.0:"twilightforest:underground"},depth:0.1f,key_biome:"twilightforest:dense_forest",scale:0.2f},{biome_layers:{-1.0:"twilightforest:dense_mushroom_forest",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:dense_mushroom_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:enchanted_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:enchanted_forest",scale:0.05f},{biome_layers:{0.0:"twilightforest:final_plateau"},depth:13.75f,key_biome:"twilightforest:final_plateau",scale:0.025f},{biome_layers:{-1.2:"twilightforest:fire_swamp",-3.2:"twilightforest:underground"},depth:-0.2f,key_biome:"twilightforest:fire_swamp",scale:0.05f},{biome_layers:{-1.0:"twilightforest:firefly_forest",-3.0:"twilightforest:underground"},depth:0.0625f,key_biome:"twilightforest:firefly_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:glacier",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:glacier",scale:0.05f},{biome_layers:{-1.0:"twilightforest:highlands",-3.0:"twilightforest:underground"},depth:3.0f,key_biome:"twilightforest:highlands",scale:0.25f},{biome_layers:{-2.97:"twilightforest:lake",-4.9700003:"twilightforest:underground"},depth:-1.97f,key_biome:"twilightforest:lake",scale:0.0f},{biome_layers:{-1.0:"twilightforest:mushroom_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:mushroom_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:oak_savannah",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:oak_savannah",scale:0.1f},{biome_layers:{-1.0:"twilightforest:snowy_forest",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:snowy_forest",scale:0.15f},{biome_layers:{-1.0:"twilightforest:spooky_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:spooky_forest",scale:0.05f},{biome_layers:{-2.65:"twilightforest:stream",-4.65:"twilightforest:underground"},depth:-1.65f,key_biome:"twilightforest:stream",scale:0.25f},{biome_layers:{-1.9:"twilightforest:swamp",-3.9:"twilightforest:underground"},depth:-0.9f,key_biome:"twilightforest:swamp",scale:0.15f},{biome_layers:{0.0:"twilightforest:thornlands"},depth:7.0f,key_biome:"twilightforest:thornlands",scale:0.1f}],biome_layer_config:"twilightforest:biomes_along_streams",type:"twilightforest:twilight_biomes"},settings:"twilightforest:twilight_noise_gen",type:"minecraft:noise"}},type:"twilightforest:twilight_forest_type"}}
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:195) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.RuntimeException: Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: twilightforest:structure_locating_wrapper; Failed to get element ResourceKey[minecraft:dimension_type / twilightforest:twilight_forest_type] missed input: {"twilightforest:twilight_forest":{generator:{dark_forest_canopy_height:19,generate_dark_forest_canopy:1b,landmark_placement_allowed_biomes:{"twilightforest:dark_forest":["knight_stronghold"],"twilightforest:dark_forest_center":["dark_tower"],"twilightforest:enchanted_forest":["quest_grove"],"twilightforest:final_plateau":["final_castle"],"twilightforest:fire_swamp":["hydra_lair"],"twilightforest:glacier":["ice_tower"],"twilightforest:highlands":["troll_lairs"],"twilightforest:snowy_forest":["yeti_lairs"],"twilightforest:swamp":["labyrinth"]},noise_generation_settings:"twilightforest:twilight_noise_gen",type:"twilightforest:structure_locating_wrapper",wrapped_generator:{biome_source:{base_factor:2.5f,base_offset:-1.25f,biome_landscape:[{biome_layers:{-1.0:"twilightforest:clearing",-3.0:"twilightforest:underground"},depth:0.005f,key_biome:"twilightforest:clearing",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dark_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:dark_forest",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dark_forest_center",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:dark_forest_center",scale:0.005f},{biome_layers:{-1.0:"twilightforest:dense_forest",-3.0:"twilightforest:underground"},depth:0.1f,key_biome:"twilightforest:dense_forest",scale:0.2f},{biome_layers:{-1.0:"twilightforest:dense_mushroom_forest",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:dense_mushroom_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:enchanted_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:enchanted_forest",scale:0.05f},{biome_layers:{0.0:"twilightforest:final_plateau"},depth:13.75f,key_biome:"twilightforest:final_plateau",scale:0.025f},{biome_layers:{-1.2:"twilightforest:fire_swamp",-3.2:"twilightforest:underground"},depth:-0.2f,key_biome:"twilightforest:fire_swamp",scale:0.05f},{biome_layers:{-1.0:"twilightforest:firefly_forest",-3.0:"twilightforest:underground"},depth:0.0625f,key_biome:"twilightforest:firefly_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:glacier",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:glacier",scale:0.05f},{biome_layers:{-1.0:"twilightforest:highlands",-3.0:"twilightforest:underground"},depth:3.0f,key_biome:"twilightforest:highlands",scale:0.25f},{biome_layers:{-2.97:"twilightforest:lake",-4.9700003:"twilightforest:underground"},depth:-1.97f,key_biome:"twilightforest:lake",scale:0.0f},{biome_layers:{-1.0:"twilightforest:mushroom_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:mushroom_forest",scale:0.05f},{biome_layers:{-1.0:"twilightforest:oak_savannah",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:oak_savannah",scale:0.1f},{biome_layers:{-1.0:"twilightforest:snowy_forest",-3.0:"twilightforest:underground"},depth:0.05f,key_biome:"twilightforest:snowy_forest",scale:0.15f},{biome_layers:{-1.0:"twilightforest:spooky_forest",-3.0:"twilightforest:underground"},depth:0.025f,key_biome:"twilightforest:spooky_forest",scale:0.05f},{biome_layers:{-2.65:"twilightforest:stream",-4.65:"twilightforest:underground"},depth:-1.65f,key_biome:"twilightforest:stream",scale:0.25f},{biome_layers:{-1.9:"twilightforest:swamp",-3.9:"twilightforest:underground"},depth:-0.9f,key_biome:"twilightforest:swamp",scale:0.15f},{biome_layers:{0.0:"twilightforest:thornlands"},depth:7.0f,key_biome:"twilightforest:thornlands",scale:0.1f}],biome_layer_config:"twilightforest:biomes_along_streams",type:"twilightforest:twilight_biomes"},settings:"twilightforest:twilight_noise_gen",type:"minecraft:noise"}},type:"twilightforest:twilight_forest_type"}}
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_264027_(LevelStorageSource.java:244) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_230817_(LevelStorageSource.java:202) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.m_246049_(LevelStorageSource.java:439) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.server.WorldLoader.m_214362_(WorldLoader.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:167) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:777) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	... 13 more
