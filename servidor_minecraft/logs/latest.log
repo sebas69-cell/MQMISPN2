@@ -1,62 +1,50 @@
-[05Aug2024 07:19:05.834] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[05Aug2024 07:19:05.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.24 by Ubuntu
-[05Aug2024 07:19:06.428] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[05Aug2024 07:19:06.576] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/MQMISPN2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[05Aug2024 07:19:06.698] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/MQMISPN2/servidor_minecraft/config/fml.toml is not correct. Correcting
-[05Aug2024 07:19:06.708] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [splashscreen] was corrected from null to true
-[05Aug2024 07:19:06.710] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowHeight] was corrected from 768 to null
-[05Aug2024 07:19:06.711] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowControl] was corrected from true to null
-[05Aug2024 07:19:06.712] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowFBScale] was corrected from 1 to null
-[05Aug2024 07:19:06.712] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowProvider] was corrected from fmlearlywindow to null
-[05Aug2024 07:19:06.713] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowWidth] was corrected from 1024 to null
-[05Aug2024 07:19:06.716] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowMaximized] was corrected from false to null
-[05Aug2024 07:19:06.716] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [disableOptimizedDFU] was corrected from true to null
-[05Aug2024 07:19:06.717] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from [] to null
-[05Aug2024 07:19:06.718] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from false to null
-[05Aug2024 07:19:06.723] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from false to null
-[05Aug2024 07:19:07.037] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.NullPointerException
-[05Aug2024 07:19:07.038] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileLocator.findManifestAndSigners(AbstractJarFileLocator.java:105)
-[05Aug2024 07:19:07.039] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileLocator.findManifest(AbstractJarFileLocator.java:94)
-[05Aug2024 07:19:07.039] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.lambda$new$0(ModFile.java:81)
-[05Aug2024 07:19:07.040] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.Optional.flatMap(Optional.java:294)
-[05Aug2024 07:19:07.040] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.<init>(ModFile.java:81)
-[05Aug2024 07:19:07.042] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.newFMLInstance(ModFile.java:212)
-[05Aug2024 07:19:07.046] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModsFolderLocator.lambda$scanMods$4(ModsFolderLocator.java:68)
-[05Aug2024 07:19:07.046] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-[05Aug2024 07:19:07.053] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-[05Aug2024 07:19:07.054] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-[05Aug2024 07:19:07.056] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
-[05Aug2024 07:19:07.056] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-[05Aug2024 07:19:07.058] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-[05Aug2024 07:19:07.059] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-[05Aug2024 07:19:07.060] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-[05Aug2024 07:19:07.060] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[05Aug2024 07:19:07.061] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-[05Aug2024 07:19:07.062] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModsFolderLocator.scanMods(ModsFolderLocator.java:70)
-[05Aug2024 07:19:07.062] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-[05Aug2024 07:19:07.063] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
-[05Aug2024 07:19:07.064] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
-[05Aug2024 07:19:07.065] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-[05Aug2024 07:19:07.067] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-[05Aug2024 07:19:07.068] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-[05Aug2024 07:19:07.070] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[05Aug2024 07:19:07.071] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-[05Aug2024 07:19:07.072] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:112)
-[05Aug2024 07:19:07.073] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.FMLLoader.beginModScan(FMLLoader.java:216)
-[05Aug2024 07:19:07.074] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.FMLServiceProvider.runScan(FMLServiceProvider.java:107)
-[05Aug2024 07:19:07.075] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:114)
-[05Aug2024 07:19:07.078] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$8(TransformationServicesHandler.java:115)
-[05Aug2024 07:19:07.079] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:271)
-[05Aug2024 07:19:07.080] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1693)
-[05Aug2024 07:19:07.080] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-[05Aug2024 07:19:07.081] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-[05Aug2024 07:19:07.083] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-[05Aug2024 07:19:07.085] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-[05Aug2024 07:19:07.086] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-[05Aug2024 07:19:07.086] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:116)
-[05Aug2024 07:19:07.087] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:63)
-[05Aug2024 07:19:07.088] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:76)
-[05Aug2024 07:19:07.088] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-[05Aug2024 07:19:07.089] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
-[05Aug2024 07:19:07.091] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
-[05Aug2024 07:19:07.091] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[05Aug2024 07:19:43.141] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[05Aug2024 07:19:43.147] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.24 by Ubuntu
+[05Aug2024 07:19:43.676] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05Aug2024 07:19:43.826] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/MQMISPN2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[05Aug2024 07:19:44.215] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.NullPointerException
+[05Aug2024 07:19:44.218] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileLocator.findManifestAndSigners(AbstractJarFileLocator.java:105)
+[05Aug2024 07:19:44.219] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileLocator.findManifest(AbstractJarFileLocator.java:94)
+[05Aug2024 07:19:44.220] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.lambda$new$0(ModFile.java:81)
+[05Aug2024 07:19:44.223] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.Optional.flatMap(Optional.java:294)
+[05Aug2024 07:19:44.224] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.<init>(ModFile.java:81)
+[05Aug2024 07:19:44.224] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModFile.newFMLInstance(ModFile.java:212)
+[05Aug2024 07:19:44.225] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModsFolderLocator.lambda$scanMods$4(ModsFolderLocator.java:68)
+[05Aug2024 07:19:44.227] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+[05Aug2024 07:19:44.228] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+[05Aug2024 07:19:44.229] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+[05Aug2024 07:19:44.230] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+[05Aug2024 07:19:44.232] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+[05Aug2024 07:19:44.233] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+[05Aug2024 07:19:44.234] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[05Aug2024 07:19:44.235] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+[05Aug2024 07:19:44.237] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[05Aug2024 07:19:44.238] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+[05Aug2024 07:19:44.239] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModsFolderLocator.scanMods(ModsFolderLocator.java:70)
+[05Aug2024 07:19:44.239] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+[05Aug2024 07:19:44.240] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+[05Aug2024 07:19:44.241] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+[05Aug2024 07:19:44.243] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+[05Aug2024 07:19:44.244] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[05Aug2024 07:19:44.245] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+[05Aug2024 07:19:44.246] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[05Aug2024 07:19:44.247] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+[05Aug2024 07:19:44.248] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:112)
+[05Aug2024 07:19:44.249] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.FMLLoader.beginModScan(FMLLoader.java:216)
+[05Aug2024 07:19:44.250] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.loading.FMLServiceProvider.runScan(FMLServiceProvider.java:107)
+[05Aug2024 07:19:44.252] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:114)
+[05Aug2024 07:19:44.253] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$8(TransformationServicesHandler.java:115)
+[05Aug2024 07:19:44.254] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:271)
+[05Aug2024 07:19:44.255] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1693)
+[05Aug2024 07:19:44.258] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+[05Aug2024 07:19:44.258] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[05Aug2024 07:19:44.266] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+[05Aug2024 07:19:44.267] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[05Aug2024 07:19:44.268] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+[05Aug2024 07:19:44.269] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:116)
+[05Aug2024 07:19:44.270] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:63)
+[05Aug2024 07:19:44.271] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:76)
+[05Aug2024 07:19:44.273] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[05Aug2024 07:19:44.277] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[05Aug2024 07:19:44.278] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[05Aug2024 07:19:44.279] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
