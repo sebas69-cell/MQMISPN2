@@ -1,85 +1,619 @@
-[05:34:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[05:34:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[05:34:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[05:34:15] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[05:34:15] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_422, running on Linux:amd64:6.5.0-1022-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[05:34:15] [main/INFO] [FML]: Searching /workspaces/MQMISPN2/servidor_minecraft/./mods for mods
-[05:34:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[05:34:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[05:34:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[05:34:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[05:34:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[05:34:17] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[05:34:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[05:34:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[05:34:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[05:34:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[05:34:18] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[05:34:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[05:34:21] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[05:34:21] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[05:34:21] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[05:34:21] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[05:34:22] [Server thread/INFO] [FML]: Config directory created successfully
-[05:34:22] [Server thread/INFO] [FML]: Searching /workspaces/MQMISPN2/servidor_minecraft/./mods for mods
-[05:34:22] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[05:34:22] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[05:34:23] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
-[05:34:23] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
-[05:34:23] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[05:34:23] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[05:34:23] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[05:34:23] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[05:34:23] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[05:34:23] [Server thread/INFO] [FML]: Applying holder lookups
-[05:34:23] [Server thread/INFO] [FML]: Holder lookups applied
-[05:34:23] [Server thread/INFO] [FML]: Applying holder lookups
-[05:34:23] [Server thread/INFO] [FML]: Holder lookups applied
-[05:34:23] [Server thread/INFO] [FML]: Applying holder lookups
-[05:34:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[05:34:23] [Server thread/INFO] [FML]: Holder lookups applied
-[05:34:23] [Server thread/INFO] [FML]: Applying holder lookups
-[05:34:23] [Server thread/INFO] [FML]: Holder lookups applied
-[05:34:23] [Server thread/INFO] [FML]: Injecting itemstacks
-[05:34:23] [Server thread/INFO] [FML]: Itemstack injection complete
-[05:34:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[05:34:23] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
-[05:34:23] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
-[05:34:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[05:34:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[05:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[05:34:24] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[05:34:24] [Server thread/INFO] [FML]: Applying holder lookups
-[05:34:24] [Server thread/INFO] [FML]: Holder lookups applied
-[05:34:24] [Server thread/INFO] [FML]: Injecting itemstacks
-[05:34:24] [Server thread/INFO] [FML]: Itemstack injection complete
-[05:34:24] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[05:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[05:34:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[05:34:24] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1d9f523f)
-[05:34:25] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[05:34:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Unable to find spawn biome
-[05:34:27] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1d9f523f)
-[05:34:27] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@1d9f523f)
-[05:34:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[05:34:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
-[05:34:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%
-[05:34:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 25%
-[05:34:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
-[05:34:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 47%
-[05:34:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 56%
-[05:34:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 69%
-[05:34:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%
-[05:34:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 95%
-[05:34:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (12.238s)! For help, type "help" or "?"
-[05:34:37] [Server thread/INFO] [FML]: Unloading dimension -1
-[05:34:37] [Server thread/INFO] [FML]: Unloading dimension 1
-[05:35:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[05:35:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[05:35:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[05:35:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[05:35:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[05:35:27] [Server thread/INFO] [FML]: Unloading dimension 0
-[05:35:27] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[05:35:27] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[05:35:27] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[05:51:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[05:51:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[05:51:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[05:51:34] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[05:51:34] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_422, running on Linux:amd64:6.5.0-1022-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[05:51:34] [main/INFO] [FML]: Searching /workspaces/MQMISPN2/servidor_minecraft/./mods for mods
+[05:51:34] [main/INFO] [FML]: Searching /workspaces/MQMISPN2/servidor_minecraft/./mods/1.12.2 for mods
+[05:51:34] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Apotheosis-1.12.2-1.12.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:34] [main/WARN] [FML]: The coremod ApotheosisCore (shadows.ApotheosisCore) is not signed!
+[05:51:34] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.b167.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:34] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:34] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in astralsorcery-1.12.2-1.10.27.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:34] [main/WARN] [FML]: The coremod hellfirepvp.astralsorcery.core.AstralCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/INFO] [Astral Core]: [AstralCore] Initialized.
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in bedpatch-2.2-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod BedPatch (com.mordenkainen.bedpatch.BedPatch) is not signed!
+[05:51:35] [main/WARN] [FML]: The coremod com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod BNBGamingCore (com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin) is not signed!
+[05:51:35] [main/INFO] [FML]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.14-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[05:51:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.3.390.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenComputers-MC1.12.2-1.7.5.192.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod li.cil.oc.common.launch.TransformerLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod TransformerLoader (li.cil.oc.common.launch.TransformerLoader) is not signed!
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SmoothFont-mc1.12.2-2.1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod bre.smoothfont.asm.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod CorePlugin (bre.smoothfont.asm.CorePlugin) is not signed!
+[05:51:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SqueezerPatch-1.12.2-1.0.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[05:51:35] [main/WARN] [FML]: The coremod SqueezerCore (shadows.squeezer.SqueezerCore) is not signed!
+[05:51:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Surge-1.12.2-2.0.77.jar
+[05:51:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[05:51:35] [main/INFO] [LaunchWrapper]: Loading tweak class name codechicken.asm.internal.Tweaker
+[05:51:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[05:51:35] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/workspaces/MQMISPN2/servidor_minecraft/./mods/malisiscore-1.12.2-6.5.1.jar Service=LaunchWrapper Env=SERVER
+[05:51:35] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:51:35] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[05:51:35] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[05:51:35] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[05:51:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[05:51:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[05:51:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[05:51:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:37] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:37] [main/INFO] [Aroma1997Core]: Finished data injection.
+[05:51:37] [main/INFO] [Aroma1997Core]: Finished data injection.
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class codechicken.asm.internal.Tweaker
+[05:51:37] [main/INFO] [STDOUT]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[05:51:37] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@289fdb08
+[05:51:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[05:51:37] [main/INFO] [Astral Core]: [AstralTransformer] Loading patches...
+[05:51:37] [main/INFO] [Astral Core]: [AstralTransformer] Initialized! Loaded 14 class patches!
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [BnBGamingCore]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[05:51:38] [main/INFO] [BnBGamingCore]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[05:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[05:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[05:51:38] [main/INFO] [Astral Core]: [AstralTransformer] Transforming amu : net.minecraft.world.World with 2 patches!
+[05:51:38] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHSUNBRIGHTNESSWORLDCLIENT as it can't be applied for side SERVER
+[05:51:38] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSUNBRIGHTNESSWORLDCOMMON
+[05:51:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[05:51:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[05:51:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[05:51:38] [main/INFO] [BedPatch]: Patching Chunk
+[05:51:38] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[05:51:38] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[05:51:38] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Transforming pa : net.minecraft.network.NetHandlerPlayServer with 1 patches!
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSERVEREXTENDENTITYINTERACTREACH
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Transforming amu : net.minecraft.world.World with 2 patches!
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHSUNBRIGHTNESSWORLDCLIENT as it can't be applied for side SERVER
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSUNBRIGHTNESSWORLDCOMMON
+[05:51:39] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[05:51:39] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[05:51:39] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[05:51:39] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[05:51:39] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[05:51:39] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Transforming vp : net.minecraft.entity.EntityLivingBase with 4 patches!
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHAPPLYPOTIONEFFECTEVENT
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHENTITYLIVINGBASEWATERSLOWDOWN
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSETPLAYERATTRIBUTE
+[05:51:39] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHUPDATEELYTRA
+[05:51:39] [main/INFO] [Apotheosis : Core]: Transforming EntityLivingBase...
+[05:51:39] [main/INFO] [Apotheosis : Core]: Successfully transformed EntityLivingBase
+[05:51:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[05:51:39] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[05:51:39] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[05:51:39] [main/INFO] [Apotheosis : Core]: Transforming Item...
+[05:51:39] [main/INFO] [Apotheosis : Core]: Successfully transformed Item
+[05:51:40] [main/INFO] [Astral Core]: [AstralTransformer] Transforming aip : net.minecraft.item.ItemStack with 2 patches!
+[05:51:40] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIP as it can't be applied for side SERVER
+[05:51:40] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIPEVENT as it can't be applied for side SERVER
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.state.BlockStateContainer.foamfix_mapper
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[05:51:40] [main/INFO] [Astral Core]: [AstralTransformer] Transforming aip : net.minecraft.item.ItemStack with 2 patches!
+[05:51:40] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIP as it can't be applied for side SERVER
+[05:51:40] [main/INFO] [Astral Core]: [AstralTransformer] Skipping PATCHMODIFYENCHANTMENTLEVELSTOOLTIPEVENT as it can't be applied for side SERVER
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[05:51:40] [main/INFO] [Apotheosis : Core]: Transforming BlockBed...
+[05:51:40] [main/INFO] [Apotheosis : Core]: Successfully transformed BlockBed
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[05:51:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterBlockStateAccessPatch$FFMethodVisitor:visitMethodInsn:93]: Added ghost buster patch (getBlockState call wrapped) in net/minecraft/block/BlockFarmland func_176530_e (net/minecraft/world/World func_180495_p (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;)
+[05:51:40] [main/INFO] [OpenComputers]: Successfully patched net/minecraft/entity/EntityLiving.recreateLeash.
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[05:51:41] [main/INFO] [Apotheosis : Core]: Transforming SharedMonsterAttributes...
+[05:51:41] [main/INFO] [Apotheosis : Core]: Successfully transformed SharedMonsterAttributes
+[05:51:41] [main/INFO] [Apotheosis : Core]: Transforming Item...
+[05:51:41] [main/INFO] [Apotheosis : Core]: Successfully transformed Item
+[05:51:41] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[05:51:41] [main/INFO] [Apotheosis : Core]: Transforming ItemArrow...
+[05:51:41] [main/INFO] [Apotheosis : Core]: Successfully transformed ItemArrow
+[05:51:41] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.item.EntityItemFrame], Method [func_184230_a]
+[05:51:41] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.item.EntityItemFrame Finished.
+[05:51:41] [main/INFO] [Apotheosis : Core]: Transforming PotionEffect...
+[05:51:41] [main/INFO] [Apotheosis : Core]: Successfully transformed PotionEffect
+[05:51:41] [main/INFO] [Astral Core]: [AstralTransformer] Transforming wg : net.minecraft.entity.ai.attributes.AbstractAttributeMap with 1 patches!
+[05:51:41] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHADDPLAYERATTRIBUTE
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
+[05:51:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
+[05:51:41] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.ai.EntityAICreeperSwell], Method [func_75246_d]
+[05:51:41] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.ai.EntityAICreeperSwell Finished.
+[05:51:42] [main/INFO] [Apotheosis : Core]: Transforming EntityAITempt...
+[05:51:42] [main/INFO] [Apotheosis : Core]: Successfully transformed EntityAITempt
+[05:51:42] [main/INFO] [OpenComputers]: Successfully patched net/minecraft/entity/EntityLiving.recreateLeash.
+[05:51:42] [main/INFO] [Astral Core]: [AstralTransformer] Transforming vp : net.minecraft.entity.EntityLivingBase with 4 patches!
+[05:51:42] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHAPPLYPOTIONEFFECTEVENT
+[05:51:42] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHENTITYLIVINGBASEWATERSLOWDOWN
+[05:51:42] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSETPLAYERATTRIBUTE
+[05:51:42] [main/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHUPDATEELYTRA
+[05:51:42] [main/INFO] [Apotheosis : Core]: Transforming EntityLivingBase...
+[05:51:42] [main/INFO] [Apotheosis : Core]: Successfully transformed EntityLivingBase
+[05:51:43] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[05:51:43] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[05:51:43] [main/INFO] [Apotheosis : Core]: Transforming TileEntityMobSpawner$2...
+[05:51:43] [main/INFO] [Apotheosis : Core]: Successfully transformed TileEntityMobSpawner$2
+[05:51:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[05:51:43] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[05:51:43] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[05:51:43] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[05:51:43] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[05:51:44] [Server thread/INFO] [FML]: Searching /workspaces/MQMISPN2/servidor_minecraft/./mods for mods
+[05:51:44] [Server thread/INFO] [FML]: Searching /workspaces/MQMISPN2/servidor_minecraft/./mods/1.12.2 for mods
+[05:51:44] [Server thread/WARN] [FML]: Mod aroma1997core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2.b167
+[05:51:44] [Server thread/WARN] [FML]: Mod aromabackup is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.0.0.b132
+[05:51:44] [Server thread/WARN] [FML]: Mod aromabackuprecovery is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.0.0.b132
+[05:51:45] [Server thread/INFO] [FML]: Disabling mod betteradvancements it is client side only.
+[05:51:45] [Server thread/INFO] [FML]: Disabling mod clienttweaks it is client side only.
+[05:51:45] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod colouredtooltips it is client side only.
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod controlling it is client side only.
+[05:51:46] [Server thread/WARN] [FML]: Mod cookingforblockheads is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 6.5.0
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod ctgui it is client side only.
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod custommainmenu it is client side only.
+[05:51:46] [Server thread/WARN] [FML]: Mod cyclicmagic is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.20.3
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod defaultoptions it is client side only.
+[05:51:46] [Server thread/INFO] [FML]: Disabling mod enchdesc it is client side only.
+[05:51:47] [Server thread/WARN] [FML]: Mod enderstorage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.6.137
+[05:51:47] [Server thread/INFO] [FML]: Disabling mod fbp it is client side only.
+[05:51:47] [Server thread/WARN] [FML]: Mod farmingforblockheads is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.1.28
+[05:51:47] [Server thread/WARN] [FML]: Mod microblockcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.6.2.83
+[05:51:47] [Server thread/WARN] [FML]: Mod forgemultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.6.2.83
+[05:51:47] [Server thread/WARN] [FML]: Mod minecraftmultipartcbe is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.6.2.83
+[05:51:47] [Server thread/WARN] [FML]: Mod forgivingvoid is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.0
+[05:51:47] [Server thread/INFO] [FML]: Disabling mod hurtanimationremover it is client side only.
+[05:51:48] [Server thread/WARN] [FML]: Mod kleeslabs is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 5.4.12
+[05:51:48] [Server thread/INFO] [FML]: Disabling mod loadingscreens it is client side only.
+[05:51:49] [Server thread/WARN] [FML]: Mod mekanismgenerators is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.3.390
+[05:51:49] [Server thread/INFO] [FML]: Disabling mod moreoverlays it is client side only.
+[05:51:49] [Server thread/INFO] [FML]: Disabling mod mousetweaks it is client side only.
+[05:51:49] [Server thread/INFO] [FML]: Disabling mod neat it is client side only.
+[05:51:49] [Server thread/WARN] [FML]: Mod patchouli is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0-20
+[05:51:49] [Server thread/INFO] [FML]: Disabling mod pdp it is client side only.
+[05:51:49] [Server thread/INFO] [FML]: Disabling mod resourceloader it is client side only.
+[05:51:50] [Server thread/WARN] [FML]: Mod simpletomb is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-1.0.0
+[05:51:50] [Server thread/INFO] [FML]: Disabling mod smoothfont it is client side only.
+[05:51:50] [Server thread/INFO] [FML]: Disabling mod tipthescales it is client side only.
+[05:51:50] [Server thread/INFO] [FML]: Disabling mod toastcontrol it is client side only.
+[05:51:50] [Server thread/WARN] [FML]: Mod translocators is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.5.2.81
+[05:51:50] [Server thread/WARN] [FML]: Mod twitchcrumbs is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.4
+[05:51:50] [Server thread/INFO] [FML]: Disabling mod worldbook it is client side only.
+[05:51:50] [Server thread/INFO] [FML]: Disabling mod reauth it is client side only.
+[05:51:50] [Server thread/INFO] [FML]: Forge Mod Loader has identified 196 mods to load
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for appleskin: assets/appleskin/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for bedpatch: assets/bedpatch/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for calmdownzombieguy: assets/calmdownzombieguy/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for clumps: assets/clumps/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for cofhcore: assets/cofhcore/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for compatched: assets/compatched/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for contenttweaker: assets/contenttweaker/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for crafttweaker: assets/crafttweaker/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for crafttweakerjei: assets/crafttweakerjei/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for dragonmurder: assets/dragonmurder/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for fastfurnace: assets/fastfurnace/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for fastbench: assets/fastbench/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for foamfix: assets/foamfix/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for microblockcbe: assets/microblockcbe/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for forgemultipartcbe: assets/forgemultipartcbe/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for minecraftmultipartcbe: assets/minecraftmultipartcbe/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for forgivingvoid: assets/forgivingvoid/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for incontrol: assets/incontrol/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for integratedtunnelscompat: assets/integratedtunnelscompat/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for kleeslabs: assets/kleeslabs/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for limitlessstructureblocks: assets/limitlessstructureblocks/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mcjtylib_ng: assets/mcjtylib_ng/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mcmultipart: assets/mcmultipart/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mekanismgenerators: assets/mekanismgenerators/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mercurius: assets/mercurius/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mobstages: assets/mobstages/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for modtweaker: assets/modtweaker/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for morpheus: assets/morpheus/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mpbasic: assets/mpbasic/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for mtlib: assets/mtlib/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for ocxnetdriver: assets/ocxnetdriver/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for placebo: assets/placebo/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for planefix: assets/planefix/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for slimyboyos: assets/slimyboyos/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for sqpatch: assets/sqpatch/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for stg: assets/stg/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for sasit: assets/sasit/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for surge: assets/surge/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for teslacorelib_registries: assets/teslacorelib_registries/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for togetherforever: assets/togetherforever/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for topography: assets/topography/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for triumph: assets/triumph/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for twitchcrumbs: assets/twitchcrumbs/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for universalmodifiers: assets/universalmodifiers/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for wailastages: assets/wailastages/lang/en_us.lang
+[05:51:51] [Server thread/WARN] [FML]: Missing English translation for ynot: assets/ynot/lang/en_us.lang
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file BetterAdvancements-1.12.2-0.1.0.77.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file ClientTweaks_1.12.2-3.1.11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file ColouredTooltips-1.12.2-1.0.7.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file Controlling-3.0.9.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file CustomMainMenu-MC1.12.2-2.0.9.1.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file DefaultOptions_1.12.2-9.2.8.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file EnchantmentDescriptions-1.12.2-1.1.15.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file FancyBlockParticles-1.12.x-2.4.1.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file HurtAnimationRemover-1.12.2-1.0.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file LoadingScreens-1.12.2-0.3.1.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file moreoverlays-1.15.1-mc1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file MouseTweaks-2.10-mc1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file Neat 1.4-17.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file ProportionalDestructionParticles-1.12.2-1.2.4.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file ResourceLoader-MC1.12.1-1.5.3.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file SmoothFont-mc1.12.2-2.1.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file TipTheScales-1.12.2-1.0.4.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file Toast Control-1.12.2-1.8.1.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file WorldBook-1.0.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file reauth-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:51] [Server thread/INFO] [FML]: FML has found a non-mod file mcjtytools-0.0.21.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[05:51:53] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, smoothfontcore, bnbgamingcore, foamfixcore, opencomputers|core, advancementbook, ae2stuff, animalcrops, apotheosis, appleskin, appliedenergistics2, aroma1997core, aromabackup, aromabackuprecovery, astralsorcery, bdsandm, base, baubles, bdlib, bedpatch, bibliocraft, bnbgaminglib, bonsaitrees, bookshelf, bouncy_creepers, buildinggadgets, calmdownzombieguy, carryon, ceramics, chargers, chineseworkshop, chisel, chiselsandbits, clickmachine, clumps, codechickenlib, cofhcore, cofhworld, commoncapabilities, compactmachines3, compactstorage, compatched, conarm, contenttweaker, cookingforblockheads, crafttweaker, crafttweakerjei, cucumber, culinaryconstruct, cyclicmagic, cyclopscore, darkutils, deepmoblearning, dimstages, dragonmurder, elevatorid, endercore, endercrop, enderstorage, enderutilities, extendedcrafting, extracells, farmingforblockheads, fastfurnace, fastbench, fenceoverhaul, findme, fluxnetworks, foamfix, forgelin, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, forgivingvoid, gamestages, guideapi, headcrumbs, horsepower, huntingdim, waila, hydrogel, ichunutil, incontrol, industrialforegoing, inspirations, integrateddynamics, integrateddynamicscompat, integratedtunnels, integratedtunnelscompat, inventorysorter, ironjetpacks, itemstages, jei, journeymap, kleeslabs, limitlessstructureblocks, lostcities, malisiscore, malisisdoors, mantle, mcjtylib_ng, mcmultipart, mekanism, mekanismgenerators, mercurius, mob_grinding_utils, mobstages, modtweaker, morecauldrons, morebuckets, morpheus, mpbasic, mputils, mtlib, mystcraft, mysticalagradditions, mysticalagriculture, nuclearcraft, ocxnetdriver, ogdragon, opencomputers, oreexcavation, parabox, patchouli, pickletweaks, pipemaster, placebo, planefix, portalgun, practicallogistics2, prestige, primitivecrafting, projecte, rangedpumps, realfilingcabinet, recipestages, redstoneflux, resourcehogs, rftoolspower, rustic, simplegenerators, storagenetwork, simpletomb, skybonsais, skygrid, sky_orchards, slabmachines, slimyboyos, snad, sonarcore, sqpatch, statues, stg, sasit, supersoundmuffler, surge, sync, tallgates, tconstruct, telepastries, teslacorelib, teslacorelib_registries, thermaldynamics, thermalfoundation, thermalinnovation, tcomplement, tinkertoolleveling, tp, togetherforever, topography, torchmaster, translocators, treegrowingsimulator, triumph, twilightforest, twitchcrumbs, uppers, universalmodifiers, valkyrielib, vc, waddles, wailastages, walljump, wawla, weirdinggadget, withercrumbs, worldutils, xlfoodmod, xnet, ynot, yoyos, zenstages, matteroverdrive] at CLIENT
+[05:51:53] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, smoothfontcore, bnbgamingcore, foamfixcore, opencomputers|core, advancementbook, ae2stuff, animalcrops, apotheosis, appleskin, appliedenergistics2, aroma1997core, aromabackup, aromabackuprecovery, astralsorcery, bdsandm, base, baubles, bdlib, bedpatch, bibliocraft, bnbgaminglib, bonsaitrees, bookshelf, bouncy_creepers, buildinggadgets, calmdownzombieguy, carryon, ceramics, chargers, chineseworkshop, chisel, chiselsandbits, clickmachine, clumps, codechickenlib, cofhcore, cofhworld, commoncapabilities, compactmachines3, compactstorage, compatched, conarm, contenttweaker, cookingforblockheads, crafttweaker, crafttweakerjei, cucumber, culinaryconstruct, cyclicmagic, cyclopscore, darkutils, deepmoblearning, dimstages, dragonmurder, elevatorid, endercore, endercrop, enderstorage, enderutilities, extendedcrafting, extracells, farmingforblockheads, fastfurnace, fastbench, fenceoverhaul, findme, fluxnetworks, foamfix, forgelin, microblockcbe, forgemultipartcbe, minecraftmultipartcbe, forgivingvoid, gamestages, guideapi, headcrumbs, horsepower, huntingdim, waila, hydrogel, ichunutil, incontrol, industrialforegoing, inspirations, integrateddynamics, integrateddynamicscompat, integratedtunnels, integratedtunnelscompat, inventorysorter, ironjetpacks, itemstages, jei, journeymap, kleeslabs, limitlessstructureblocks, lostcities, malisiscore, malisisdoors, mantle, mcjtylib_ng, mcmultipart, mekanism, mekanismgenerators, mercurius, mob_grinding_utils, mobstages, modtweaker, morecauldrons, morebuckets, morpheus, mpbasic, mputils, mtlib, mystcraft, mysticalagradditions, mysticalagriculture, nuclearcraft, ocxnetdriver, ogdragon, opencomputers, oreexcavation, parabox, patchouli, pickletweaks, pipemaster, placebo, planefix, portalgun, practicallogistics2, prestige, primitivecrafting, projecte, rangedpumps, realfilingcabinet, recipestages, redstoneflux, resourcehogs, rftoolspower, rustic, simplegenerators, storagenetwork, simpletomb, skybonsais, skygrid, sky_orchards, slabmachines, slimyboyos, snad, sonarcore, sqpatch, statues, stg, sasit, supersoundmuffler, surge, sync, tallgates, tconstruct, telepastries, teslacorelib, teslacorelib_registries, thermaldynamics, thermalfoundation, thermalinnovation, tcomplement, tinkertoolleveling, tp, togetherforever, topography, torchmaster, translocators, treegrowingsimulator, triumph, twilightforest, twitchcrumbs, uppers, universalmodifiers, valkyrielib, vc, waddles, wailastages, walljump, wawla, weirdinggadget, withercrumbs, worldutils, xlfoodmod, xnet, ynot, yoyos, zenstages, matteroverdrive] at SERVER
+[05:51:53] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.network.PacketBuffer.func_180714_a
+[05:51:54] [Server thread/ERROR] [FML]: The mod appliedenergistics2 is expecting signature dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 for source appliedenergistics2-rv6-stable-7.jar, however there is no signature matching that description
+[05:51:54] [Server thread/INFO] [Pulsar-inspirations]: Skipping Pulse ToughAsNailsPlugin; missing dependency: toughasnails
+[05:51:54] [Server thread/INFO] [Pulsar-inspirations]: Skipping Pulse TheOneProbePlugin; missing dependency: theoneprobe
+[05:51:54] [Server thread/INFO] [Pulsar-inspirations]: Skipping Pulse LeatherWorks; missing dependency: leatherworks
+[05:51:54] [Server thread/INFO] [Pulsar-inspirations]: Skipping Pulse RatsPlugin; missing dependency: rats
+[05:51:56] [Server thread/ERROR] [FML]: The mod bedpatch is expecting signature 6bf7527e690fb5e8719b9832bce5000a3e87dfe6 for source bedpatch-2.2-1.12.2.jar, however there is no signature matching that description
+[05:51:57] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterDefinitionPatch:apply:136]: Added ghost buster patch (radius = 4) in net/minecraftforge/fluids/BlockFluidClassic func_180650_b
+[05:51:57] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[05:51:57] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[05:51:57] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
+[05:51:57] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[05:51:57] [Server thread/INFO] [Astral Core]: [AstralTransformer] Transforming pa : net.minecraft.network.NetHandlerPlayServer with 1 patches!
+[05:51:57] [Server thread/INFO] [Astral Core]: [AstralTransformer] Applied patch PATCHSERVEREXTENDENTITYINTERACTREACH
+[05:51:57] [Server thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[05:51:57] [Server thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[05:51:57] [Server thread/INFO] [BedPatch]: Patching Chunk
+[05:51:57] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[05:51:57] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[05:51:58] [Server thread/ERROR] [FML]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
+[05:52:00] [Server thread/INFO] [Apotheosis : Core]: Transforming ContainerRepair...
+[05:52:00] [Server thread/INFO] [Apotheosis : Core]: Successfully removed the anvil level cap.
+[05:52:00] [Server thread/INFO] [Apotheosis : Core]: Replaced ContainerRepair Enchantment#getMaxLevel #1.
+[05:52:00] [Server thread/INFO] [Apotheosis : Core]: Replaced ContainerRepair Enchantment#getMaxLevel #2.
+[05:52:00] [Server thread/INFO] [Apotheosis : Core]: Successfully transformed ContainerRepair
+[05:52:02] [Server thread/WARN] [teslacorelib]: Annotated class 'net.ndrei.teslacorelib.blocks.multipart.MultiPartBlockEvents' not found!
+[05:52:03] [Server thread/ERROR] [FML]: The mod parabox is expecting signature @FINGERPRINT@ for source Parabox-1.12.2-2.0.0.jar, however there is no signature matching that description
+[05:52:03] [Server thread/ERROR] [FML]: The mod storagenetwork is expecting signature @FINGERPRINT@ for source SimpleStorageNetwork-1.12.2-1.7.10.jar, however there is no signature matching that description
+[05:52:04] [Server thread/INFO] [STDOUT]: [mrriegel.storagenetwork.StorageNetwork:onFingerprintViolation:69]: Storage Network: Invalid fingerprint detected! The file SimpleStorageNetwork-1.12.2-1.7.10.jar may have been tampered with. This version will NOT be supported by the author!
+[05:52:04] [Server thread/ERROR] [FML]: The mod snad is expecting signature @FINGERPRINT@ for source Snad-1.12.1-1.7.09.16a.jar, however there is no signature matching that description
+[05:52:04] [Server thread/ERROR] [Snad]: No fingerprint found!
+[05:52:04] [Server thread/INFO] [SqueezerCore]: Transforming org.cyclops.integrateddynamics.block.BlockSqueezer...
+[05:52:04] [Server thread/INFO] [SqueezerCore]: Successfully transformed org.cyclops.integrateddynamics.block.BlockSqueezer!
+[05:52:04] [Server thread/ERROR] [FML]: The mod sasit is expecting signature d476d1b22b218a10d845928d1665d45fce301b27 for source StuffASockInIt-1.12.2-1.1.30.jar, however there is no signature matching that description
+[05:52:04] [Server thread/INFO] [sasit]: The mod has started up!
+[05:52:04] [Server thread/INFO] [sasit]: Logs containing the following text may have been removed!
+[05:52:04] [Server thread/WARN] [sasit]: Invalid fingerprint detected! The file StuffASockInIt-1.12.2-1.1.30.jar may have been tampered with. This version will NOT be supported by the author!
+[05:52:04] [Server thread/ERROR] [FML]: The mod tallgates is expecting signature 62:AC:69:4A:82:E9:1B:F4:40:10:2D:9C:1C:00:D2:0D:89:F2:B5:F3 for source TallGates-1.12.2-1.0.0.1.jar, however there is no signature matching that description
+[05:52:04] [Server thread/WARN] [HorsePower]: Invalid fingerprint detected! The file TallGates-1.12.2-1.0.0.1.jar may have been tampered with. This version will NOT be supported by the author!
+[05:52:04] [Server thread/ERROR] [FML]: The mod thermaldynamics is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalDynamics-1.12.2-2.5.6.1-universal.jar, however there is no signature matching that description
+[05:52:04] [Server thread/ERROR] [FML]: The mod thermalinnovation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalInnovation-1.12.2-0.3.6.1-universal.jar, however there is no signature matching that description
+[05:52:04] [Server thread/INFO] [Pulsar-tcomplement]: Skipping Pulse ExNihiloPlugin; missing dependency: exnihilocreatio
+[05:52:04] [Server thread/ERROR] [FML]: The mod torchmaster is expecting signature 5e9a436b366831c8f54a7e80b015784da69278c6 for source torchmaster_1.12.2-1.8.5.0.jar, however there is no signature matching that description
+[05:52:04] [Server thread/ERROR] [FML]: The mod worldutils is expecting signature 2b03e1423915a189b8094816baa18f239d576dff for source worldutils-1.12.2-0.4.2.jar, however there is no signature matching that description
+[05:52:04] [Server thread/WARN] [worldutils]: *********************************************************************************************
+[05:52:04] [Server thread/WARN] [worldutils]: *****                                    WARNING                                        *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****                                                                                   *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****   The signature of the mod file 'worldutils-1.12.2-0.4.2.jar' does not match the expected fingerprint!     *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****   This might mean that the mod file has been tampered with!                       *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****   If you did not download the mod World Utils directly from Curse/CurseForge,       *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****   or using one of the well known launchers, and you did not                       *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****   modify the mod file at all yourself, then it's possible,                        *****
+[05:52:04] [Server thread/WARN] [worldutils]: *****   that it may contain malware or other unwanted things!                           *****
+[05:52:04] [Server thread/WARN] [worldutils]: *********************************************************************************************
+[05:52:05] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[05:52:05] [Server thread/INFO] [FML]: Found 2057 ObjectHolder annotations
+[05:52:05] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[05:52:05] [Server thread/INFO] [FML]: Found 2 ItemStackHolder annotations
+[05:52:05] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[05:52:05] [Forge Version Check/INFO] [forge.VersionCheck]: [carryon] Starting version check at https://gist.githubusercontent.com/Tschipp/dccadee7c90d7a34e6e76a35d9d6fa2e/raw/
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [gamestages] Starting version check at https://updates.blamejared.com/get?n=gamestages&gv=1.12.2
+[05:52:06] [Server thread/INFO] [AE2:S]: Pre Initialization ( started )
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [gamestages] Found status: BETA Target: null
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
+[05:52:06] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [buildinggadgets] Starting version check at https://github.com/Direwolf20-MC/BuildingGadgets/raw/master/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [buildinggadgets] Found status: AHEAD Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Skipped version check
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [industrialforegoing] Starting version check at https://raw.githubusercontent.com/Buuz135/Industrial-Foregoing/master/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [industrialforegoing] Found status: BETA Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/master/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [storagenetwork] Found status: BETA Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [zenstages] Starting version check at https://gist.githubusercontent.com/artdude543/5f9aff5dc5f9b800eb478bf2896363f2/raw/zenstages_changelog.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [zenstages] Found status: AHEAD Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [enderstorage] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=EnderStorage
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [enderstorage] Found status: BETA Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [cyclicmagic] Starting version check at https://raw.githubusercontent.com/Lothrazar/Cyclic/trunk/1.12/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [cyclicmagic] Found status: OUTDATED Target: 1.20.14
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [worldutils] Starting version check at https://raw.githubusercontent.com/maruohon/worldutils/master/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [worldutils] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [simpletomb] Starting version check at https://raw.githubusercontent.com/Lothrazar/tombstone-fork/trunk/1.12/update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalinnovation] Starting version check at https://raw.github.com/cofh/version/master/thermalinnovation_update.json
+[05:52:07] [Server thread/INFO] [AE2:S]: Starting AE2 VersionChecker
+[05:52:07] [Server thread/INFO] [AE2:S]: Pre Initialization ( ended after 1734ms )
+[05:52:07] [AE2 VersionChecker/INFO] [AE2:S]: Last check was just recently.
+[05:52:07] [AE2 VersionChecker/INFO] [AE2:S]: Stopping AE2 VersionChecker
+[05:52:07] [Server thread/INFO] [bdlib]: bdlib 1.14.3.12 loaded
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalinnovation] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [thermaldynamics] Starting version check at https://raw.github.com/cofh/version/master/thermaldynamics_update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [thermaldynamics] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Starting version check at https://raw.githubusercontent.com/mariot7/XL-Food-Mod/master/update.json
+[05:52:07] [Server thread/INFO] [bdlib]: Initialized network channel 'bdew.multiblock' for mod 'bdlib'
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [xlfoodmod] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [translocators] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=Translocators
+[05:52:07] [Server thread/INFO] [bdlib]: Loading internal config files for mod AE2 Stuff
+[05:52:07] [Server thread/INFO] [bdlib]: Loading config: jar:file:/workspaces/MQMISPN2/servidor_minecraft/./mods/ae2stuff-0.7.0.4-mc1.12.2.jar!/assets/ae2stuff/config/tuning.cfg
+[05:52:07] [Server thread/INFO] [bdlib]: Loading config: jar:file:/workspaces/MQMISPN2/servidor_minecraft/./mods/ae2stuff-0.7.0.4-mc1.12.2.jar!/assets/ae2stuff/config/recipes.cfg
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [translocators] Found status: BETA Target: null
+[05:52:07] [Forge Version Check/INFO] [forge.VersionCheck]: [ynot] Starting version check at http://asie.pl/files/minecraft/update/ynot.json
+[05:52:08] [Server thread/INFO] [bdlib]: Loading user config files for mod AE2 Stuff
+[05:52:08] [Server thread/INFO] [bdlib]: Config loading for mod AE2 Stuff finished
+[05:52:08] [Server thread/INFO] [bdlib]: Loaded creative tabs for ae2stuff
+[05:52:08] [Server thread/INFO] [statues]: Registering Statues Config
+[05:52:08] [Server thread/INFO] [statues]: Registering Statues Sounds
+[05:52:08] [Server thread/INFO] [statues]: Registering Statues Entities
+[05:52:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `statues_tileentity`, expected `statues`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `statues_playertileentity`, expected `statues`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:08] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `statues_shulkerstatue`, expected `statues`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:08] [Server thread/INFO] [statues]: Registering Statues Packets
+[05:52:08] [Forge Version Check/INFO] [forge.VersionCheck]: [ynot] Found status: UP_TO_DATE Target: null
+[05:52:08] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.12.2
+[05:52:08] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Found status: BETA Target: null
+[05:52:08] [Forge Version Check/INFO] [forge.VersionCheck]: [enderutilities] Starting version check at https://raw.githubusercontent.com/maruohon/enderutilities/master/update.json
+[05:52:08] [Forge Version Check/INFO] [forge.VersionCheck]: [enderutilities] Found status: AHEAD Target: null
+[05:52:09] [Server thread/OFF] [Aroma1997Core]: Loading Aroma1997Core version 2.0.0.2.b167 for MC 1.12.2
+[05:52:09] [Server thread/INFO] [Aroma1997Core]: Finished Pre-initialization.
+[05:52:09] [Server thread/INFO] [AromaBackup]: Loading 1 modules.
+[05:52:09] [Server thread/INFO] [AromaBackup]: Loading module: "Corecompressions".
+[05:52:09] [Server thread/INFO] [AromaBackup]: Done loading plugins.
+[05:52:11] [Server thread/INFO] [Astral Sorcery]: Crafttweaker found! Adding recipe handlers...
+[05:52:11] [Server thread/INFO] [base]: Module JourneyMap has successfully loaded
+[05:52:11] [Server thread/INFO] [base]: Module Tool has successfully loaded
+[05:52:11] [Server thread/INFO] [bonsaitrees]: Loading configuration
+[05:52:11] [Server thread/INFO] [bonsaitrees]: Trying to tell Waila about us
+[05:52:11] [Server thread/INFO] [bonsaitrees]: Trying to tell CraftTweaker2 about us
+[05:52:11] [Server thread/INFO] [FML]: Applying holder lookups
+[05:52:12] [Server thread/INFO] [FML]: Holder lookups applied
+[05:52:12] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Baubles.
+[05:52:12] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Chisel.
+[05:52:12] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[05:52:12] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[05:52:12] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[05:52:12] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Tinkers' Construct.
+[05:52:12] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
+[05:52:12] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:12] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled.tesr`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:12] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitybittank`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:13] [Server thread/INFO] [CoFH World]: Registering default Feature Templates...
+[05:52:13] [Server thread/INFO] [CoFH World]: Registering default World Generators...
+[05:52:13] [Server thread/INFO] [CoFH World]: Verifying or creating base world generation directory...
+[05:52:13] [Server thread/INFO] [CoFH World]: Complete.
+[05:52:13] [Server thread/INFO] [compactmachines3]: Loading configuration
+[05:52:13] [Server thread/INFO] [compactmachines3]: Registering dimension type: 144
+[05:52:13] [Server thread/INFO] [compactmachines3]: Registering Compact Machines 3 dimension: 144
+[05:52:13] [Server thread/INFO] [compactmachines3]: Trying to tell Waila about us
+[05:52:13] [Server thread/INFO] [contenttweaker]: Module Vanilla CraftTweaker has successfully loaded
+[05:52:13] [Server thread/FATAL] [contenttweaker]: Module Chickens did not load due to issue: Mod with modid: chickens was not found
+[05:52:13] [Server thread/INFO] [contenttweaker]: Module Materials has successfully loaded
+[05:52:13] [Server thread/INFO] [contenttweaker]: Module Tinkers has successfully loaded
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fluid_drain_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.item.EntityMinecartFurnace from class com.lothrazar.cyclicmagic.item.minecart.EntityGoldFurnaceMinecart
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fire_starter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wireless_transmitter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wireless_receiver_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagiccable_wireless_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagiccable_wireless_energy_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagiccable_wireless_fluid_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `item_pipe_sort_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `item_pipe_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `item_pump_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `energy_pipe_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `energy_pump_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fluid_pipe_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fluid_pump_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bundled_pipe_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagiclibrary_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagiclibrary_ctrl_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `plate_vector_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `builder_pattern_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magnet_block_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magnet_anti_block_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dehydrator_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `vacuum_block_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beacon_potion_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moon_sensor_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clock_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `target_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beacon_redstone_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sprinkler_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `block_forester_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `auto_packager_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `miner_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `block_hydrator_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicblock_anvil_magma_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `solidifier_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicblock_anvil_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `harveseter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicblock_enchanter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `exp_pylon_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `builder_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `uncrafting_block_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicminer_smart_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `placer_block_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `password_block_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicblock_user_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagictrash_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicworkbench_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicscreen_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicscreentarget_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicauto_crafter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicentity_detector_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicfan_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicblock_fishing_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyclicmagicblock_disenchanter_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucketstorage`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sound_player_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `imbuer_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `void_anvil_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dropper_exact_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fluid_placer_te`, expected `cyclicmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sneaky`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `timer`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `monolith_exp`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `monolith_spawning`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender_tether`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender_hopper`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `anti_slime`, expected `darkutils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender chest`, expected `enderstorage`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender tank`, expected `enderstorage`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_pedestal`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_crafting_core`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_automation_interface`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_basic_table`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_advanced_table`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_elite_table`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_ultimate_table`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ec_compressor`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `extendedcraftingender_crafter`, expected `extendedcrafting`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:17] [Server thread/INFO] [extracells]: Enable integration for 'waila (waila)'
+[05:52:17] [Server thread/INFO] [extracells]: Enable integration for 'opencomputers (opencomputers)'
+[05:52:17] [Server thread/INFO] [extracells]: Enable integration for 'MekanismGas (MekanismAPI|gas)'
+[05:52:17] [Server thread/INFO] [extracells]: Enable integration for 'mekanism (mekanism)'
+[05:52:17] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:19] [Server thread/INFO] [slabmachines]: Registering Packet Handler
+[05:52:19] [Server thread/INFO] [slabmachines]: Registering Config
+[05:52:19] [Server thread/INFO] [slabmachines]: Registering TileEntities
+[05:52:19] [Server thread/INFO] [sonarcore]: Initialising API
+[05:52:19] [Server thread/INFO] [sonarcore]: Initialised API
+[05:52:19] [Server thread/INFO] [sonarcore]: Registering Blocks
+[05:52:19] [Server thread/INFO] [sonarcore]: Loaded Blocks
+[05:52:19] [Server thread/INFO] [sonarcore]: Registering Crafting Recipes
+[05:52:20] [Server thread/INFO] [sonarcore]: Register Crafting Recipes
+[05:52:20] [Server thread/INFO] [sonarcore]: ITileEnergyHandler loaded successfully: sonar.core.handlers.energy.tiles.TileHandlerForge
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ITileEnergyHandler sonar.core.handlers.energy.tiles.TileHandlerTesla for modid tesla
+[05:52:20] [Server thread/INFO] [sonarcore]: ITileEnergyHandler loaded successfully: sonar.core.handlers.energy.tiles.TileHandlerRedstoneFlux
+[05:52:20] [Server thread/INFO] [sonarcore]: ITileEnergyHandler loaded successfully: sonar.core.handlers.energy.tiles.TileHandlerAppliedEnergistics
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ITileEnergyHandler sonar.core.handlers.energy.tiles.TileHandlerEnergyUnits for modid ic2
+[05:52:20] [Server thread/INFO] [sonarcore]: ITileEnergyHandler loaded successfully: sonar.core.handlers.energy.tiles.TileHandlerMekanism
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ISonarFluidHandler sonar.core.handlers.fluids.tiles.DeepResonanceTank for modid deepresonance
+[05:52:20] [Server thread/INFO] [sonarcore]: ISonarFluidHandler loaded successfully: sonar.core.handlers.fluids.tiles.FluidCapabilityHandler
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ISonarFluidHandler sonar.core.handlers.fluids.tiles.RefinedStorageHandler for modid refinedstorage
+[05:52:20] [Server thread/INFO] [sonarcore]: ISonarFluidHandler loaded successfully: sonar.core.handlers.fluids.tiles.AE2FluidHandler
+[05:52:20] [Server thread/INFO] [sonarcore]: IItemEnergyHandler loaded successfully: sonar.core.handlers.energy.items.ItemHandlerForge
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load IItemEnergyHandler sonar.core.handlers.energy.items.ItemHandlerTesla for modid tesla
+[05:52:20] [Server thread/INFO] [sonarcore]: IItemEnergyHandler loaded successfully: sonar.core.handlers.energy.items.ItemHandlerRedstoneFlux
+[05:52:20] [Server thread/INFO] [sonarcore]: IItemEnergyHandler loaded successfully: sonar.core.handlers.energy.items.ItemHandlerMekanism
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load IItemEnergyHandler sonar.core.handlers.energy.items.ItemHandlerEnergyUnits for modid ic2
+[05:52:20] [Server thread/INFO] [sonarcore]: IItemEnergyHandler loaded successfully: sonar.core.handlers.energy.items.ItemHandlerAppliedEnergistics
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ISonarPlanter sonar.core.handlers.planting.extrautilities.EnderLillyPlanter for modid extrautils2
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ISonarPlanter sonar.core.handlers.planting.agricraft.AgricraftPlanter for modid agricraft
+[05:52:20] [Server thread/INFO] [sonarcore]: ISonarPlanter loaded successfully: sonar.core.handlers.planting.vanilla.VanillaPlanter
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ISonarHarvester sonar.core.handlers.planting.agricraft.AgricraftHarvester for modid agricraft
+[05:52:20] [Server thread/INFO] [sonarcore]: ISonarHarvester loaded successfully: sonar.core.handlers.planting.vanilla.VanillaHarvester
+[05:52:20] [Server thread/INFO] [sonarcore]: Couldn't load ISonarFertiliser sonar.core.handlers.planting.agricraft.AgricraftFertiliser for modid agricraft
+[05:52:20] [Server thread/INFO] [sonarcore]: ISonarFertiliser loaded successfully: sonar.core.handlers.planting.vanilla.VanillaFertiliser
+[05:52:20] [Server thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[05:52:20] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `ccmp` for name `saved_multipart`, expected `forgemultipartcbe`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:21] [Server thread/INFO] [Hunting Dimension]: Reading world generator settings.
+[05:52:21] [Server thread/INFO] [Hunting Dimension]: World settings loaded: { "coordinateScale": 684.412, "heightScale": 684.412, "lowerLimitScale": 512.0, "upperLimitScale": 512.0, "depthNoiseScaleX": 200.0, "depthNoiseScaleZ": 200.0, "depthNoiseScaleExponent": 0.5, "mainNoiseScaleX": 80.0, "mainNoiseScaleY": 160.0, "mainNoiseScaleZ": 80.0, "baseSize": 8.5, "stretchY": 12.0, "biomeDepthWeight": 1.0, "biomeDepthOffset": 0.0, "biomeScaleWeight": 1.0, "biomeScaleOffset": 0.0, "seaLevel": 63, "useCaves": false, "useDungeons": true, "dungeonChance": 8, "useStrongholds": false, "useVillages": false, "useMineShafts": false, "useTemples": false, "useMonuments": false, "useMansions": false, "useRavines": false, "useWaterLakes": false, "waterLakeChance": 4, "useLavaLakes": false, "lavaLakeChance": 80, "useLavaOceans": false, "fixedBiome": -1, "biomeSize": 4, "riverSize": 4, "dirtSize": 33, "dirtCount": 10, "dirtMinHeight": 0, "dirtMaxHeight": 256, "gravelSize": 33, "gravelCount": 8, "gravelMinHeight": 0, "gravelMaxHeight": 256, "graniteSize": 33, "graniteCount": 10, "graniteMinHeight": 0, "graniteMaxHeight": 80, "dioriteSize": 33, "dioriteCount": 10, "dioriteMinHeight": 0, "dioriteMaxHeight": 80, "andesiteSize": 33, "andesiteCount": 10, "andesiteMinHeight": 0, "andesiteMaxHeight": 80, "coalSize": 17, "coalCount": 20, "coalMinHeight": 0, "coalMaxHeight": 128, "ironSize": 9, "ironCount": 20, "ironMinHeight": 0, "ironMaxHeight": 64, "goldSize": 9, "goldCount": 2, "goldMinHeight": 0, "goldMaxHeight": 32, "redstoneSize": 8, "redstoneCount": 8, "redstoneMinHeight": 0, "redstoneMaxHeight": 16, "diamondSize": 8, "diamondCount": 1, "diamondMinHeight": 0, "diamondMaxHeight": 16, "lapisSize": 7, "lapisCount": 1, "lapisCenterHeight": 16, "lapisSpread": 16}
+[05:52:21] [Server thread/INFO] [Hunting Dimension]: Reading config file.
+[05:52:21] [Server thread/INFO] [incontrol]: Enabling support for Lost Cities
+[05:52:21] [Server thread/INFO] [incontrol]: Enabling support for Game Stages
+[05:52:21] [Server thread/INFO] [incontrol]: Enabling support for Baubles
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
+[05:52:24] [Server thread/INFO] [malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `customdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `saloondoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `verticalhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `garagedoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `door3x3`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bigdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rustyhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doorfactorytileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `forcefieldtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fencegatetileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.mob_grinding_utils.fan`, expected `mob_grinding_utils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.mob_grinding_utils.absorption_hopper`, expected `mob_grinding_utils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.mob_grinding_utils.tank`, expected `mob_grinding_utils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.mob_grinding_utils.tank_sink`, expected `mob_grinding_utils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.mob_grinding_utils.xp_tap`, expected `mob_grinding_utils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tile.mob_grinding_utils.saw`, expected `mob_grinding_utils`. This could be a intended override, but in most cases indicates a broken mod.
+[05:52:24] [Server thread/INFO] [morecauldrons]: Registering config
+[05:52:24] [Server thread/INFO] [morpheus]: Loading configuration
+[05:52:25] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[05:52:25] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
